@@ -1,0 +1,567 @@
+
+===== PAGE 1 =====
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+    Summative        Assessment        2:  Data   Analysis      Project             
+                                                                                    
+    Brief                                                                           
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+     Summative        Assessment        2: Data    Analysis     and                 
+                                                                                    
+     modelling      project                                                         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+     Key  Information                                                               
+                                                                                    
+     This assessment evaluates your practical skills in programming for data science across Weeks 1-6 of the
+     module.                                                                        
+                                                                                    
+                                                                                    
+      Component                             Marks                                   
+                                                                                    
+                                                                                    
+      Part 1 – Data Analysis Project        32 marks                                
+                                                                                    
+      Part 2 – Machine Learning Pipeline    32 marks                                
+                                                                                    
+                                                                                    
+
+===== PAGE 2 =====
+
+                                                                                    
+                                                                                    
+      Process Log                           12 marks                                
+                                                                                    
+                                                                                    
+      Report Quality                        4 marks                                 
+                                                                                    
+                                                                                    
+      Total                                 80 marks                                
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+     Release  date                                                                  
+                                                                                    
+     Assessment brief available from Week 1. The fixed data set, topic list and project Jupyter Notebook template
+     will be released on Friday 18 September 2026, 14:00 UTC+1.                     
+                                                                                    
+                                                                                    
+                                                                                    
+     Deadline                                                                       
+     Monday 26 October 2026, 14:00 UTC (London)                                     
+                                                                                    
+                                                                                    
+                                                                                    
+     Purpose                                                                        
+                                                                                    
+     The purpose of this assessment is to develop your skills in devising and presenting a Data Science project.
+                                                                                    
+                                                                                    
+     Assessment    Task                                                             
+                                                                                    
+     Part 1 – Data Analysis Project                                                 
+     For Part 1, you must choose your own dataset, and it must be publicly available and suitable for exploratory
+     data analysis. Recommended sources include:                                    
+                                                                                    
+                                                                                    
+         • Kaggle (https://www.kaggle.com/datasets)                                 
+         • UCI Machine Learning Repository (https://archive.ics.uci.edu/)           
+         • scikit-learn sample datasets (https://scikit-learn.org/stable/datasets.html)
+         • Open data portals and APIs (e.g. government, WHO, World Bank)            
+                                                                                    
+                                                                                    
+     You may use scikit-learn only to load a built-in dataset (e.g. sklearn.datasets). You must not use the library for
+     any other part of your analysis in this section: no preprocessing, transformations, or statistical functions from
+     scikit-learn. Part 1 should otherwise rely on core Python, pandas, and a visualisation library only; the full scikit-
+                                                                                    
+     learn toolkit is reserved for Part 2.                                          
+                                                                                    
+     Part 2 – Machine Learning Pipeline                                             
+     For Part 2 you will work with a fixed dataset provided by the module team. This dataset supports a binary
+     classification problem, contains a mixture of numerical and categorical features, and includes a clearly defined
+                                                                                    
+     target variable. The exact dataset and filename for the current run will be provided in the notebook template.
+                                                                                    
+     Part 1 – Data Analysis Project (40 marks)                                      
+                                                                                    
+      Component                             Marks                                   
+                                                                                    
+                                                                                    
+
+===== PAGE 3 =====
+
+                                                                                    
+                                                                                    
+      Section 1.1 – Project Aim and Dataset description                             
+                                            10 Marks                                
+      and source                                                                    
+                                                                                    
+      Section 1.2 – Code quality and workflow 12 marks                              
+                                                                                    
+                                                                                    
+      Section 1.3 – Objectives analysis     6 Marks                                 
+                                                                                    
+                                                                                    
+      Section 1.4 – Insights and reflection 4 Marks                                 
+                                                                                    
+      Total                                 32 Marks                                
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+     Section 1.1 – Project Aim and Dataset Description (10 marks)                   
+     State your project aim and define two specific, measurable objectives that are relevant to your chosen dataset
+     and domain. Write a description of your dataset covering its source, contents, quality, and suitability for your
+                                                                                    
+     intended analysis.                                                             
+                                                                                    
+     Expected length: approximately 400–500 words                                   
+                                                                                    
+     Section 1.2 – Exploratory Data Analysis and Code (12 marks)                    
+     Write well-structured Python code to explore your dataset. Your code should be logically organised, clearly
+                                                                                    
+     commented, and easy to follow. Use descriptive variable names and include comments that explain why each
+     step is being performed. After each block of code, include a brief markdown cell explaining what the output
+     shows and what it means for your analysis.                                     
+                                                                                    
+     The combined code for Sections 1.2 and 1.3 must not exceed 250 non-empty lines. The written
+                                                                                    
+     commentary for this section 1.2 must not exceed 600 words. These are maximum limits rather than
+     recommended targets; quality, relevance and clarity matter more than quantity. 
+                                                                                    
+     Section 1.3 – Objectives Analysis (6 marks)                                    
+     For each objective, present your analysis and findings supported by at least one visualisation. You must:
+                                                                                    
+                                                                                    
+         • Quote at least one specific numerical value visible in the visualisation or output (for example, a
+          peak value, a proportion, a correlation coefficient, or an outlier value).
+         • Explain what that value means in the context of the domain, not just in terms of the data.
+                                                                                    
+     Expected length: approximately 250–325 words per objective, plus visualisations.
+                                                                                    
+                                                                                    
+     Section 1.4 – Insights and Reflections (4 marks)                               
+     Write a summary of your analysis covering:                                     
+                                                                                    
+         • Your main findings.                                                      
+         • Anything unexpected you encountered.                                     
+                                                                                    
+         • The limitations of your work.                                            
+                                                                                    
+     Expected length: approximately 200–250 words.                                  
+                                                                                    
+
+===== PAGE 4 =====
+
+                                                                                    
+     Part 2 – Machine Learning Pipeline (32 marks)                                  
+                                                                                    
+      Component                             Marks                                   
+                                                                                    
+                                                                                    
+      Section 2.1 – Preprocessing and pipelines 10 marks                            
+                                                                                    
+                                                                                    
+      Section 2.2 – Baseline model training 4 marks                                 
+                                                                                    
+                                                                                    
+      Section 2.3 – Cross-validation        6 marks                                 
+                                                                                    
+      Section 2.4 – Hyperparameter tuning   6 marks                                 
+                                                                                    
+                                                                                    
+      Section 2.5 – Final model evaluation and                                      
+                                            6 marks                                 
+      justification                                                                 
+                                                                                    
+      Total                                 32 Marks                                
+                                                                                    
+                                                                                    
+                                                                                    
+     Section 2.1 – Preprocessing and Pipelines (10 marks)                           
+                                                                                    
+     Prepare the dataset and build a scikit-learn preprocessing pipeline. After the code, write a reflection of
+     approximately 200–250 words justifying the preprocessing decisions you made for this dataset.
+                                                                                    
+     Section 2.2 – Baseline Model Training and Evaluation (4 marks)                 
+                                                                                    
+     Train two classification models as baselines. For each model, build a complete pipeline that incorporates your
+     preprocessor. After the code, justify your choice of classifiers. Expected length: approximately 100–150 words.
+                                                                                    
+     Section 2.3 – Cross-Validation (6 marks)                                       
+     Evaluate both baseline pipelines using cross-validation. Report at least one metric beyond accuracy, including
+                                                                                    
+     mean and standard deviation across folds.                                      
+                                                                                    
+     After the code, write a reflection of approximately 200–250 words comparing the two models and discussing
+     what the results indicate about performance and stability. Identify which model you would take forward and
+     justify your choice.                                                           
+                                                                                    
+                                                                                    
+     Section 2.4 – Hyperparameter Tuning (6 marks)                                  
+     Select one model to tune. Apply a hyperparameter search to the full pipeline and report the best configuration
+     found. Compare the tuned performance with your baseline results from Section 2.3.
+                                                                                    
+     After the code, write a reflection of approximately 200–250 words justifying your choices and evaluating
+                                                                                    
+     whether tuning produced a meaningful improvement.                              
+                                                                                    
+     Section 2.5 – Final Model Evaluation and Justification (6 marks)               
+     Evaluate your final model on the held-out test set. Report appropriate metrics, including precision, recall and
+                                                                                    
+     F1, and display a confusion matrix with labelled axes. Compare the test performance with your earlier cross-
+     validation results.                                                            
+                                                                                    
+                                                                                    
+
+===== PAGE 5 =====
+
+                                                                                    
+     After the code, write a justification of approximately 250-300 words interpreting the results, discussing how
+                                                                                    
+     well the model generalises, and providing a reasoned recommendation on whether the model is fit for
+     purpose or where further improvement is needed.                                
+                                                                                    
+     Process Log (12 marks)                                                         
+                                                                                    
+     Submit a process log of no more than 400 words as part of your notebook, in the cell provided at the end of
+     the template.                                                                  
+                                                                                    
+     Your process log must address all three of the following:                      
+                                                                                    
+         • Dead ends: Describe at least two things you tried from parts 1 and 2 that did not work during
+                                                                                    
+          your analysis or modelling. Be specific.                                  
+         • Surprising finding: Identify one finding from your analysis that you did not expect. Reference
+          the specific value or output.                                             
+         • What you would do differently: If you were starting again with more time, what is the one
+                                                                                    
+          thing you would change? Ground your answer in your own results.           
+                                                                                    
+     Report Quality (4 marks)                                                       
+     These marks assess the overall presentation and professionalism of your submitted notebook, independent of
+                                                                                    
+     the technical content assessed elsewhere. Specifically:                        
+                                                                                    
+         • All template placeholder and instructional text has been removed, leaving only your own work.
+         • The notebook is well-organised, with outputs visible and section headings intact.
+         • Writing throughout is clear, grammatically correct, and free of significant typos.
+                                                                                    
+         • The notebook reads as a coherent, professional piece of work rather than a set of disconnected
+          answers.                                                                  
+                                                                                    
+     General Marking Guidance                                                       
+     Marks are awarded for the quality of your reasoning and the clarity of your code and writing, not for achieving
+                                                                                    
+     high model accuracy. A well-justified decision based on modest results will score more highly than a high-
+     performing model with no explanation.                                          
+                                                                                    
+     Across both parts, marks are awarded for:                                      
+                                                                                    
+         • Correctness and appropriateness of your code.                            
+                                                                                    
+         • Quality of written interpretation grounded in specific values from your outputs.
+         • Clarity of code structure, comments, and variable naming.                
+         • Evidence of critical thinking in your decisions and reflections.         
+                                                                                    
+         • Consistency between your code, outputs, written commentary.              
+                                                                                    
+                                                                                    
+     Acknowledgement      of AI use                                                 
+                                                                                    
+     If you have used Gen AI as a functional tool to assist you as you were creating any academic work, you must
+     acknowledge your use of AI (https://generative-ai.leeds.ac.uk/ai-and-assessments/acknowledging-use-of-ai/) in
+     your submission.                                                               
+                                                                                    
+                                                                                    
+     Acknowledgements should include the name of the system and a brief description of how it has been used.
+                                                                                    
+
+===== PAGE 6 =====
+
+                                                                                    
+     For example: ‘I acknowledge the use of Microsoft Copilot in the preparation of this assignment. The tool was
+                                                                                    
+     used to define concepts, give feedback, and support proofreading.’             
+                                                                                    
+                                                                                    
+     Word  and  code  limits                                                        
+                                                                                    
+     Before submitting, delete all template placeholder text and retain only your own responses. The word-count
+     tool at the bottom of the notebook counts all markdown text, including any placeholder instructions that have
+                                                                                    
+     not been removed.                                                              
+                                                                                    
+     The following maximum limits apply:                                            
+                                                                                    
+         • Maximum 600 lines of code (combined across Part 1 and Part 2)            
+         • Maximum 3800 markdown words (combined across Part 1, Part 2, and the Process Log)
+                                                                                    
+     These are maximum limits, not recommended targets. Clear, concise and well-structured solutions are
+                                                                                    
+     encouraged, and students are not expected to use the full allowance. Code comments are not included in the
+     markdown word count but may be considered when assessing code quality and conciseness.
+                                                                                    
+                                                                                    
+     Academic   Integrity                                                           
+                                                                                    
+     As a student at the University of Leeds, you need to adhere to the University's regulations on academic
+                                                                                    
+     misconduct. All work you submit for assessment is expected to be your own independent work. Where you
+     have worked with others or where you present other people's work as part of your assessment, you must fully
+     acknowledge this.                                                              
+                                                                                    
+     All students should ensure that they are aware of the principles of Academic Integrity. For more information or
+                                                                                    
+     if you are unsure about academic integrity, please read the University of Leeds’ guidance on Academic Integrity
+     (https://library.leeds.ac.uk/info/1401/academic_skills/46/academic_integrity_and_plagiarism). Please note that
+     by submitting this piece of work you are agreeing to the University’s Declaration of Academic Integrity
+                                                                                    
+     (https://secretariat.leeds.ac.uk/student-cases/academic-misconduct/declaration-of-academic-integrity/).
+                                                                                    
+                                                                                    
+     Guidance   on the use  of assistance                                           
+                                                                                    
+     You are responsible for the academic integrity of the work you submit, and the work must be an accurate
+     reflection of your own learning, understanding and skills. You can use assistance in a supportive capacity (i.e.
+     support with work prior to submission for assessment). You are responsible for the process of drafting and
+                                                                                    
+     refining the work you submit, including generating content, revising, editing and proofreading. It is important
+     to be aware of the limitations of any assistance you use, and you are expected to engage critically with any
+     outputs of assistance.                                                         
+                                                                                    
+     For more information or if you are unsure about the use of assistance, please read the University of Leeds’
+                                                                                    
+     Academic Integrity and Assistance Policy (https://students.leeds.ac.uk/academic-integrity/doc/assistance-
+     coursework-taught-students).                                                   
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+===== PAGE 7 =====
+
+                                                                                    
+                                                                                    
+     Use  of technologies  in this assessment                                       
+                                                                                    
+     The use of assistance, including Generative AI, is permitted for the preparation of this assessment.
+                                                                                    
+     As a general principle, you can use Gen AI to help you learn but cannot use AI to generate or falsify work.
+     Remember, if you use Gen AI, you must acknowledge it (https://generative-ai.leeds.ac.uk/ai-and-
+     assessments/acknowledging-use-of-ai/) in your submission.                      
+                                                                                    
+                                                                                    
+     In this assessment, AI tools can be used in an assistive role to:              
+                                                                                    
+         • Ask questions about concepts or techniques you are trying to understand, for example asking
+          what the difference between two preprocessing strategies is or how a particular function
+          behaves;                                                                  
+                                                                                    
+         • Test and debug code you wrote yourself, for example pasting an error message and asking what
+          it means;                                                                 
+         • Support proof-reading of written sections you have drafted yourself.     
+                                                                                    
+                                                                                    
+     Gen AI cannot be used in any other way to produce content that you submit. In particular, it should not be
+     used to:                                                                       
+                                                                                    
+         • generate any portion of your notebook code, even as a starting point that you then modify;
+         • generate, rewrite, or substantially rephrase any portion of your written reflection or analytical
+                                                                                    
+          justifications;                                                           
+         • make analytical decisions on your behalf, for example asking AI which preprocessing strategy,
+          model, or hyperparameter setting to use, and then presenting that recommendation as your
+                                                                                    
+          own reasoning;                                                            
+         • produce any content that you submit as evidence of your own understanding.
+                                                                                    
+     The written reflection                                                         
+                                                                                    
+         • Your justifications must refer specifically to characteristics of the dataset you observed during
+                                                                                    
+          your own analysis, including the distributions, missing value patterns, class balance, and model
+          performance figures you found. A reflection that could have been written without opening the
+          dataset will not receive marks for justification, regardless of whether AI was involved in
+          producing it.                                                             
+                                                                                    
+                                                                                    
+     Remember that you may be asked to demonstrate your authorship of this assessment. Save your working
+     drafts, any AI prompts you used, and the outputs those prompts produced. If there is a question about your
+     submission, you may be asked to explain your decisions and your process.       
+                                                                                    
+     If you have any questions about the appropriate use of Gen AI in your assessed work, please review the
+                                                                                    
+     University’s AI and Assessments (https://generative-ai.leeds.ac.uk/ai-and-assessments/) guidance, and if this
+     does not answer your question(s), contact your Module Leader.                  
+                                                                                    
+                                                                                    
+     Submission                                                                     
+                                                                                    
+     Before you submit:                                                             
+                                                                                    
+                                                                                    
+
+===== PAGE 8 =====
+
+                                                                                    
+                                                            →                       
+         • Ensure the notebook runs from top to bottom without errors using Kernel Restart & Run All.
+         • Do not submit extra files unless explicitly requested.                   
+         • Ensure your Student ID is entered in the designated cell at the top of the notebook.
+         • Do not delete or modify any blue section headings. These are used to structure your submission
+                                                                                    
+          and must remain in place exactly as provided.                             
+                                                                                    
+     Submit your report by the due date and time using the submission link in 'Submit My Work'.
+                                                                                    
+     You need to submit your report as a Jupyter notebook (.ipynb) file. The title of your notebook should be
+     named exactly as follows in order to be accepted by the autograder:            
+                                                                                    
+                                                                                    
+     P4DS_A2_Data_Analysis_Project.ipynb                                            
+                                                                                    
+     Use the Select File(s) button to select the correct file(s) that you want to upload from your device.
+                                                                                    
+     When the upload is complete, the Submit & View Submission button will become active; select it to complete
+     your submission.                                                               
+                                                                                    
+                                                                                    
+     For this assignment type, you will not receive email confirmation of your submission.
+                                                                                    
+     Extensions and Late Submission Guidance                                        
+     If you will not be submitting your work before the deadline, you may submit to the Extensions and Late
+     Submissions link (where permitted). You will incur a late penalty in accordance with the University of Leeds
+                                                                                    
+     Assessment Policy and Procedures unless you've been granted a coursework extension. If the assessed work
+     is submitted over 14 calendar days after the original submission deadline for any reason (including granted
+     extensions), the submission will be deemed to have failed for non-submission (a day being a single 24-hour
+     period).                                                                       
+                                                                                    
+                                                                                    
+     Submissions should only be made to the Extensions and Late Submissions link if you fail to submit by the
+     assessment deadline or have been granted a coursework extension. If you have already made a submission to
+     the on-time submission link, any work resubmitted to the Extensions and Late Submissions link will not be
+                                                                                    
+     marked. If you have already made a submission to the on-time submission link, any work resubmitted to the
+     Extensions and Late Submissions link will not be marked.                       
+                                                                                    
+     If you have additional needs/unexpected circumstances which mean you need an extension to the deadline,
+     please read the University of Leeds Mitigating Circumstances Guidance          
+                                                                                    
+     (https://students.leeds.ac.uk/assessments/doc/mitigating-circumstances) and apply for a coursework
+     extension via the University Mitigating Circumstances online form              
+     (https://forms.office.com/pages/responsepage.aspx?id=qO3qvR3IzkWGPlIypTW3yy-0xsYxzEhHtZlB-
+                                                                                    
+     qRq7GJUM09XWVFFUVU0UzVQQzM4WEcwSTA2WUNIOSQlQCN0PWcu) in advance of the assessment
+     deadline.                                                                      
+                                                                                    
+                                                                                    
+     Marking                                                                        
+                                                                                    
+     This is a compulsory assessment for OCOM5100M. It is worth 80% of your overall module grade.
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+
+===== PAGE 9 =====
+
+                                                                                    
+                                                                                    
+     Feedback                                                                       
+                                                                                    
+     You will receive your provisional mark and feedback via Minerva, in the Gradebook tab, accessed at the top of
+     the Module Content page.                                                       
+                                                                                    
+     We will notify you by email when your feedback is available. You will usually receive feedback within 15
+     working days of the assignment deadline. This feedback may take the form of a written or recorded audio
+                                                                                    
+     comment.                                                                       
+                                                                                    
+                                                                                    
+     Next  steps                                                                    
+                                                                                    
+     Now continue to OCOM5100M Data Analysis Project Topics.                        
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    

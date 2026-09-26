@@ -1,0 +1,1021 @@
+employee_id,age,years_at_company,salary,satisfaction_score,engagement_index,department,contract_type,education_level,performance_rating,remote_work_level,favourite_colour,exit_interview_completed,churned
+10524,23.0,1.3,33069.0,4.5,39.74780914262567,Marketing,permanent,Bachelor,Low,Hybrid,red,no,Stayed
+10603,39.0,7.7,52024.0,5.0,51.50135653956203,Engineering,permanent,Master,,Remote,red,yes,Churned
+10527,36.0,0.4,42429.0,3.4,61.21689142387919,Sales,permanent,Bachelor,High,Hybrid,yellow,yes,Churned
+10032,36.0,6.0,54783.0,3.3,57.13266250796542,Engineering,permanent,Bachelor,Medium,On-site,red,no,Stayed
+10617,30.0,0.6,51559.0,2.7,46.235774454118044,Engineering,contractor,Bachelor,Medium,Remote,green,no,Churned
+10586,43.0,1.3,50142.0,5.0,57.69135779310033,Engineering,permanent,Master,Medium,Remote,yellow,no,Stayed
+10445,28.0,0.4,40167.0,4.9,45.29244900875218,Marketing,contractor,Bachelor,High,Hybrid,green,no,Churned
+10733,43.0,1.7,31198.0,2.3,54.58389009957068,HR,permanent,High School,Medium,Hybrid,blue,no,Stayed
+10077,30.0,3.6,22799.0,,54.279626265526346,Marketing,permanent,Bachelor,High,Hybrid,yellow,no,Stayed
+10412,22.0,1.5,41570.0,3.9,42.65838133878986,Finance,permanent,High School,Low,On-site,red,no,Stayed
+10569,23.0,9.8,50026.0,2.8,48.1277267849312,Finance,fixed-term,Master,High,On-site,green,no,Stayed
+10071,25.0,4.2,36516.0,2.6,41.66401717033594,Marketing,permanent,Master,Medium,Hybrid,red,no,Stayed
+10676,22.0,1.0,47885.0,5.0,26.35144627208488,Finance,permanent,Bachelor,Medium,Remote,yellow,yes,Churned
+10102,38.0,9.7,49042.0,2.7,57.4458639847313,HR,contractor,Bachelor,Medium,Hybrid,red,no,Stayed
+10895,30.0,7.9,36207.0,5.0,60.219627766781414,HR,permanent,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10926,35.0,5.8,61044.0,3.2,38.25797704279854,Engineering,permanent,PhD,Low,On-site,yellow,no,Stayed
+10630,32.0,0.9,38584.0,5.0,44.072971770428936,Engineering,permanent,Bachelor,Medium,Hybrid,red,no,Stayed
+10300,44.0,0.0,42064.0,3.8,50.8291185317204,Engineering,fixed-term,Bachelor,High,Hybrid,blue,no,Churned
+10925,37.0,0.6,32995.0,4.6,57.80201721186075,Sales,fixed-term,Bachelor,High,On-site,red,no,Stayed
+10425,30.0,4.3,61783.0,3.1,59.262574910843924,engineering,contractor,Bachelor,High,Hybrid,green,yes,Churned
+10097,35.0,2.8,37815.0,2.0,49.41167145868478,Sales,permanent,Bachelor,High,On-site,blue,no,Stayed
+10901,42.0,1.9,39439.0,4.6,36.72201326520569,Engineering,permanent,High School,Medium,On-site,green,no,Stayed
+10261,25.0,10.4,45169.0,4.1,62.09230647223938,HR,permanent,Master,Medium,On-site,red,no,Stayed
+10351,22.0,2.7,53983.0,3.8,43.02635772083829,Sales,contractor,Master,Medium,Hybrid,green,no,Stayed
+10529,38.0,0.2,40223.0,2.9,46.76832334297515,Engineering,fixed-term,High School,,Hybrid,green,yes,Churned
+10695,40.0,7.4,51127.0,1.7,56.134601656718374,HR ,permanent,PhD,Medium,Hybrid,red,yes,Churned
+10362,42.0,3.0,34068.0,5.0,58.461184692959336,HR,permanent,Bachelor,,Hybrid,red,no,Stayed
+10612,25.0,2.5,32432.0,3.9,49.83945960751414,Marketing,fixed-term,High School,Low,On-site,blue,yes,Churned
+10885,36.0,2.9,37317.0,5.0,49.880026553722765,Marketing,permanent,High School,High,On-site,green,no,Stayed
+10721,29.0,1.1,39956.0,3.0,32.44494411295372,Finance,permanent,Master,Medium,Hybrid,yellow,no,Stayed
+10487,36.0,28.6,79381.0,2.9,64.8547736927255,Engineering,permanent,Bachelor,Medium,On-site,green,no,Stayed
+10694,22.0,0.5,46288.0,4.5,41.3123245542709,Engineering,permanent,Bachelor,Medium,Hybrid,blue,no,Stayed
+10679,30.0,5.6,44531.0,1.6,43.72907175227704,Finance,permanent,High School,High,Hybrid,green,no,Stayed
+10810,32.0,5.8,46844.0,3.2,56.461296760241716,Engineering,permanent,Master,Low,Remote,green,yes,Churned
+10409,22.0,4.3,45379.0,3.0,33.828281099544554,Finance,permanent,PhD,Medium,Hybrid,red,no,Stayed
+10741,50.0,1.3,36748.0,4.4,49.24328927342937,Sales,fixed-term,Bachelor,High,Hybrid,green,yes,Churned
+10214,33.0,2.7,40518.0,4.5,54.44853537557488,Engineering,fixed-term,PhD,Medium,On-site,red,no,Churned
+10590,44.0,9.6,55990.0,1.7,45.070817250507474,Engineering,fixed-term,Master,Low,Hybrid,red,no,Stayed
+10366,42.0,3.5,42891.0,1.8,76.36669141945589,Sales,permanent,High School,Medium,Hybrid,red,no,Stayed
+10200,51.0,6.9,40296.0,2.4,35.15395208080347,Marketing,permanent,Bachelor,Medium,Hybrid,green,yes,Churned
+10637,29.0,7.6,42888.0,5.0,55.6864461601277,Sales,permanent,PhD,High,Hybrid,blue,no,Stayed
+10629,29.0,1.0,36290.0,2.3,44.35710147280981,Engineering,permanent,Bachelor,High,Hybrid,red,yes,Churned
+10829,35.0,0.0,33426.0,2.6,49.06096431286953,HR ,fixed-term,Bachelor,High,Hybrid,green,no,Churned
+10353,47.0,6.8,44266.0,,44.71083620895345,HR,permanent,Master,High,Hybrid,red,no,Stayed
+10330,30.0,3.6,52310.0,4.2,40.08472958895368,Engineering,permanent,High School,Medium,Remote,blue,no,Stayed
+10982,49.0,9.4,48424.0,,45.47309851490466,Marketing,fixed-term,Bachelor,High,On-site,red,no,Stayed
+10838,22.0,2.2,36673.0,2.3,55.2748083302773,Sales,permanent,High School,Low,Hybrid,yellow,no,Churned
+10245,58.0,7.5,56235.0,4.8,50.799152637400375,Engineering,fixed-term,Master,Medium,Hybrid,yellow,no,Stayed
+10287,38.0,5.6,52613.0,3.5,42.67073961891465,Sales,permanent,PhD,Medium,Remote,red,no,Stayed
+10290,49.0,1.6,36740.0,3.6,59.77847564654331,HR,permanent,Bachelor,Medium,Remote,blue,no,Stayed
+10599,25.0,2.8,55320.0,,50.565106484655566,Engineering,permanent,Bachelor,Medium,Hybrid,red,yes,Churned
+10762,41.0,3.5,34667.0,2.7,40.28937970892267,Sales,fixed-term,High School,Medium,Remote,yellow,no,Stayed
+10060,35.0,5.1,41593.0,4.2,61.27788027111646,Sales,fixed-term,Bachelor,High,Remote,blue,yes,Churned
+10623,43.0,2.7,31471.0,3.0,54.28761258880764,Sales,permanent,Bachelor,Medium,On-site,blue,no,Stayed
+10319,45.0,2.4,41155.0,,37.0687774959503,Engineering,permanent,Bachelor,High,Hybrid,red,yes,Churned
+10011,57.0,5.7,53532.0,1.8,57.09410980586605,Engineering,permanent,High School,Medium,On-site,blue,no,Churned
+10238,32.0,4.6,56639.0,3.4,46.19963153710646,Engineering,permanent,Bachelor,High,Hybrid,red,yes,Churned
+10332,24.0,6.6,41532.0,4.1,51.50602492844634,Marketing,fixed-term,High School,Medium,On-site,red,no,Stayed
+10706,35.0,7.0,46769.0,3.8,51.50474498773901,Finance,permanent,Master,High,Hybrid,blue,no,Stayed
+10087,51.0,11.6,39846.0,1.5,44.210482426510765,Marketing,fixed-term,High School,Medium,On-site,red,no,Stayed
+10804,32.0,0.8,37237.0,3.1,63.83194515329343,HR,permanent,PhD,High,On-site,red,no,Stayed
+10175,33.0,13.9,42211.0,3.1,61.12634305203302,HR,fixed-term,Bachelor,Low,Remote,blue,yes,Churned
+10313,,4.4,61290.0,4.0,35.58089643888191,Engineering,,Bachelor,Medium,On-site,red,no,Stayed
+10463,34.0,0.7,27471.0,3.4,49.2916315208391,Marketing,permanent,Master,Medium,Remote,green,no,Stayed
+10219,35.0,3.7,26106.0,3.1,59.758233372885634,HR,fixed-term,Master,Medium,Hybrid,blue,no,Stayed
+10031,38.0,2.7,33387.0,4.3,63.14226575703579,HR,permanent,Bachelor,Low,Hybrid,red,no,Stayed
+10548,35.0,4.9,34962.0,3.4,57.81497239460632,HR,permanent,Bachelor,Medium,Hybrid,red,yes,Churned
+10665,32.0,1.5,50286.0,3.5,41.62619210317533,Engineering,contractor,Master,Medium,Remote,yellow,no,Stayed
+10055,22.0,12.0,51710.0,4.2,51.93406367189717,HR,contractor,Master,Medium,Hybrid,green,no,Stayed
+10024,39.0,8.5,46420.0,3.9,42.75138916199948,Sales,contractor,High School,Medium,Remote,yellow,yes,Churned
+10257,22.0,1.8,38174.0,2.1,52.20630804307163,Finance,permanent,Bachelor,Medium,Remote,yellow,yes,Stayed
+10451,38.0,7.0,43221.0,,17.584861746708796,Marketing,permanent,Bachelor,Medium,Hybrid,blue,no,Stayed
+10004,44.0,4.2,34088.0,2.8,50.01794872878107,HR,fixed-term,Bachelor,Medium,On-site,red,no,Stayed
+10834,43.0,0.3,52718.0,4.4,52.08491970575581,Engineering,fixed-term,Bachelor,Medium,On-site,red,yes,Stayed
+10553,44.0,1.0,35799.0,5.0,58.06676402164363,HR,fixed-term,Master,Medium,On-site,red,yes,Churned
+10639,37.0,2.2,51536.0,2.2,66.2643073460886,Engineering,contractor,PhD,Medium,Hybrid,green,no,Stayed
+10478,22.0,2.1,33166.0,5.0,34.405642208737746,HR,fixed-term,,,Hybrid,blue,yes,Stayed
+10957,42.0,11.8,46580.0,3.0,38.78865987242078,Sales,fixed-term,Master,High,Hybrid,yellow,yes,Churned
+10663,24.0,11.8,44209.0,2.2,65.7414678603241,HR,contractor,Bachelor,Low,Hybrid,blue,yes,Churned
+10519,47.0,7.0,39929.0,1.6,83.77382919082646,Finance,permanent,Master,Low,On-site,yellow,yes,Churned
+10961,25.0,0.2,47606.0,,55.10535378451236,Engineering,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10954,35.0,14.3,56904.0,5.0,58.31211103199756,Finance,fixed-term,Bachelor,Low,Hybrid,green,no,Churned
+10980,38.0,9.8,40308.0,,41.258007299858505,HR,fixed-term,PhD,Medium,On-site,green,yes,Churned
+10576,38.0,2.4,47772.0,1.0,57.98091048661561,Finance,permanent,Master,Medium,Hybrid,blue,no,Stayed
+10540,38.0,0.2,47710.0,2.7,57.927110177336644,Engineering,permanent,Master,Low,On-site,green,yes,Churned
+10216,30.0,1.9,51448.0,4.6,40.58596830997975,Engineering,permanent,Bachelor,Low,Remote,green,no,Stayed
+10738,38.0,0.9,28665.0,3.1,64.01500346552157,Marketing,permanent,Bachelor,High,Hybrid,yellow,yes,Churned
+10999,41.0,1.5,36576.0,3.9,54.13147475952623,Finance,permanent,Bachelor,Medium,Remote,red,no,Stayed
+10714,57.0,1.4,41189.0,4.3,36.88450862101318,Sales,permanent,Bachelor,Medium,Hybrid,blue,no,Stayed
+10668,27.0,1.5,48372.0,3.6,51.68651367610195,FINANCE,,Master,Low,Remote,green,no,Churned
+10040,51.0,3.0,30483.0,2.9,61.66528336221003,Sales,permanent,Bachelor,Medium,Hybrid,green,yes,Churned
+10232,25.0,0.0,45526.0,3.7,66.37082407992742,Sales,permanent,High School,Medium,Hybrid,green,yes,Churned
+10495,47.0,14.8,55364.0,3.5,59.210258397309936,Sales,fixed-term,Bachelor,Medium,Hybrid,green,yes,Churned
+10705,22.0,5.5,52276.0,3.0,47.11849737577484,Engineering,permanent,Master,High,Hybrid,green,yes,Churned
+10968,27.0,2.3,53397.0,2.1,35.99928765598261,Engineering,permanent,Bachelor,Low,Hybrid,blue,yes,Churned
+10067,30.0,2.5,63491.0,5.0,36.59511358633563,Engineering,permanent,Bachelor,Low,On-site,yellow,no,Stayed
+10295,49.0,4.8,49171.0,4.6,18.614853337659603,Engineering,fixed-term,High School,High,Hybrid,red,no,Stayed
+10068,41.0,1.3,30269.0,5.0,46.80173722111244,Marketing,permanent,,High,Remote,blue,no,Stayed
+10480,24.0,3.3,35661.0,4.7,53.431585541974165,Sales,permanent,Master,Medium,Hybrid,green,no,Stayed
+10329,34.0,3.0,51810.0,5.0,51.83012928311482,Sales,fixed-term,,Low,On-site,blue,no,Churned
+10627,,1.5,47529.0,3.8,49.432114041137226,Sales,permanent,High School,Low,Hybrid,red,no,Stayed
+10108,39.0,8.8,47782.0,1.7,49.22178563863527,marketing,fixed-term,PhD,Low,On-site,yellow,yes,Churned
+10984,30.0,3.2,50264.0,3.8,46.71624740583198,Engineering,permanent,Master,Medium,Remote,green,no,Stayed
+10347,50.0,2.8,26968.0,4.3,49.17302254981601,HR,permanent,Master,Medium,Hybrid,green,no,Stayed
+10299,22.0,3.3,24132.0,2.3,33.74878741117475,HR,fixed-term,High School,Medium,Hybrid,red,no,Stayed
+10644,47.0,0.8,42332.0,1.6,25.59295985224916,Sales,fixed-term,Master,Medium,On-site,red,yes,Churned
+10308,34.0,3.4,30605.0,2.6,35.96441370436337,Sales,fixed-term,Master,Low,Hybrid,yellow,yes,Churned
+10855,40.0,0.3,61331.0,4.2,47.34079925804448,Engineering,contractor,High School,Medium,Hybrid,yellow,yes,Churned
+10507,40.0,18.1,58563.0,3.2,59.14077164224034,Finance,permanent,Master,High,Hybrid,yellow,no,Stayed
+10297,50.0,2.0,37758.0,3.8,38.58058180838688,Marketing,permanent,Bachelor,Medium,On-site,blue,no,Stayed
+10881,27.0,13.1,64129.0,3.7,45.409683268211,Engineering,fixed-term,Bachelor,Medium,On-site,red,no,Churned
+10667,42.0,2.8,48944.0,4.9,59.25281892716831,Engineering,permanent,High School,High,On-site,yellow,no,Stayed
+10101,22.0,11.0,57018.0,3.9,48.06390488964492,Engineering,permanent,PhD,,Hybrid,blue,no,Stayed
+10089,44.0,0.3,32111.0,3.5,45.51304317380516,Marketing,contractor,Master,Medium,Remote,yellow,yes,Churned
+10064,41.0,5.5,42297.0,,45.497981083341564,Sales,permanent,Bachelor,Medium,On-site,blue,yes,Churned
+10844,32.0,9.5,49051.0,5.0,62.14666780132902,Finance,fixed-term,PhD,Medium,On-site,yellow,no,Stayed
+10889,44.0,5.2,132138.0,2.2,56.93706112536185,Engineering,fixed-term,Master,Medium,On-site,red,no,Stayed
+10140,28.0,1.7,40107.0,2.2,57.25081044447508,Finance,permanent,Master,Low,Hybrid,yellow,no,Stayed
+10758,30.0,0.7,28805.0,4.0,40.153663129820444,Sales,permanent,Master,Medium,Hybrid,yellow,no,Churned
+10616,39.0,1.8,42538.0,2.5,53.3237683351961,Finance,fixed-term,High School,Low,Hybrid,green,no,Stayed
+10500,37.0,8.2,54682.0,4.2,57.35132113054091,Finance,contractor,Bachelor,Medium,Hybrid,red,no,Churned
+10666,40.0,5.8,64006.0,1.7,58.95796218235928,Engineering,contractor,Bachelor,Medium,Hybrid,green,no,Stayed
+10585,22.0,4.0,48307.0,,58.63923549962446,HR,contractor,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10110,37.0,3.0,45644.0,3.2,46.38276163906613,Engineering,permanent,,Medium,Hybrid,green,no,Stayed
+10917,36.0,2.8,59125.0,1.6,27.970866467942813,Engineering,contractor,Master,Medium,Hybrid,yellow,no,Stayed
+10651,40.0,0.9,56369.0,4.4,51.01788333707327,Engineering,permanent,Bachelor,High,On-site,red,no,Stayed
+10534,40.0,6.4,39221.0,4.9,49.13662141753273,HR,permanent,High School,Medium,Hybrid,green,no,Stayed
+10446,22.0,2.3,41443.0,3.9,61.21188142569905,Finance,permanent,Bachelor,Medium,Remote,yellow,yes,Churned
+10606,34.0,0.8,36380.0,3.8,53.881857956547336,Sales,permanent,Bachelor,,Remote,red,no,Stayed
+10137,31.0,2.9,43194.0,4.6,58.60182638395157,Sales,contractor,High School,Medium,Hybrid,red,yes,Churned
+10812,31.0,2.6,19747.0,3.5,36.37956629145243,Marketing,fixed-term,Master,Medium,Remote,blue,yes,Churned
+10515,23.0,11.2,55415.0,4.2,42.9488947983404,Engineering,permanent,Master,High,Hybrid,red,no,Stayed
+10754,33.0,2.7,36577.0,,36.751542190672595,Sales,,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10159,22.0,5.1,47790.0,2.9,55.84524051837435,Engineering,contractor,Bachelor,,Remote,red,no,Stayed
+10311,37.0,5.4,46250.0,4.3,47.97661093129913,Sales,permanent,Bachelor,Medium,On-site,red,no,Stayed
+10328,44.0,3.5,39328.0,3.5,47.11843969488882,HR ,fixed-term,High School,Medium,Remote,yellow,no,Stayed
+10137,31.0,2.9,43194.0,4.6,58.60182638395157,Sales,contractor,High School,Medium,Hybrid,red,yes,Churned
+10936,39.0,2.1,42900.0,4.1,58.596307868548465,Engineering,fixed-term,Bachelor,Medium,Hybrid,red,no,Stayed
+10255,46.0,0.1,53072.0,2.2,52.38171306139628,Engineering,fixed-term,Master,Medium,On-site,blue,no,Churned
+10276,30.0,2.8,42546.0,4.3,55.70487330863573,Sales,permanent,Master,High,Hybrid,red,no,Churned
+10902,34.0,5.5,53886.0,2.6,47.11467099318204,Engineering,permanent,Master,Medium,Hybrid,green,no,Stayed
+10185,95.0,3.8,48385.0,4.6,46.62122224526193,Engineering,permanent,Master,Medium,On-site,red,yes,Churned
+10583,47.0,0.1,28922.0,3.7,52.42070670287967,Sales,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10661,51.0,2.2,27931.0,4.8,53.959142209580456,Sales,fixed-term,Bachelor,Medium,Hybrid,red,no,Churned
+10897,49.0,1.2,48308.0,,46.60469843334013,Engineering,fixed-term,Bachelor,Low,On-site,blue,yes,Churned
+10210,46.0,2.6,67277.0,2.2,47.15374495746321,Engineering,contractor,PhD,Medium,On-site,blue,no,Churned
+10169,46.0,1.3,46748.0,3.5,36.59875104345214,Engineering,,Master,High,Hybrid,green,no,Stayed
+10867,,4.4,47759.0,1.9,45.63736967819971,Engineering,permanent,Bachelor,Medium,Hybrid,green,no,Churned
+10281,35.0,3.5,33906.0,3.8,47.11937201648721,Marketing,fixed-term,Bachelor,Medium,On-site,green,no,Churned
+10900,36.0,8.7,57640.0,,43.15559597913818,Engineering,fixed-term,High School,High,Remote,blue,yes,Churned
+10542,41.0,6.3,41269.0,3.7,60.578010075419186,HR,permanent,Master,High,Hybrid,red,no,Stayed
+10056,32.0,2.1,45476.0,3.1,50.596918805797365,Finance,permanent,Master,High,On-site,yellow,yes,Stayed
+10121,25.0,5.5,45816.0,2.4,70.02427467644797,Marketing,contractor,Master,Medium,On-site,blue,yes,Churned
+10555,27.0,0.9,28109.0,4.7,39.959203670449725,Marketing,permanent,High School,Low,Hybrid,red,no,Stayed
+10026,22.0,0.3,25149.0,1.1,51.255485866511485,Marketing,permanent,,Medium,Remote,green,no,Stayed
+10073,34.0,2.2,45587.0,1.1,42.040296261495016,HR ,permanent,Bachelor,Medium,Hybrid,red,yes,Churned
+10539,23.0,5.9,46916.0,3.7,42.49279665507187,Sales,permanent,Master,Medium,On-site,red,no,Stayed
+10045,41.0,5.1,60660.0,2.4,58.157544866520695,Engineering,contractor,Master,Medium,Hybrid,blue,no,Stayed
+10498,40.0,1.6,48889.0,3.4,71.85730616722574,Engineering,permanent,Master,High,On-site,yellow,no,Stayed
+10199,41.0,4.3,41065.0,3.4,53.13723182896907,Marketing,fixed-term,Bachelor,Low,Hybrid,yellow,yes,Churned
+10378,,7.8,50056.0,3.4,58.18765970848816,Engineering,permanent,Master,Low,Remote,red,no,Stayed
+10315,27.0,2.5,33548.0,4.3,59.53176254329354,Marketing,permanent,PhD,Medium,Remote,blue,yes,Churned
+10719,50.0,11.7,55776.0,4.7,42.1342790844215,Engineering,contractor,Master,Medium,Hybrid,blue,no,Stayed
+10209,34.0,3.6,55543.0,3.1,64.95458245242958,Engineering,permanent,Bachelor,Medium,On-site,green,no,Stayed
+10722,30.0,0.3,50211.0,,54.53905229441347,Engineering,permanent,Master,High,On-site,red,yes,Churned
+10919,30.0,3.3,39491.0,2.5,52.46906063416612,Marketing,permanent,Bachelor,Medium,Hybrid,red,no,Churned
+10536,43.0,2.2,43338.0,2.8,48.04565153477236,Finance,permanent,Master,Low,Hybrid,red,no,Churned
+10696,23.0,1.8,34708.0,4.0,49.674961069423105,HR,permanent,Bachelor,Low,Remote,red,yes,Churned
+10605,34.0,0.9,45507.0,3.7,60.31380525277331,Engineering,permanent,High School,Medium,Hybrid,yellow,no,Stayed
+10591,40.0,12.7,66407.0,4.1,29.89783345433937,Engineering,fixed-term,Master,High,Hybrid,red,no,Stayed
+10291,29.0,0.8,47207.0,,26.148863013069636,Engineering,permanent,Master,Low,Hybrid,green,no,Stayed
+10960,,2.3,29284.0,3.3,51.470768274459736,Marketing,fixed-term,Master,Low,Hybrid,red,yes,Churned
+10333,22.0,3.0,46774.0,2.8,34.96953140642519,Engineering,permanent,Master,Low,Hybrid,red,no,Stayed
+10211,36.0,3.9,33076.0,3.1,30.27910973356182,Sales,permanent,Master,,On-site,green,no,Stayed
+10343,27.0,0.4,54405.0,2.1,43.8163497995587,Engineering,contractor,High School,Medium,Remote,red,no,Churned
+10061,35.0,3.1,38592.0,3.4,51.13970668127772,Sales,contractor,High School,Medium,On-site,red,yes,Churned
+10345,30.0,0.9,44617.0,4.2,29.276448183040017,Sales,fixed-term,PhD,Medium,Hybrid,yellow,no,Stayed
+10891,41.0,4.0,22908.0,2.7,42.09982903184792,Marketing,permanent,Bachelor,High,Hybrid,blue,no,Stayed
+10712,41.0,7.2,37999.0,5.0,63.99417926653883,HR,permanent,Bachelor,,Hybrid,green,no,Stayed
+10468,44.0,11.2,41057.0,3.4,70.77343439569952,Marketing,permanent,High School,Medium,On-site,green,no,Stayed
+10424,56.0,5.4,37126.0,4.2,34.80107200381015,Sales,permanent,Bachelor,Low,Hybrid,yellow,no,Stayed
+10260,24.0,9.3,54190.0,3.4,55.80567687035615,Engineering,permanent,Bachelor,High,Hybrid,red,yes,Churned
+10781,35.0,10.6,50476.0,5.0,50.030601167385726,HR,permanent,High School,Medium,On-site,yellow,no,Stayed
+10406,22.0,1.2,25704.0,4.0,48.775640102526026,Marketing,permanent,Master,High,Hybrid,blue,no,Stayed
+10789,23.0,11.5,35283.0,1.1,43.65725283182687,Sales,permanent,PhD,Low,Hybrid,blue,no,Stayed
+10768,35.0,4.4,41189.0,5.0,62.09010198900997,Marketing,permanent,Bachelor,Medium,On-site,yellow,no,Stayed
+10484,24.0,2.4,26357.0,3.1,40.2173435073376,HR,permanent,High School,High,Hybrid,blue,no,Stayed
+10531,48.0,1.0,38282.0,5.0,44.81362002515424,Marketing,permanent,Master,Medium,On-site,green,no,Stayed
+10811,33.0,2.3,44160.0,4.1,46.79216138148001,Finance,fixed-term,Bachelor,Medium,On-site,green,yes,Churned
+11000,33.0,13.3,59880.0,3.7,47.66791501793606,Sales,,Master,Low,Hybrid,yellow,no,Stayed
+10967,38.0,4.3,40145.0,4.5,73.45624161896441,Marketing,permanent,Master,Medium,Remote,blue,no,Stayed
+10111,40.0,0.1,46912.0,2.9,49.37106133100142,Engineering,fixed-term,High School,,Hybrid,red,no,Stayed
+10996,47.0,2.0,53386.0,2.1,46.2257659886967,Engineering,fixed-term,Master,Medium,Remote,blue,no,Stayed
+10559,25.0,10.7,50084.0,4.4,43.66410484506187,Marketing,fixed-term,High School,Low,Remote,red,yes,Stayed
+10794,45.0,3.7,38475.0,4.0,39.840045688319705,HR,fixed-term,Bachelor,Medium,On-site,yellow,yes,Churned
+10937,28.0,1.9,41012.0,2.5,40.17980502789095,Engineering,permanent,Master,Medium,Remote,green,no,Stayed
+10920,27.0,2.7,49243.0,2.4,38.74802172262277,Engineering,permanent,Bachelor,High,Hybrid,red,yes,Churned
+10943,41.0,0.6,32565.0,3.8,49.32553441444818,HR,fixed-term,Bachelor,Low,Remote,yellow,yes,Churned
+10320,32.0,1.4,42375.0,,50.838725017609335,Engineering,permanent,Bachelor,High,Hybrid,green,yes,Churned
+10517,22.0,7.6,46807.0,3.4,50.199954862064196,Sales,,High School,Low,Hybrid,green,yes,Stayed
+10450,43.0,0.3,49744.0,2.8,47.47375131197363,Engineering,fixed-term,Bachelor,Low,Hybrid,green,no,Churned
+10784,22.0,0.5,34070.0,3.0,54.79625319551573,Sales,fixed-term,Master,High,On-site,green,yes,Churned
+10594,,1.4,43210.0,3.7,66.41428627722314,Sales,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10910,60.0,2.1,37313.0,1.7,43.839287846636765,Sales,permanent,Bachelor,Medium,Hybrid,green,yes,Churned
+10744,42.0,8.0,32696.0,4.8,44.054963040509925,Sales,permanent,High School,Low,Remote,green,no,Stayed
+10138,32.0,11.3,40071.0,2.7,58.10260044375334,Marketing,permanent,Master,Medium,Hybrid,blue,no,Stayed
+10800,40.0,2.3,154992.0,,45.54242540203151,Finance,permanent,Bachelor,Medium,Hybrid,red,yes,Churned
+10934,25.0,0.8,22422.0,4.2,66.639862798081,Sales,fixed-term,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10823,25.0,1.8,39147.0,2.0,55.269813913637535,Sales,fixed-term,Master,High,Hybrid,yellow,yes,Churned
+10766,30.0,2.4,34787.0,3.0,57.413198169079145,HR,permanent,PhD,Medium,Remote,green,no,Stayed
+10262,25.0,0.0,41532.0,4.5,49.75713504329974,Finance,fixed-term,Master,Medium,Remote,red,no,Stayed
+10568,34.0,13.8,45890.0,2.4,53.772632593422266,Sales,permanent,Bachelor,Medium,On-site,blue,yes,Churned
+10833,22.0,1.2,45473.0,4.5,59.28015659151687,Engineering,permanent,High School,High,Hybrid,red,no,Stayed
+10382,24.0,0.8,24634.0,3.7,30.679348414800405,HR,permanent,Master,Medium,On-site,green,no,Stayed
+10334,34.0,0.5,65540.0,3.6,59.95693754370362,Engineering,contractor,Master,Low,Hybrid,blue,yes,Churned
+10537,22.0,1.6,32287.0,4.4,58.36484137964941,Marketing,permanent,Master,Medium,Hybrid,red,no,Churned
+10352,33.0,3.1,141284.0,4.7,61.381503309676184,Marketing,permanent,PhD,Medium,Hybrid,green,no,Stayed
+10786,30.0,1.1,45801.0,4.0,52.31730942030393,Finance,contractor,Bachelor,Low,Hybrid,green,no,Churned
+10452,30.0,2.2,31113.0,3.1,52.97160023808222,HR,fixed-term,PhD,Medium,Hybrid,green,yes,Churned
+10079,57.0,0.0,48515.0,3.1,66.39256516741753,Sales,permanent,PhD,Low,Hybrid,green,yes,Churned
+10030,24.0,2.3,52026.0,3.7,37.01896096312842,Engineering,fixed-term,Master,Medium,Hybrid,red,no,Stayed
+10713,42.0,7.4,36963.0,,47.634626166314646,Sales,fixed-term,Bachelor,Medium,On-site,blue,no,Stayed
+10278,22.0,2.3,32832.0,4.9,64.98011770304427,HR,contractor,Bachelor,Medium,Hybrid,green,no,Stayed
+10248,34.0,0.7,43955.0,4.5,57.230379395798636,Finance,permanent,Master,Medium,On-site,yellow,no,Stayed
+10658,48.0,4.1,32809.0,3.8,53.70340267328846,Sales,permanent,Master,Medium,Hybrid,red,yes,Churned
+10307,40.0,1.9,41593.0,1.9,34.46964722160179,Sales,fixed-term,High School,Medium,Hybrid,green,yes,Churned
+10166,49.0,0.5,35634.0,3.0,44.50841058236224,HR ,fixed-term,PhD,Medium,Hybrid,yellow,no,Stayed
+10817,,1.5,23903.0,3.5,50.81277167591069,HR,permanent,Bachelor,Medium,Remote,blue,no,Stayed
+10179,29.0,7.4,57237.0,2.6,57.72847838543723,Finance,fixed-term,Master,High,Hybrid,red,no,Stayed
+10486,27.0,3.4,35873.0,,52.39872752284725,Finance,permanent,PhD,Medium,Hybrid,yellow,no,Stayed
+10066,29.0,0.8,35429.0,4.9,61.93586535476262,Sales,fixed-term,Master,Medium,On-site,green,no,Stayed
+10142,17.0,2.0,48442.0,4.2,69.02558205229559,Engineering,permanent,,High,On-site,blue,yes,Churned
+10437,,4.3,55840.0,5.0,67.45858970273136,Engineering,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10523,29.0,2.5,56189.0,4.6,31.19711589431215,Finance,permanent,Bachelor,,Remote,yellow,no,Stayed
+10845,42.0,6.5,61594.0,2.8,48.55133244853906,Engineering,contractor,Bachelor,Low,On-site,green,no,Stayed
+10421,38.0,4.5,44861.0,4.2,54.6725221518279,Marketing,permanent,Bachelor,High,On-site,yellow,no,Stayed
+10405,35.0,4.0,35789.0,3.1,34.69720864070212,Sales,fixed-term,Master,Medium,Remote,green,no,Stayed
+10680,52.0,2.6,34030.0,4.7,49.590824648049306,marketing,fixed-term,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10266,22.0,8.8,41417.0,3.2,72.09855665748464,Marketing,permanent,Master,Low,Hybrid,red,yes,Churned
+10880,33.0,0.4,46497.0,3.5,42.312335899614794,Engineering,permanent,Bachelor,Medium,Remote,red,yes,Churned
+10293,22.0,0.7,43301.0,2.9,31.880106624379458,Marketing,permanent,Bachelor,Medium,Hybrid,red,yes,Churned
+10222,22.0,1.0,31327.0,4.7,59.778722722111375,HR,permanent,Bachelor,Low,Hybrid,red,no,Stayed
+10828,43.0,8.8,59121.0,3.5,71.48296863786959,Sales,contractor,High School,,On-site,blue,yes,Churned
+10236,38.0,9.9,127530.0,4.0,45.396932374256366,Marketing,permanent,Bachelor,Medium,Hybrid,red,yes,Churned
+10526,39.0,1.5,25774.0,5.0,64.27328651594769,Sales,permanent,Bachelor,Low,Hybrid,green,yes,Churned
+10193,34.0,6.7,51261.0,3.9,37.43434664054565,Finance,permanent,Master,High,Hybrid,red,no,Stayed
+10322,32.0,7.7,44340.0,3.9,38.22583494750711,Marketing,permanent,Master,Low,Remote,red,no,Stayed
+10050,30.0,2.8,51850.0,3.3,40.59984067876246,Engineering,permanent,High School,Medium,On-site,green,no,Stayed
+10892,41.0,4.8,36723.0,3.0,56.928152103009225,Marketing,permanent,Master,Medium,On-site,red,yes,Stayed
+10003,31.0,3.6,47434.0,3.6,45.95842840520697,Marketing,contractor,PhD,Medium,Hybrid,green,yes,Churned
+10818,42.0,0.4,31391.0,2.5,61.78843444025644,Sales,fixed-term,High School,High,Remote,green,yes,Churned
+10371,40.0,2.7,53301.0,3.3,26.03917711669584,Engineering,contractor,Master,Medium,On-site,blue,yes,Churned
+10922,22.0,0.8,34238.0,3.1,55.61472629826133,Sales,permanent,Master,Medium,Hybrid,green,yes,Churned
+10250,38.0,1.0,33632.0,1.5,32.84291681361871,Marketing,fixed-term,High School,Medium,Remote,red,yes,Churned
+10549,39.0,2.6,32074.0,3.4,41.35714738059464,Sales,permanent,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10433,45.0,2.5,26744.0,4.0,57.907593122325295,HR,permanent,PhD,High,Hybrid,blue,no,Stayed
+10939,45.0,2.4,49809.0,3.5,53.849664160476344,Engineering,permanent,PhD,Low,Hybrid,red,no,Stayed
+10508,50.0,0.2,30503.0,,40.129538210636845,Marketing,permanent,Bachelor,Medium,On-site,yellow,no,Stayed
+10034,37.0,2.3,35736.0,5.0,56.07289015101693,Finance,permanent,PhD,Low,Remote,red,yes,Churned
+10205,39.0,2.9,41847.0,4.4,48.103065065475924,HR,permanent,Master,Medium,On-site,blue,no,Stayed
+10890,23.0,2.1,54394.0,3.9,65.84494375157058,Engineering,contractor,Master,Medium,Hybrid,yellow,no,Stayed
+10589,,0.3,50147.0,3.9,41.747080391691355,Engineering,permanent,Bachelor,Low,Hybrid,yellow,no,Stayed
+10731,40.0,7.1,51616.0,2.9,42.49589872245344,Engineering,permanent,Master,Low,On-site,yellow,no,Stayed
+10078,34.0,4.9,49075.0,4.2,67.2307471764625,Engineering,fixed-term,Bachelor,Low,On-site,blue,no,Stayed
+10085,27.0,3.1,34543.0,2.1,51.17588629887202,Sales,contractor,Bachelor,Medium,On-site,red,no,Stayed
+10306,57.0,1.3,49907.0,4.7,69.85380395260293,Finance,contractor,Bachelor,Medium,On-site,red,no,Stayed
+10083,28.0,10.1,48215.0,2.7,51.55155342865356,Sales,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10449,40.0,5.9,58037.0,3.1,57.57032065053978,Sales,contractor,High School,Medium,Hybrid,red,no,Stayed
+10998,22.0,1.8,46043.0,1.9,59.06787272932399,Engineering,permanent,Bachelor,Medium,Hybrid,green,no,Churned
+10752,40.0,6.3,37422.0,3.8,49.67518964157905,Finance,permanent,Master,High,Hybrid,red,no,Stayed
+10532,40.0,2.5,46866.0,3.5,67.18363995763876,Finance,fixed-term,Master,High,On-site,blue,no,Stayed
+10324,40.0,1.3,50832.0,,45.10843824815784,Engineering,permanent,Bachelor,Medium,Hybrid,red,no,Stayed
+10496,32.0,1.1,34681.0,2.4,45.20281103233864,Sales,fixed-term,Bachelor,Medium,Hybrid,blue,yes,Churned
+10911,40.0,6.1,31825.0,1.4,66.17044924521683,HR,permanent,Bachelor,Low,Remote,blue,yes,Churned
+10006,,1.8,45754.0,4.0,33.28238726671833,Engineering,fixed-term,Master,High,On-site,green,yes,Churned
+10426,35.0,1.8,47402.0,1.4,46.139974243505606,Sales,contractor,PhD,Medium,Hybrid,yellow,no,Churned
+10491,37.0,0.7,41836.0,4.6,33.477573226465104,Sales,permanent,Bachelor,Low,On-site,red,no,Stayed
+10098,28.0,7.1,43692.0,3.5,47.79068275060387,Sales,permanent,Master,Low,On-site,green,yes,Churned
+10762,41.0,3.5,34667.0,2.7,40.28937970892267,Sales,fixed-term,High School,Medium,Remote,yellow,no,Stayed
+10423,29.0,3.3,45095.0,2.6,44.955773167028305,Engineering,permanent,Master,High,Hybrid,blue,no,Stayed
+10886,43.0,2.5,47991.0,2.4,40.21976976477432,Engineering,permanent,PhD,High,Remote,green,no,Stayed
+10282,47.0,0.0,37233.0,3.5,54.31022958010893,Sales,fixed-term,Bachelor,Low,Hybrid,green,yes,Churned
+10267,26.0,2.5,38763.0,4.3,53.269945132700975,HR,permanent,,Medium,Hybrid,green,no,Stayed
+10443,29.0,7.8,42453.0,3.3,52.62502890851834,FINANCE,fixed-term,Master,Medium,On-site,blue,no,Stayed
+10746,25.0,0.3,33440.0,5.0,44.22771274289429,Marketing,permanent,Master,Medium,On-site,red,yes,Churned
+10383,27.0,1.1,41723.0,4.8,32.43131300598498,HR,contractor,PhD,Low,Hybrid,green,no,Stayed
+10693,28.0,1.4,43193.0,2.4,44.01720665802152,Sales,permanent,High School,High,Hybrid,red,yes,Churned
+10894,36.0,0.2,35044.0,2.8,61.904749851934824,Sales,permanent,Master,Medium,On-site,green,no,Stayed
+10535,30.0,5.4,33478.0,3.4,27.841775749793317,Marketing,permanent,Master,Medium,Hybrid,green,no,Stayed
+10119,42.0,0.4,25873.0,5.0,43.49343378663805,Marketing,permanent,High School,Medium,On-site,yellow,no,Stayed
+10389,42.0,3.4,44840.0,2.7,47.677264972005275,Marketing,contractor,Master,Low,On-site,red,yes,Churned
+10251,48.0,6.3,47568.0,2.2,40.7107351753927,Engineering,fixed-term,High School,Medium,Hybrid,green,yes,Churned
+10944,30.0,3.8,35181.0,3.2,61.93611755172588,Marketing,fixed-term,Master,Medium,Hybrid,blue,no,Stayed
+10454,22.0,0.4,50245.0,2.6,51.399820963213536,Finance,permanent,,Medium,Remote,yellow,no,Stayed
+10010,27.0,3.3,34455.0,2.5,56.151639842785805,Marketing,permanent,Bachelor,Low,On-site,blue,no,Stayed
+10197,44.0,10.9,163326.0,3.5,40.937846679527894,Marketing,contractor,Bachelor,High,On-site,blue,no,Stayed
+10619,24.0,2.5,27153.0,,55.83883022284001,Marketing,permanent,Master,High,Hybrid,blue,no,Stayed
+10082,43.0,3.4,41290.0,,48.21976709936162,HR,permanent,,High,On-site,blue,no,Stayed
+10399,44.0,1.7,27959.0,3.7,48.17839416142076,Marketing,fixed-term,Master,Medium,On-site,blue,yes,Churned
+10502,,0.7,34022.0,5.0,31.51741469921585,Sales,permanent,Master,High,Hybrid,blue,yes,Churned
+10635,23.0,1.1,61271.0,4.5,58.77547553451421,Engineering,contractor,Master,Low,On-site,yellow,no,Stayed
+10240,30.0,6.1,49359.0,4.3,61.32804697174807,Engineering,permanent,Bachelor,Medium,Hybrid,blue,yes,Stayed
+10310,37.0,11.4,62767.0,2.7,72.5403810892112,Engineering,fixed-term,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10212,28.0,0.0,33857.0,,52.88028368305489,HR,permanent,Master,Medium,Hybrid,green,yes,Churned
+10835,35.0,0.1,35011.0,3.9,26.455170773033977,Sales,fixed-term,Bachelor,Medium,Hybrid,red,yes,Stayed
+10381,47.0,1.5,52005.0,2.5,40.36603658801431,Engineering,permanent,Master,Medium,On-site,blue,yes,Churned
+10602,29.0,1.7,40249.0,,61.43398107149552,Engineering,permanent,High School,Medium,Hybrid,yellow,no,Stayed
+10228,28.0,6.1,45333.0,5.0,71.59121154603292,Sales,permanent,Bachelor,Medium,Hybrid,red,yes,Churned
+10874,33.0,5.1,43229.0,2.7,54.1905073475346,Sales,fixed-term,,High,On-site,blue,no,Stayed
+10360,22.0,0.6,30518.0,4.4,44.790314487689045,HR,permanent,High School,Medium,On-site,red,no,Stayed
+10814,38.0,0.1,39233.0,4.8,49.90840961465345,Finance,permanent,Bachelor,Medium,Hybrid,yellow,yes,Churned
+10178,25.0,3.2,24342.0,3.1,47.21627032392106,Sales,,Master,High,Remote,blue,no,Stayed
+10995,35.0,0.9,33584.0,5.0,48.61664717983622,Sales,fixed-term,High School,Medium,On-site,blue,yes,Churned
+10757,36.0,1.9,39140.0,4.7,54.170953244232464,HR,contractor,Bachelor,Low,On-site,blue,yes,Churned
+10494,42.0,9.4,65679.0,5.0,54.49433515947262,Engineering,permanent,Bachelor,High,Hybrid,green,no,Stayed
+10335,29.0,0.6,54620.0,3.7,41.185662947730044,Engineering,contractor,High School,High,Hybrid,yellow,yes,Churned
+10893,22.0,5.0,37827.0,2.7,47.162932716352685,Marketing,fixed-term,Master,Medium,Hybrid,green,no,Stayed
+10008,22.0,0.9,38140.0,3.8,55.198710181019116,Marketing,fixed-term,Master,Low,Hybrid,yellow,no,Stayed
+10156,29.0,5.8,60321.0,2.7,54.75258604717312,Engineering,fixed-term,Bachelor,Medium,On-site,blue,no,Stayed
+10843,63.0,2.9,59195.0,2.9,54.10383276786892,Engineering,permanent,PhD,Medium,Hybrid,blue,no,Stayed
+10751,45.0,12.8,63826.0,3.3,46.78247296009792,Engineering,permanent,Bachelor,High,Hybrid,yellow,no,Stayed
+10942,40.0,2.8,30032.0,1.5,65.69628586939493,HR,permanent,Master,High,Hybrid,yellow,no,Stayed
+10483,26.0,0.0,32617.0,2.2,42.12963721066701,Sales,permanent,PhD,Medium,Hybrid,blue,yes,Churned
+10847,22.0,4.7,47598.0,1.3,50.16374241931294,Engineering,permanent,Master,High,Remote,blue,no,Churned
+10750,37.0,6.8,39634.0,3.1,36.52290769690597,HR,permanent,Master,High,Remote,green,yes,Stayed
+10904,40.0,2.6,29308.0,4.2,61.46487158733038,HR,permanent,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10592,26.0,0.3,38322.0,3.4,36.76048915780437,HR,contractor,Master,,On-site,red,no,Stayed
+10953,24.0,9.0,59376.0,3.3,33.127209203588315,Engineering,permanent,Master,High,Hybrid,yellow,no,Stayed
+10581,40.0,9.6,45595.0,3.0,40.973456400121805,Sales,permanent,High School,,Remote,yellow,yes,Churned
+10440,37.0,1.1,48512.0,3.5,48.86407838298035,Engineering,fixed-term,Bachelor,High,On-site,red,no,Stayed
+10543,35.0,2.6,47660.0,4.4,44.67856109826898,Engineering,permanent,Master,Low,On-site,red,yes,Churned
+10597,33.0,3.5,31616.0,4.7,48.39925513391695,HR,permanent,Bachelor,Medium,Hybrid,red,no,Stayed
+10724,33.0,3.5,31104.0,4.5,43.751653815655175,Marketing,permanent,Bachelor,Low,Hybrid,red,no,Stayed
+10678,34.0,0.1,36652.0,4.2,32.940409051092644,Sales,permanent,High School,Medium,Remote,green,yes,Churned
+10479,49.0,1.4,41364.0,2.2,39.22279254208398,Finance,fixed-term,High School,Medium,Hybrid,blue,no,Churned
+10229,22.0,0.9,36852.0,5.0,50.9131472861135,Marketing,contractor,Bachelor,Low,Hybrid,red,yes,Churned
+10975,46.0,4.4,49033.0,2.7,67.44311114743111,Engineering,permanent,Bachelor,Medium,On-site,blue,no,Stayed
+10815,,4.2,35452.0,4.6,50.60785372501303,Marketing,permanent,,Medium,Hybrid,green,no,Stayed
+10213,45.0,0.9,31086.0,4.8,35.56074452926243,HR ,permanent,High School,Low,Hybrid,green,no,Stayed
+10080,22.0,2.9,55327.0,2.2,30.772282279376636,Engineering,contractor,Master,High,On-site,yellow,yes,Churned
+10149,24.0,17.8,70273.0,3.2,44.17938665906988,Engineering,contractor,Bachelor,High,Hybrid,blue,yes,Churned
+10303,35.0,0.3,37872.0,4.0,64.11356861745625,Sales,permanent,Bachelor,Medium,Hybrid,blue,no,Stayed
+10356,36.0,4.7,41975.0,,52.351352993661884,HR,contractor,High School,Low,Hybrid,green,yes,Churned
+10430,30.0,5.5,51777.0,3.1,42.38058761864916,Engineering,contractor,Master,Medium,Hybrid,blue,no,Stayed
+10520,53.0,1.4,59713.0,2.0,56.76507476439975,Engineering,contractor,Master,Medium,On-site,green,no,Stayed
+10363,22.0,4.1,39106.0,2.0,48.96537210153077,Sales ,,Bachelor,Medium,Hybrid,red,no,Stayed
+10595,37.0,2.0,29942.0,4.0,50.65788648648962,Marketing,fixed-term,High School,Medium,Hybrid,yellow,no,Stayed
+10358,27.0,4.8,28021.0,1.6,47.32862514058245,HR,permanent,High School,Medium,Hybrid,green,no,Stayed
+10134,36.0,8.8,36590.0,3.8,43.57223617100052,Sales,permanent,Bachelor,Medium,Hybrid,blue,no,Stayed
+10830,25.0,0.9,43090.0,3.3,61.63000969705304,Sales,permanent,High School,Medium,Hybrid,blue,no,Stayed
+10312,24.0,0.4,59572.0,3.1,48.16754756790718,Engineering,contractor,Master,Medium,Remote,yellow,no,Stayed
+10622,37.0,1.9,42090.0,3.6,44.43282102142837,Engineering,permanent,Master,Medium,Hybrid,green,no,Stayed
+10465,34.0,11.5,48237.0,4.2,51.07699449106619,Finance,contractor,Master,Low,Hybrid,green,no,Stayed
+10994,40.0,0.3,17896.0,3.5,53.20187854921873,HR,permanent,Bachelor,Low,Hybrid,blue,yes,Churned
+10001,29.0,0.3,34636.0,5.0,65.42736367279775,Sales,permanent,Bachelor,Medium,Hybrid,green,yes,Churned
+10317,34.0,0.8,35970.0,3.5,43.70779327152638,Sales,permanent,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10723,42.0,10.6,52228.0,2.4,41.1428620020031,Engineering,permanent,Master,High,On-site,blue,no,Stayed
+10560,22.0,0.4,36905.0,3.5,30.937633799106194,HR,contractor,Bachelor,Medium,Remote,green,no,Stayed
+10372,,9.0,56953.0,3.4,43.21019653536868,Engineering,permanent,Master,Medium,Hybrid,yellow,no,Stayed
+10545,39.0,1.1,37304.0,4.9,38.76121594874406,HR,contractor,High School,High,Hybrid,green,yes,Churned
+10850,31.0,0.5,21635.0,2.1,54.31009692130077,HR,fixed-term,Bachelor,Low,On-site,red,yes,Churned
+10395,22.0,1.6,44572.0,4.8,46.66513719030305,Sales,,Master,High,Remote,yellow,yes,Churned
+10173,51.0,3.6,38560.0,3.9,53.888189102637135,Sales,fixed-term,Bachelor,Low,Hybrid,blue,no,Churned
+10126,38.0,1.6,27929.0,5.0,41.44904525590795,Sales,permanent,Master,Medium,Hybrid,blue,no,Stayed
+10899,27.0,2.6,45165.0,1.9,56.469045232565655,Engineering,permanent,Bachelor,Medium,On-site,green,yes,Churned
+10579,30.0,1.0,35858.0,,43.5883507060315,Sales,fixed-term,Bachelor,Medium,Remote,red,yes,Churned
+10949,27.0,11.7,40775.0,2.8,54.235078740220374,Marketing,permanent,Bachelor,Low,Remote,red,no,Stayed
+10921,28.0,2.8,34646.0,,39.11306589523658,Marketing,fixed-term,Bachelor,High,Remote,blue,no,Stayed
+10091,23.0,1.1,54489.0,5.0,55.98996341684264,Engineering,contractor,Master,Medium,Hybrid,green,no,Stayed
+10971,43.0,0.5,36555.0,4.4,65.92024898576084,HR,permanent,Bachelor,High,Hybrid,red,no,Stayed
+10182,37.0,1.5,46366.0,4.8,55.64789105907648,Engineering,permanent,Bachelor,Medium,Hybrid,blue,no,Stayed
+10364,22.0,1.6,32564.0,4.7,45.10429352969329,Sales,fixed-term,Bachelor,Medium,Hybrid,blue,no,Stayed
+10275,17.0,3.3,37889.0,4.2,62.77856655030514,Sales,permanent,PhD,High,Hybrid,yellow,no,Stayed
+10913,47.0,1.0,34933.0,3.1,61.433615302058286,HR,contractor,Master,Low,Hybrid,green,no,Churned
+10070,22.0,4.1,41673.0,4.7,31.662942323705654,Finance,permanent,Bachelor,Medium,Remote,blue,no,Stayed
+10292,,3.4,51076.0,1.9,44.34741260789596,Engineering,permanent,Bachelor,High,On-site,blue,yes,Churned
+10132,34.0,8.3,61100.0,5.0,51.47820739036527,Engineering,permanent,High School,High,On-site,red,no,Stayed
+10301,29.0,0.3,37190.0,2.1,45.85083721879673,Engineering,permanent,Master,Medium,On-site,blue,no,Stayed
+10448,41.0,1.4,25629.0,2.5,65.28331563486246,Marketing,fixed-term,Bachelor,Medium,Hybrid,green,no,Stayed
+10327,24.0,10.1,42493.0,,50.79047802150279,HR,permanent,Master,High,On-site,yellow,no,Stayed
+10145,44.0,1.9,53635.0,2.2,78.24220426395203,Engineering,permanent,Bachelor,Medium,Remote,red,no,Stayed
+10552,30.0,13.5,47129.0,4.9,63.7448498142756,Marketing,fixed-term,High School,Low,On-site,red,yes,Churned
+10596,32.0,0.8,28896.0,4.2,66.62931447189837,Sales,permanent,Master,Medium,Hybrid,green,no,Stayed
+10656,48.0,4.2,64380.0,3.8,35.417868861812494,Engineering,contractor,Bachelor,Medium,On-site,yellow,yes,Stayed
+10136,22.0,1.5,33801.0,4.5,39.82415222786624,Sales,permanent,Master,Medium,On-site,red,no,Churned
+10431,24.0,1.9,47997.0,3.8,48.58291278298176,Engineering,permanent,Master,Medium,Hybrid,red,no,Stayed
+10165,32.0,3.2,51095.0,2.8,30.645700402861937,Engineering,permanent,,Low,Hybrid,green,no,Stayed
+10029,31.0,6.1,34727.0,5.0,35.92706556507598,HR,permanent,,Medium,Hybrid,green,no,Stayed
+10588,29.0,4.0,47155.0,4.7,58.406067127833836,Engineering,permanent,Master,High,On-site,blue,yes,Stayed
+10194,31.0,0.2,30650.0,2.8,62.892030514068736,HR,fixed-term,Bachelor,Medium,Hybrid,blue,no,Stayed
+10791,25.0,4.5,48659.0,4.5,47.663930390171345,Engineering,permanent,Master,Medium,On-site,green,no,Stayed
+10653,35.0,3.8,31984.0,3.2,50.92627587948923,HR,permanent,Bachelor,,Hybrid,green,no,Stayed
+10170,27.0,0.1,35579.0,2.0,45.14321255424953,HR,permanent,Bachelor,Medium,On-site,blue,no,Stayed
+10514,38.0,8.3,178420.0,2.9,63.38592138295607,Marketing,permanent,Bachelor,High,Hybrid,blue,no,Stayed
+10141,52.0,7.8,46182.0,3.9,65.26812663577266,Finance,fixed-term,Master,Medium,Hybrid,blue,no,Stayed
+10174,31.0,3.1,54021.0,3.0,38.26126673693971,Engineering,permanent,Master,Low,Hybrid,blue,no,Stayed
+10007,32.0,7.4,56777.0,4.3,77.10331644334893,Engineering,fixed-term,Bachelor,High,Hybrid,yellow,yes,Churned
+10657,39.0,4.8,50638.0,3.2,66.3012996487441,Engineering,permanent,Master,Medium,Remote,red,yes,Churned
+10965,30.0,3.8,52163.0,4.1,49.65435760156197,Engineering,permanent,Master,Low,Hybrid,green,yes,Churned
+10074,29.0,0.3,39454.0,5.0,51.918895450216475,Marketing,permanent,Master,Medium,Hybrid,blue,no,Stayed
+10765,49.0,1.2,41310.0,2.4,40.12477037573005,Engineering,permanent,High School,Medium,Hybrid,yellow,no,Stayed
+10654,37.0,0.2,29607.0,2.7,62.42862562858315,Marketing,permanent,High School,Low,Remote,blue,yes,Churned
+10239,38.0,0.2,39930.0,3.4,45.95204620579707,HR,contractor,High School,Medium,Hybrid,blue,yes,Churned
+10146,36.0,9.9,59980.0,2.6,46.457936114912115,HR ,contractor,Master,Medium,Hybrid,green,no,Stayed
+10809,46.0,1.6,34337.0,2.8,53.32081461416811,Sales,permanent,Bachelor,,On-site,red,no,Stayed
+10235,35.0,5.9,58920.0,3.7,44.408361649407915,Engineering,fixed-term,Master,Medium,On-site,green,no,Stayed
+10221,32.0,2.1,41203.0,2.2,35.844759330862935,HR,contractor,Master,Medium,Hybrid,green,no,Churned
+10501,41.0,4.0,36256.0,2.5,50.06381540963315,HR,permanent,Master,Medium,Hybrid,blue,yes,Churned
+10674,32.0,5.8,44481.0,3.3,48.30725561667375,Sales,fixed-term,Bachelor,Low,On-site,green,yes,Churned
+10133,31.0,0.2,43566.0,5.0,35.837311406593926,Engineering,permanent,Bachelor,High,Hybrid,red,no,Stayed
+10812,31.0,2.6,19747.0,3.5,36.37956629145243,Marketing,fixed-term,Master,Medium,Remote,blue,yes,Churned
+10434,41.0,6.8,45497.0,2.2,49.7796992748306,Engineering,fixed-term,Bachelor,Medium,Remote,blue,no,Stayed
+10671,49.0,4.5,52051.0,2.9,52.33865101009247,Engineering,permanent,Master,Medium,Hybrid,red,no,Stayed
+10186,53.0,2.1,36052.0,2.2,50.02231622162402,HR,contractor,PhD,Medium,Hybrid,yellow,no,Churned
+10042,24.0,1.3,35739.0,3.5,47.95644273354352,Sales,fixed-term,Bachelor,High,On-site,blue,yes,Churned
+10626,23.0,0.0,135296.0,,59.55703971113867,Sales,fixed-term,PhD,Medium,Hybrid,yellow,no,Stayed
+10109,28.0,3.7,43302.0,2.9,47.24048548303862,Engineering,fixed-term,Bachelor,Medium,Remote,blue,no,Stayed
+10604,41.0,2.3,46317.0,4.9,57.124817644338044,Engineering,permanent,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10057,51.0,2.5,47465.0,4.5,51.061829194402165,Engineering,fixed-term,Bachelor,Medium,Remote,red,no,Stayed
+10429,22.0,3.4,39542.0,2.6,54.35947629715472,Sales,fixed-term,Bachelor,High,On-site,blue,no,Churned
+10469,28.0,0.8,209864.0,5.0,72.06468979884673,Engineering,contractor,Bachelor,High,Remote,yellow,yes,Stayed
+10577,38.0,3.7,45387.0,4.5,35.75832399812401,marketing,permanent,PhD,Low,Hybrid,blue,yes,Churned
+10878,32.0,3.8,35499.0,2.9,67.52291909122032,HR,permanent,Bachelor,High,Hybrid,green,no,Stayed
+10025,38.0,1.7,44061.0,1.6,50.54051662846001,Sales,contractor,Bachelor,Low,Hybrid,blue,yes,Churned
+10441,28.0,4.9,54460.0,3.0,44.56579570223483,Engineering,contractor,Bachelor,Medium,Remote,red,no,Stayed
+10883,34.0,1.3,40429.0,2.7,52.18718266141488,Engineering,fixed-term,Bachelor,High,Remote,red,no,Stayed
+10544,22.0,0.6,25310.0,3.3,46.11431779508797,HR,permanent,Master,Medium,On-site,green,no,Stayed
+10634,33.0,0.2,38656.0,2.9,45.64098530909567,Sales,fixed-term,Bachelor,Medium,Remote,yellow,no,Stayed
+10831,41.0,12.8,66846.0,2.0,45.98790793455322,Engineering,contractor,Bachelor,Medium,Hybrid,green,no,Stayed
+10945,27.0,3.3,53640.0,2.7,46.57695156550851,Engineering,fixed-term,Master,Low,Hybrid,blue,yes,Churned
+10339,56.0,8.1,49056.0,5.0,50.34333388568835,Sales,permanent,High School,Medium,Hybrid,yellow,yes,Churned
+10052,43.0,1.8,28738.0,3.5,60.15220891814305,Marketing,permanent,Bachelor,Medium,Hybrid,red,no,Stayed
+10384,,2.2,28275.0,2.6,37.310174227455015,Marketing,permanent,Bachelor,Medium,Hybrid,yellow,yes,Churned
+10528,39.0,3.0,41874.0,4.1,52.2909483164638,Engineering,permanent,PhD,High,Remote,red,no,Stayed
+10939,45.0,2.4,49809.0,3.5,53.849664160476344,Engineering,permanent,PhD,Low,Hybrid,red,no,Stayed
+10888,24.0,3.5,61027.0,,57.2651162233606,Engineering,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10265,40.0,4.4,39598.0,2.9,42.92560455187812,Marketing,permanent,Master,High,Hybrid,yellow,no,Stayed
+10550,25.0,2.9,101292.0,4.3,61.35620585491476,Marketing,fixed-term,High School,Medium,Hybrid,green,yes,Churned
+10914,,10.2,43893.0,3.5,51.84858654060365,Sales,permanent,PhD,High,On-site,blue,no,Stayed
+10698,22.0,2.5,40504.0,2.3,40.94202786628853,HR,permanent,Bachelor,Medium,Hybrid,red,no,Churned
+10396,40.0,5.5,42710.0,1.6,58.8525632086596,Finance,fixed-term,Bachelor,High,Remote,blue,no,Stayed
+10530,48.0,0.5,28943.0,5.0,52.68812356412154,Marketing,permanent,PhD,Medium,On-site,yellow,no,Stayed
+10869,43.0,11.7,35213.0,4.5,39.314792459175614,Marketing,permanent,Bachelor,Medium,Hybrid,green,yes,Churned
+10019,28.0,0.6,43631.0,3.0,57.29819362267631,Sales,contractor,High School,Low,On-site,green,no,Stayed
+10732,,5.8,30613.0,3.5,28.37967700072561,Marketing,fixed-term,Bachelor,High,On-site,yellow,no,Stayed
+10679,30.0,5.6,44531.0,1.6,43.72907175227704,Finance,permanent,High School,High,Hybrid,green,no,Stayed
+10582,56.0,6.1,53381.0,2.7,76.98328835937087,Finance,permanent,Master,High,Hybrid,yellow,no,Stayed
+10977,49.0,0.7,28773.0,5.0,52.04797877281917,HR,permanent,Master,,On-site,blue,no,Stayed
+10368,30.0,2.4,51317.0,3.4,61.6257366818784,Finance,contractor,Bachelor,Medium,Hybrid,blue,no,Stayed
+10084,32.0,13.8,65351.0,1.4,46.01716966457452,Engineering,contractor,PhD,Medium,Hybrid,blue,yes,Churned
+10062,17.0,2.8,43827.0,3.0,42.06540270116528,Engineering,contractor,Bachelor,Low,On-site,blue,no,Stayed
+10842,25.0,0.8,24356.0,3.5,54.11357631151439,HR,permanent,Master,Low,Remote,blue,no,Stayed
+10273,35.0,2.7,28530.0,4.2,48.27625042546338,Marketing,fixed-term,Bachelor,Medium,On-site,yellow,yes,Churned
+10286,39.0,0.2,40933.0,3.9,63.448540311806944,Engineering,permanent,Bachelor,Low,Hybrid,blue,no,Stayed
+10361,25.0,4.4,52007.0,,39.49562371244033,Sales,contractor,High School,High,On-site,green,no,Stayed
+10355,,6.6,52444.0,3.2,35.41241607469306,Engineering,permanent,Master,Low,Hybrid,yellow,yes,Churned
+10482,44.0,0.4,31109.0,3.1,56.41541644936012,HR,permanent,Master,Medium,Hybrid,blue,no,Stayed
+10279,22.0,1.6,37620.0,4.8,46.87163526948478,Marketing,permanent,Master,Medium,On-site,blue,no,Stayed
+10013,29.0,0.9,39182.0,1.9,43.687588637592995,Marketing,contractor,PhD,Medium,Hybrid,red,yes,Churned
+10183,38.0,9.5,57688.0,2.8,47.87910330079574,Finance,fixed-term,High School,Medium,Hybrid,yellow,yes,Churned
+10369,,5.6,52885.0,2.6,54.35546318992364,Engineering,permanent,Bachelor,,On-site,blue,yes,Churned
+10600,54.0,0.3,53916.0,3.0,48.750784046764345,Engineering,contractor,High School,Medium,On-site,green,yes,Churned
+10631,43.0,0.2,34732.0,2.7,56.552336285137606,Marketing,fixed-term,Master,High,On-site,yellow,yes,Churned
+10224,43.0,0.6,47768.0,2.8,36.102198568073305,Sales,contractor,Bachelor,Low,Remote,red,no,Churned
+10972,37.0,3.0,42866.0,2.4,44.12262030680102,Finance,fixed-term,Bachelor,Medium,Remote,red,no,Churned
+10715,32.0,2.2,41561.0,1.7,51.88073356991773,Sales,permanent,High School,High,Hybrid,green,no,Stayed
+10778,36.0,2.7,35697.0,2.7,41.618235176684685,Marketing,permanent,,Medium,Hybrid,green,no,Stayed
+10558,23.0,2.1,51014.0,4.5,39.762440522921494,Engineering,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10466,31.0,0.0,34253.0,3.8,59.982176559717296,Sales,permanent,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10598,43.0,12.7,63335.0,3.9,47.56589697432092,Engineering,permanent,Bachelor,Medium,On-site,red,yes,Churned
+10708,33.0,0.2,28834.0,3.4,51.94955092412187,Marketing,permanent,Bachelor,Medium,On-site,blue,no,Stayed
+10177,30.0,0.3,29479.0,2.3,50.855947039445255,HR,fixed-term,Bachelor,Medium,Hybrid,blue,yes,Churned
+10681,26.0,2.4,35077.0,4.6,48.53519329271839,Marketing,permanent,Bachelor,High,On-site,yellow,no,Stayed
+10854,22.0,2.6,25403.0,4.9,56.29739514408738,Marketing,fixed-term,PhD,High,Hybrid,green,no,Stayed
+10955,22.0,7.8,209764.0,,58.71555966288142,Sales,contractor,PhD,Medium,Hybrid,yellow,no,Stayed
+10457,46.0,13.0,62684.0,1.4,55.574085568511855,Engineering,fixed-term,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10533,43.0,2.3,41971.0,3.9,48.1080981872492,Finance,fixed-term,Bachelor,Medium,On-site,green,yes,Churned
+10394,29.0,5.7,37892.0,3.5,49.86026771523927,Marketing,permanent,High School,Medium,On-site,red,yes,Churned
+10164,37.0,3.3,31359.0,3.9,39.87355558556911,Sales,fixed-term,Master,Medium,Hybrid,blue,no,Stayed
+10249,39.0,1.0,50399.0,5.0,50.85513329639599,Finance,contractor,Bachelor,High,Hybrid,yellow,no,Stayed
+10650,37.0,0.2,35601.0,3.9,52.307117490749626,Sales,fixed-term,Bachelor,High,On-site,yellow,no,Stayed
+10903,47.0,0.4,43513.0,4.5,65.1541381534821,Engineering,fixed-term,High School,High,On-site,red,yes,Churned
+10685,28.0,3.1,45543.0,5.0,44.21787901780246,Finance,permanent,Bachelor,Medium,Hybrid,blue,no,Stayed
+10376,46.0,9.1,59234.0,3.1,30.19163529077366,Sales,contractor,Bachelor,High,Hybrid,red,yes,Churned
+10413,39.0,4.7,45557.0,3.5,35.53501796459312,Finance,permanent,Bachelor,,Hybrid,green,yes,Churned
+10075,30.0,1.3,45446.0,2.6,48.39440390498203,Marketing,contractor,Master,Medium,Hybrid,red,no,Stayed
+10114,37.0,4.0,24180.0,2.6,46.04716451983819,Marketing,permanent,Master,Low,On-site,yellow,no,Stayed
+10584,46.0,1.6,39959.0,1.6,41.490249193184354,Sales,permanent,Bachelor,High,Hybrid,red,no,Stayed
+10573,33.0,9.6,153942.0,3.0,42.784309176599706,Sales,fixed-term,Bachelor,High,On-site,red,yes,Churned
+10391,43.0,1.7,41468.0,3.1,61.40250552671205,Finance,permanent,Bachelor,Medium,On-site,blue,no,Stayed
+10105,42.0,5.4,55402.0,3.9,52.17718201087167,Finance,contractor,Master,Medium,On-site,yellow,no,Stayed
+10115,50.0,3.3,37565.0,5.0,65.92964096027382,HR,permanent,Master,Low,Hybrid,yellow,yes,Churned
+10418,42.0,0.3,33501.0,1.0,66.64641821966275,Sales,permanent,High School,Medium,On-site,blue,yes,Churned
+10669,,6.7,57440.0,3.9,56.76357047674908,Engineering,permanent,Master,Low,Hybrid,green,no,Stayed
+10458,44.0,6.6,48756.0,5.0,56.3221631403185,Sales,fixed-term,Master,Medium,On-site,green,no,Stayed
+10410,35.0,1.1,59099.0,4.9,53.46312710224887,Engineering,contractor,Bachelor,Low,Hybrid,green,yes,Churned
+10093,27.0,2.4,27306.0,2.6,45.05809976933087,Marketing,fixed-term,Bachelor,Medium,Hybrid,blue,yes,Churned
+10820,42.0,10.3,50269.0,5.0,46.88324114234766,Sales,permanent,Bachelor,Medium,On-site,blue,yes,Churned
+10090,22.0,2.5,36674.0,3.0,52.34259264456765,Sales,permanent,Bachelor,Medium,On-site,yellow,no,Stayed
+10337,34.0,11.0,39022.0,3.1,61.6441174053527,Marketing,permanent,Bachelor,High,Hybrid,blue,no,Stayed
+10860,34.0,2.5,49346.0,3.7,47.90624386688087,Engineering,fixed-term,Bachelor,High,Remote,yellow,no,Stayed
+10940,49.0,0.7,34353.0,3.5,57.9856667311059,HR,permanent,High School,Medium,Remote,blue,no,Stayed
+10952,34.0,1.4,33020.0,2.7,51.02541439817522,HR,permanent,Master,High,On-site,red,no,Stayed
+10884,37.0,6.9,64263.0,3.1,48.331852593016066,Engineering,fixed-term,High School,Medium,On-site,green,no,Stayed
+10621,26.0,10.6,71620.0,2.6,34.92774179616062,Engineering,permanent,Master,Medium,Remote,yellow,no,Stayed
+10790,35.0,2.9,45177.0,4.2,61.2884748754939,Finance,permanent,PhD,High,Hybrid,red,yes,Churned
+10627,,1.5,47529.0,3.8,49.432114041137226,Sales,permanent,High School,Low,Hybrid,red,no,Stayed
+10095,40.0,1.8,29176.0,4.2,59.62502591953299,Marketing,permanent,Bachelor,Low,Hybrid,green,no,Churned
+10012,41.0,5.0,196148.0,3.1,48.594465144975686,Finance,contractor,High School,Medium,Hybrid,yellow,no,Stayed
+10397,22.0,0.7,36699.0,3.5,58.79014154557007,Marketing,permanent,Bachelor,High,On-site,blue,yes,Churned
+10546,29.0,10.8,48383.0,2.8,53.78046260427883,Sales,permanent,Bachelor,Low,Remote,blue,yes,Churned
+10044,22.0,10.8,48780.0,2.3,54.44145171087257,Finance,fixed-term,High School,Medium,Hybrid,green,no,Stayed
+10043,37.0,1.3,50048.0,1.3,47.09558517988851,Engineering,permanent,Bachelor,Low,Hybrid,green,no,Stayed
+10168,37.0,3.0,54008.0,2.4,48.7941281152653,Engineering,permanent,High School,Low,On-site,yellow,yes,Churned
+10417,41.0,3.1,49038.0,4.1,56.27680417874475,Engineering,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10877,41.0,2.3,28711.0,2.6,35.78650054681453,Marketing,permanent,Bachelor,Low,Hybrid,yellow,no,Stayed
+10427,28.0,6.6,42127.0,4.7,51.82098245815862,Sales,permanent,High School,Medium,On-site,yellow,no,Stayed
+10900,36.0,8.7,57640.0,,43.15559597913818,Engineering,fixed-term,High School,High,Remote,blue,yes,Churned
+10981,41.0,1.2,41803.0,3.8,48.88152895913687,Sales,permanent,Bachelor,High,Remote,red,no,Stayed
+10976,31.0,7.9,56665.0,3.2,56.635978685607625,Engineering,contractor,High School,High,Hybrid,green,no,Stayed
+10688,39.0,12.5,67379.0,2.6,50.92935652682978,Engineering,permanent,Bachelor,Medium,On-site,yellow,no,Stayed
+10258,41.0,7.4,39085.0,5.0,46.47912252546119,HR,permanent,Bachelor,Medium,Hybrid,yellow,yes,Churned
+10336,25.0,3.1,47355.0,2.6,50.903097992064346,Engineering,fixed-term,Bachelor,Medium,On-site,yellow,yes,Stayed
+10016,33.0,2.3,57594.0,2.6,41.90109900910592,Engineering,contractor,Bachelor,Medium,On-site,blue,no,Stayed
+10645,45.0,1.9,46422.0,4.0,48.15710998167288,Engineering,permanent,High School,,Hybrid,green,yes,Churned
+10325,38.0,0.5,50306.0,3.6,44.62021471178045,Finance,contractor,Master,High,Remote,red,no,Stayed
+10775,59.0,5.2,166268.0,2.8,36.27590262438693,Marketing,fixed-term,Bachelor,Medium,Hybrid,green,no,Stayed
+10223,31.0,13.5,57617.0,2.0,47.296286008642085,Engineering,,High School,Low,Remote,blue,yes,Churned
+10180,34.0,23.0,68093.0,2.6,57.831598877770105,Engineering,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10661,51.0,2.2,27931.0,4.8,53.959142209580456,Sales,fixed-term,Bachelor,Medium,Hybrid,red,no,Churned
+10522,47.0,1.5,43011.0,2.8,39.43888430812913,Sales,contractor,High School,Medium,Hybrid,blue,yes,Churned
+10023,29.0,8.1,69675.0,3.2,58.10027238506116,Engineering,contractor,PhD,Medium,Hybrid,blue,no,Stayed
+10357,25.0,3.2,55288.0,3.6,30.1531205855409,Engineering,contractor,PhD,Medium,On-site,red,yes,Churned
+10962,31.0,3.1,30205.0,2.9,52.01738654796044,HR,permanent,Bachelor,Medium,On-site,green,no,Stayed
+10906,30.0,5.9,35112.0,3.1,38.32242584100079,Marketing,permanent,High School,Medium,On-site,red,no,Stayed
+10341,47.0,1.1,39202.0,,59.47511908575567,Sales,permanent,Master,High,Hybrid,blue,no,Churned
+10432,36.0,1.4,36038.0,3.4,58.77826031239126,Marketing,permanent,Master,High,Hybrid,blue,no,Stayed
+10774,35.0,1.9,38430.0,3.6,47.36838727940173,Sales,contractor,Bachelor,Medium,Remote,blue,yes,Churned
+10851,34.0,3.1,47280.0,4.7,51.73947208412811,Engineering,permanent,Master,Medium,Remote,red,no,Churned
+10204,22.0,10.3,30790.0,3.5,63.60168130828013,Marketing,permanent,High School,High,Remote,red,no,Stayed
+10918,34.0,3.7,39757.0,5.0,47.79434059732686,Finance,permanent,Master,Medium,Hybrid,red,no,Stayed
+10094,45.0,3.5,40185.0,4.1,52.838445673027366,HR,permanent,Bachelor,High,Remote,blue,no,Stayed
+10571,29.0,0.5,34492.0,2.8,64.53840237121885,Sales,permanent,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10069,35.0,1.1,48871.0,3.2,51.44310019435079,Engineering,permanent,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10755,40.0,0.2,56756.0,3.2,69.83704135478752,Engineering,contractor,PhD,Medium,Remote,blue,yes,Churned
+10285,54.0,1.8,34555.0,3.2,46.2261348253779,HR,permanent,High School,Medium,Hybrid,red,no,Churned
+10928,30.0,11.8,56841.0,1.4,66.47877605783674,Sales,permanent,PhD,Medium,On-site,red,yes,Churned
+10435,22.0,10.6,65617.0,2.8,32.31868967293282,Engineering,permanent,PhD,Medium,On-site,green,no,Stayed
+10154,,0.7,28338.0,3.3,49.42938708568844,Sales,fixed-term,Master,Medium,Hybrid,red,no,Churned
+10076,42.0,15.6,49404.0,3.4,44.44713897398964,Marketing,permanent,Master,High,Hybrid,yellow,no,Stayed
+10747,22.0,1.8,42346.0,1.3,51.52525882897616,Sales,permanent,Bachelor,Medium,On-site,blue,no,Stayed
+10447,36.0,1.0,40415.0,4.7,66.00097846820478,Finance,fixed-term,Bachelor,High,On-site,blue,no,Stayed
+10189,33.0,1.2,39669.0,5.0,43.1088820227821,Sales,,Master,High,Hybrid,yellow,yes,Stayed
+10272,22.0,1.3,36405.0,1.7,44.96349739624404,Marketing,contractor,Bachelor,Low,Remote,green,no,Stayed
+10237,53.0,7.7,66496.0,2.9,60.30249693969567,Engineering,contractor,Master,Medium,On-site,green,no,Stayed
+10488,30.0,1.4,40697.0,5.0,29.525628142292497,Engineering,fixed-term,Master,Low,Hybrid,red,no,Stayed
+10118,33.0,3.3,51988.0,4.0,50.697042694292804,Engineering,contractor,Master,Low,Hybrid,blue,no,Stayed
+10836,47.0,1.1,39856.0,1.8,50.18252460856113,Sales,fixed-term,PhD,Medium,On-site,blue,no,Churned
+10513,48.0,5.2,60903.0,2.6,48.261261796854136,Finance,contractor,Bachelor,High,On-site,blue,no,Stayed
+10077,30.0,3.6,22799.0,,54.279626265526346,Marketing,permanent,Bachelor,High,Hybrid,yellow,no,Stayed
+10686,28.0,4.5,39999.0,1.7,52.95140979337417,HR,contractor,High School,Medium,Hybrid,red,no,Stayed
+10127,23.0,2.3,21642.0,3.7,37.93977628591881,Marketing,permanent,Master,Medium,Hybrid,green,no,Stayed
+10117,45.0,1.3,46196.0,3.6,41.084565101454956,Marketing,permanent,Bachelor,Medium,Remote,blue,no,Stayed
+10474,41.0,20.9,64417.0,2.7,41.98516078168993,Marketing,permanent,Master,Medium,Hybrid,red,no,Stayed
+10709,33.0,0.9,48607.0,2.0,49.75870889545027,Engineering,fixed-term,High School,Medium,Remote,red,no,Churned
+10058,39.0,0.2,54951.0,2.4,43.62191307140064,Engineering,permanent,Bachelor,Low,On-site,blue,no,Stayed
+10690,30.0,2.0,46255.0,3.3,44.899360499039176,Engineering,fixed-term,Bachelor,,Remote,blue,yes,Churned
+10930,49.0,0.6,47215.0,2.7,51.26312514586999,Engineering,permanent,Bachelor,Low,Remote,yellow,yes,Churned
+10370,22.0,6.3,48970.0,2.1,51.66485272577147,Engineering,permanent,Master,Medium,On-site,blue,no,Stayed
+10269,32.0,0.8,38300.0,3.5,66.52913051230422,Sales,fixed-term,Bachelor,Medium,Remote,red,no,Churned
+10047,,4.2,42300.0,4.4,60.40057890793389,Sales,permanent,High School,Medium,Hybrid,green,yes,Stayed
+10350,31.0,2.1,39203.0,3.3,63.342291941726906,HR,permanent,High School,Medium,Hybrid,red,yes,Stayed
+10196,38.0,0.3,39056.0,2.2,56.00733015145592,Sales,contractor,Bachelor,Medium,On-site,blue,no,Churned
+10320,32.0,1.4,42375.0,,50.838725017609335,Engineering,permanent,Bachelor,High,Hybrid,green,yes,Churned
+10852,38.0,8.5,41425.0,,43.81824957899831,Marketing,fixed-term,Bachelor,Low,Hybrid,blue,no,Stayed
+10707,22.0,5.9,35353.0,2.7,51.57634558440944,Sales,fixed-term,High School,Medium,Hybrid,red,no,Stayed
+10753,33.0,3.7,30010.0,2.9,69.12688134356796,HR,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10264,29.0,1.2,39034.0,4.6,59.08022662536192,Sales,permanent,Bachelor,Low,Hybrid,red,no,Stayed
+10444,31.0,2.1,30918.0,4.1,42.158361416401675,Sales,permanent,Master,High,Hybrid,blue,no,Stayed
+10959,31.0,0.0,36223.0,3.3,70.37210639718359,Engineering,fixed-term,Bachelor,Low,On-site,red,no,Churned
+10305,37.0,10.1,34986.0,5.0,46.73386219338787,Marketing,fixed-term,PhD,Medium,Remote,green,no,Stayed
+10342,45.0,0.1,27577.0,,56.7469497780862,Sales,permanent,High School,Medium,On-site,yellow,yes,Churned
+10614,32.0,10.7,57015.0,2.6,36.69773744358662,Engineering,permanent,Master,High,On-site,red,no,Stayed
+10987,22.0,5.1,41362.0,2.8,56.443105001082,HR,fixed-term,High School,Low,Hybrid,yellow,yes,Churned
+10150,49.0,2.5,57606.0,1.9,53.99044140646526,Engineering,contractor,Master,Medium,Hybrid,yellow,yes,Churned
+10125,37.0,2.8,41452.0,3.5,39.9937062751676,Engineering,fixed-term,PhD,Medium,Hybrid,green,no,Stayed
+10803,51.0,2.8,41062.0,3.6,54.800636179041035,HR,permanent,PhD,High,Remote,blue,no,Stayed
+10870,22.0,0.6,49425.0,3.8,53.454141816438536,Finance,fixed-term,Bachelor,Low,Remote,green,yes,Churned
+10051,22.0,3.2,45677.0,4.7,46.138872239138585,Finance,contractor,Bachelor,Medium,Remote,blue,no,Churned
+10354,22.0,0.8,46630.0,2.8,57.77596061792272,Engineering,fixed-term,Master,Medium,Remote,green,yes,Churned
+10946,51.0,5.0,54885.0,2.8,59.02091311588268,Engineering,permanent,High School,Low,Remote,blue,no,Stayed
+10143,48.0,0.9,37882.0,2.2,78.65212023085962,Sales,fixed-term,Master,Medium,On-site,red,yes,Churned
+10471,24.0,3.4,46319.0,3.6,11.633444515406303,Engineering,permanent,Bachelor,Low,Remote,red,no,Stayed
+10400,37.0,6.6,30645.0,4.8,52.812116825840654,Marketing,fixed-term,Master,Medium,On-site,red,no,Churned
+10717,37.0,0.7,27010.0,4.3,56.65334534508875,Marketing,permanent,Master,Medium,Hybrid,yellow,no,Stayed
+10321,43.0,1.9,44166.0,4.5,39.19592670721498,Sales,permanent,PhD,Medium,Hybrid,yellow,no,Stayed
+10020,54.0,2.0,42518.0,3.3,63.91920887679919,Engineering,permanent,Master,High,On-site,red,no,Stayed
+10827,45.0,1.1,35779.0,4.8,46.47546268362258,Sales ,permanent,Master,Medium,Hybrid,yellow,no,Stayed
+10807,26.0,3.3,39205.0,3.1,56.38543317267599,Finance,fixed-term,Master,Medium,On-site,yellow,no,Stayed
+10826,32.0,0.2,33226.0,3.8,51.8125394834505,Finance,permanent,Master,Low,On-site,green,yes,Stayed
+10408,29.0,3.0,45744.0,2.9,56.04107455439044,Engineering,fixed-term,Bachelor,High,On-site,blue,no,Stayed
+10538,46.0,1.5,51644.0,3.6,39.32277422961455,Engineering,fixed-term,High School,Medium,Hybrid,yellow,yes,Churned
+10636,53.0,6.5,51737.0,4.3,53.516623549740586,Sales,permanent,Master,Medium,Remote,red,no,Stayed
+10039,49.0,1.8,33185.0,5.0,56.93823453859102,HR,permanent,Bachelor,Low,Hybrid,blue,no,Stayed
+10176,22.0,2.6,46180.0,3.8,49.28879709169664,Engineering,permanent,Master,Low,Remote,blue,no,Stayed
+10246,28.0,5.2,43047.0,3.5,53.209300619256574,Finance,fixed-term,Bachelor,Low,Remote,yellow,no,Churned
+10846,28.0,0.3,41140.0,2.1,54.058240866738146,Sales,permanent,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10683,39.0,6.8,44141.0,3.3,39.42163381389766,Engineering,fixed-term,High School,High,Remote,green,yes,Churned
+10771,39.0,4.2,56176.0,5.0,75.05448905356894,Engineering,permanent,High School,Medium,On-site,green,no,Stayed
+10969,30.0,6.8,32511.0,3.9,48.96187515597033,HR,permanent,PhD,Medium,Remote,green,no,Stayed
+10155,41.0,11.8,46766.0,3.7,51.41595786739883,Finance,fixed-term,High School,Medium,On-site,yellow,no,Stayed
+10288,35.0,12.4,50852.0,,42.59767747451291,Sales,permanent,Bachelor,High,Hybrid,blue,no,Stayed
+10618,42.0,2.9,54844.0,2.2,53.16067869729951,Engineering,fixed-term,Bachelor,High,Remote,blue,no,Stayed
+10570,46.0,0.7,32911.0,4.6,60.326575166220124,Sales,permanent,PhD,High,Remote,blue,no,Stayed
+10760,22.0,1.3,38165.0,4.3,42.765133775802,Marketing,permanent,High School,High,Remote,blue,no,Stayed
+10018,37.0,2.4,38891.0,4.0,52.93352036322983,Sales,permanent,Master,Medium,Remote,red,no,Stayed
+10128,46.0,7.8,36770.0,3.2,41.14029266102223,Marketing,permanent,Bachelor,Low,Remote,green,no,Stayed
+10323,34.0,5.5,42784.0,4.6,45.76309283089324,HR,contractor,Master,High,Hybrid,blue,no,Stayed
+10256,22.0,7.2,35794.0,2.9,41.592281101013754,HR,permanent,Bachelor,,Hybrid,green,yes,Churned
+10689,22.0,3.0,36057.0,3.5,44.50075167535654,Marketing,fixed-term,,Low,Hybrid,green,no,Stayed
+10985,31.0,0.2,20424.0,4.8,61.077210959824484,Marketing,permanent,Bachelor,High,Hybrid,yellow,no,Stayed
+10191,46.0,11.9,65541.0,3.8,63.10605912813463,Engineering,permanent,Bachelor,Medium,Hybrid,red,no,Stayed
+10116,39.0,5.4,33754.0,3.9,64.65210503481381,Marketing,permanent,Bachelor,High,Hybrid,blue,no,Stayed
+10632,29.0,4.1,40544.0,4.2,52.56997445585831,Marketing,permanent,Master,Low,Hybrid,yellow,no,Stayed
+10607,39.0,5.9,55535.0,3.5,40.29728674091761,Engineering,permanent,High School,High,Remote,green,no,Stayed
+10181,45.0,2.3,48289.0,,53.350543519121715,Sales,contractor,Bachelor,Low,Hybrid,green,yes,Churned
+10302,42.0,8.5,51076.0,3.0,65.01952965188596,Sales,contractor,Bachelor,High,Remote,red,yes,Churned
+10941,26.0,1.2,47644.0,4.2,61.20936512406246,Engineering,permanent,Bachelor,High,Hybrid,blue,no,Stayed
+10729,42.0,0.2,41749.0,2.9,41.3557329466428,Engineering,fixed-term,Bachelor,Low,Hybrid,green,yes,Churned
+10740,29.0,6.6,39603.0,4.1,44.34062869107595,Sales,permanent,High School,Medium,Hybrid,yellow,no,Stayed
+10974,37.0,0.2,38242.0,4.5,56.38186998848573,Engineering,permanent,Master,Medium,Hybrid,green,yes,Churned
+10788,35.0,9.7,47362.0,3.3,62.884336225033884,Sales,fixed-term,Bachelor,Medium,Remote,blue,no,Stayed
+10518,42.0,3.2,45052.0,3.5,46.00173265713474,Marketing,contractor,Bachelor,Medium,Remote,red,no,Stayed
+10412,22.0,1.5,41570.0,3.9,42.65838133878986,Finance,permanent,High School,Low,On-site,red,no,Stayed
+10046,30.0,3.4,27566.0,4.3,56.02473436282364,HR,fixed-term,Master,Medium,Hybrid,red,no,Stayed
+10927,36.0,10.8,51614.0,5.0,46.44065082913029,Engineering,,Master,Medium,Hybrid,red,no,Stayed
+10158,36.0,3.6,38149.0,5.0,33.447752878105675,Marketing,contractor,Bachelor,,Remote,yellow,yes,Churned
+10761,,3.5,49740.0,3.2,62.66661253198412,Engineering,permanent,High School,Low,Hybrid,blue,no,Stayed
+10172,22.0,0.1,40509.0,,38.74813898268838,Engineering,contractor,High School,Medium,Remote,green,yes,Churned
+10017,46.0,13.6,49401.0,2.5,64.19035611367264,Sales,permanent,Bachelor,Medium,Remote,blue,yes,Stayed
+10512,38.0,1.5,32104.0,3.1,49.89647710092263,Sales,fixed-term,Master,Low,Hybrid,green,no,Stayed
+10049,22.0,3.9,47826.0,4.3,47.72229020876365,Sales,contractor,Bachelor,Medium,Remote,red,no,Stayed
+10992,46.0,0.0,35432.0,4.9,51.92004236968677,HR,permanent,Master,Medium,Hybrid,red,no,Stayed
+10858,42.0,11.6,47620.0,4.3,28.58569119680295,Sales,permanent,High School,Medium,Remote,blue,no,Stayed
+10516,22.0,6.5,55289.0,2.9,36.503947442880715,Engineering,permanent,PhD,High,Hybrid,red,no,Churned
+10912,36.0,5.9,69063.0,3.6,42.295752008621214,Engineering,contractor,High School,Medium,Hybrid,red,yes,Churned
+10481,48.0,1.5,36719.0,5.0,56.22944030413308,HR,fixed-term,Bachelor,Low,On-site,blue,no,Stayed
+10284,40.0,5.0,56471.0,4.2,49.44147817347189,Engineering,permanent,High School,High,On-site,yellow,yes,Churned
+10735,42.0,3.1,32681.0,5.0,59.88608793499175,Sales,permanent,PhD,Medium,Hybrid,blue,no,Stayed
+10670,22.0,8.1,47551.0,4.9,49.623128792577624,Engineering,fixed-term,Bachelor,Medium,Hybrid,blue,no,Stayed
+10226,33.0,0.1,49411.0,1.7,70.9940752050251,Engineering,fixed-term,Bachelor,High,Hybrid,green,yes,Churned
+10027,55.0,5.2,62092.0,3.8,40.439414483166054,Engineering,contractor,Master,High,Hybrid,red,no,Stayed
+10799,40.0,1.8,32258.0,2.0,60.103793132832635,HR,permanent,PhD,,On-site,green,no,Stayed
+10438,27.0,9.3,40390.0,3.4,57.226748248882984,Marketing,fixed-term,Bachelor,Medium,Hybrid,blue,yes,Churned
+10970,48.0,9.4,42161.0,4.4,38.19539514767918,Sales,permanent,Bachelor,Medium,Hybrid,red,no,Stayed
+10365,29.0,9.5,51761.0,4.2,50.41895921154276,Finance,fixed-term,Bachelor,High,On-site,yellow,no,Stayed
+10230,33.0,0.3,40629.0,3.6,46.19544095833649,HR,permanent,Bachelor,Medium,On-site,green,yes,Churned
+10038,,6.6,52520.0,3.8,32.75938189131965,Engineering,fixed-term,Bachelor,,Hybrid,blue,no,Stayed
+10986,37.0,0.2,37544.0,,55.66602148392725,Sales,permanent,PhD,High,On-site,blue,no,Stayed
+10375,24.0,9.2,51563.0,4.1,38.42584209784566,Engineering,permanent,Master,High,Hybrid,yellow,no,Stayed
+10470,34.0,0.5,38809.0,2.0,50.79649582613925,Finance,fixed-term,Bachelor,Low,Remote,yellow,yes,Churned
+10988,34.0,2.4,37475.0,4.7,51.46475611653318,Sales,permanent,Bachelor,Medium,Hybrid,blue,yes,Stayed
+10868,31.0,0.5,42561.0,2.4,60.48116759269155,Engineering,permanent,Master,Medium,On-site,blue,yes,Churned
+10909,22.0,1.1,44334.0,4.9,55.09295323642008,Engineering,permanent,Bachelor,Medium,Hybrid,green,yes,Churned
+10742,28.0,0.9,34507.0,3.2,65.37551319034344,Sales,fixed-term,Bachelor,High,On-site,red,yes,Churned
+10195,34.0,3.1,29958.0,1.5,46.81841498382071,Sales,permanent,High School,Medium,Hybrid,blue,no,Stayed
+10935,95.0,1.2,42840.0,4.4,46.75142073501454,Engineering,fixed-term,Master,Medium,Hybrid,yellow,no,Stayed
+10882,35.0,8.8,53373.0,1.0,55.81723364970506,HR,contractor,Master,Medium,Hybrid,green,yes,Churned
+10504,27.0,1.4,19241.0,4.2,44.21015780060095,Marketing,permanent,PhD,Low,On-site,green,yes,Churned
+10990,22.0,0.8,35259.0,,41.99409657651894,Marketing,fixed-term,Master,High,Hybrid,blue,yes,Churned
+10848,33.0,3.4,39041.0,3.5,40.13057263498443,Finance,permanent,Bachelor,Medium,On-site,red,no,Stayed
+10580,46.0,10.7,57984.0,,47.349350031114206,Engineering,permanent,Master,Medium,Hybrid,yellow,no,Stayed
+10989,46.0,1.2,55163.0,3.2,55.23323782728588,Engineering,permanent,Master,Medium,Hybrid,blue,no,Stayed
+10163,34.0,6.0,30205.0,2.3,38.058133485881555,HR,permanent,Bachelor,Medium,Hybrid,green,yes,Churned
+10718,27.0,0.1,37814.0,3.0,72.09605576042378,Finance,fixed-term,PhD,Low,Remote,green,yes,Churned
+10153,47.0,2.3,51121.0,2.8,62.85582234361679,Engineering,fixed-term,Master,Medium,Hybrid,red,no,Stayed
+10697,22.0,4.3,46088.0,3.2,58.30498133985952,Engineering,permanent,Master,High,Hybrid,red,no,Churned
+10716,26.0,2.5,46510.0,5.0,41.48819517552515,Finance,contractor,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10929,,1.8,31603.0,,50.68322129939818,HR,fixed-term,Master,Medium,Hybrid,red,no,Stayed
+10112,37.0,1.1,40337.0,2.9,45.52122355068042,Engineering,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10227,45.0,1.0,40584.0,3.6,49.587518710207966,Finance,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10704,51.0,2.3,41063.0,2.6,57.410169513364494,Engineering,permanent,High School,High,Hybrid,yellow,no,Stayed
+10104,31.0,0.2,47343.0,3.6,47.29732395636111,Sales,contractor,Master,Medium,On-site,green,no,Churned
+10422,47.0,6.5,33381.0,4.2,44.55703853685708,Marketing,permanent,High School,Medium,Remote,yellow,no,Stayed
+10420,27.0,1.0,40488.0,2.8,44.412004279376596,Marketing,contractor,Bachelor,Low,On-site,green,yes,Churned
+10849,32.0,9.5,55669.0,2.9,27.442086689052523,Sales,contractor,,Medium,Hybrid,yellow,no,Stayed
+10587,34.0,9.6,68143.0,2.6,48.12272976420116,Engineering,fixed-term,High School,,Hybrid,green,no,Stayed
+10797,22.0,0.7,39143.0,4.5,46.760911467840785,Finance,fixed-term,High School,Medium,On-site,red,no,Stayed
+10673,36.0,3.3,55132.0,3.4,56.25318334021503,Engineering,contractor,Master,Medium,Hybrid,green,no,Stayed
+10120,38.0,2.1,34693.0,2.5,46.73352436811388,Sales,permanent,Master,Medium,Hybrid,red,yes,Churned
+10054,35.0,0.9,41571.0,3.2,76.0685916314977,Marketing,fixed-term,PhD,Medium,Hybrid,blue,no,Stayed
+10152,37.0,1.2,53402.0,3.5,47.61247397936566,Engineering,fixed-term,Bachelor,Medium,On-site,yellow,no,Stayed
+10404,35.0,7.8,39534.0,3.6,68.32561240356013,Marketing,fixed-term,Bachelor,Medium,Hybrid,green,yes,Churned
+10964,44.0,2.6,40452.0,3.3,48.80441243373604,HR ,permanent,PhD,Medium,Hybrid,yellow,no,Stayed
+10208,37.0,0.5,22697.0,3.0,74.18777779313464,HR,permanent,Master,Medium,Hybrid,yellow,no,Stayed
+10659,33.0,1.5,36013.0,3.9,44.107462692049324,HR,permanent,Bachelor,Medium,On-site,green,no,Stayed
+10884,37.0,6.9,64263.0,3.1,48.331852593016066,Engineering,fixed-term,High School,Medium,On-site,green,no,Stayed
+10779,45.0,8.4,33964.0,2.7,43.99661340993513,Marketing,permanent,,Medium,On-site,red,no,Stayed
+10009,40.0,7.0,35259.0,5.0,52.10008308022589,HR,permanent,High School,Medium,Hybrid,yellow,no,Stayed
+10825,23.0,7.2,42237.0,4.4,59.42938619897234,Sales,fixed-term,Bachelor,Medium,Hybrid,yellow,yes,Churned
+10037,41.0,3.0,41732.0,5.0,75.98822900074582,Sales,permanent,High School,Medium,Remote,red,no,Stayed
+10453,43.0,3.6,38674.0,4.2,49.981712411558995,Sales,contractor,Bachelor,Medium,Remote,green,no,Stayed
+10652,22.0,3.3,31768.0,3.9,53.06347533932023,Sales,permanent,Bachelor,Medium,Hybrid,red,no,Stayed
+10254,,26.2,68405.0,2.8,68.89278795503996,Sales,permanent,Master,Low,Hybrid,red,no,Stayed
+10304,22.0,4.9,31426.0,2.5,57.85345603010283,HR,permanent,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10763,41.0,2.4,52670.0,2.9,48.86841505543916,Engineering,permanent,Master,Medium,Hybrid,red,no,Stayed
+10572,26.0,0.4,23275.0,3.0,45.20035357287791,Marketing,permanent,PhD,Medium,Hybrid,blue,no,Stayed
+10624,29.0,9.1,57592.0,4.7,57.704635956872266,Sales,contractor,PhD,High,Hybrid,blue,no,Churned
+10859,40.0,1.3,27160.0,3.9,43.00399191297636,HR,fixed-term,High School,Medium,Remote,green,no,Stayed
+10759,25.0,4.4,37291.0,3.8,55.71141242038074,Marketing,permanent,Master,Medium,Hybrid,green,no,Stayed
+10263,36.0,0.3,40368.0,4.4,66.38960527599833,Engineering,permanent,Master,Medium,Hybrid,yellow,yes,Churned
+10611,44.0,1.6,50291.0,2.9,50.87391428920122,Engineering,contractor,Master,Medium,Hybrid,green,no,Stayed
+10298,34.0,2.2,40107.0,2.4,50.599052567964385,Engineering,permanent,High School,Low,On-site,green,no,Stayed
+10415,37.0,1.9,35234.0,3.8,60.84500530290926,HR,permanent,Bachelor,High,Hybrid,green,yes,Stayed
+10151,34.0,0.2,28222.0,3.7,36.799228122626985,Finance,fixed-term,Bachelor,Medium,On-site,red,no,Stayed
+10862,28.0,0.7,29951.0,4.1,33.635969807935155,Sales,fixed-term,Bachelor,Medium,Remote,red,yes,Churned
+10641,35.0,0.9,44785.0,3.7,46.13977202129302,Engineering,permanent,Bachelor,Medium,Remote,red,no,Stayed
+10907,29.0,0.9,40992.0,2.4,62.746838496794865,FINANCE,contractor,PhD,Medium,Remote,blue,yes,Churned
+10551,29.0,14.8,61327.0,2.7,46.833204540657505,Sales,contractor,Bachelor,High,Remote,yellow,yes,Churned
+10808,36.0,5.4,49960.0,1.4,66.9762377970934,Finance,permanent,Bachelor,Medium,Remote,red,yes,Stayed
+10489,22.0,1.3,40232.0,2.4,47.79271243041634,Finance,permanent,Bachelor,Low,Hybrid,green,no,Churned
+10711,,10.9,33582.0,5.0,42.04344866174193,Marketing,permanent,Master,Low,Hybrid,red,no,Stayed
+10148,31.0,2.8,40264.0,2.8,53.27072374877845,Sales,fixed-term,Bachelor,Medium,Hybrid,red,yes,Churned
+10147,46.0,5.7,28751.0,4.1,44.07534544619486,HR,fixed-term,Bachelor,High,On-site,red,no,Stayed
+10737,44.0,1.1,32071.0,3.2,56.03713240544196,Sales,permanent,PhD,,Hybrid,blue,no,Churned
+10950,23.0,1.1,28571.0,2.6,33.95294990202188,HR,permanent,,Medium,Remote,red,no,Stayed
+10756,48.0,16.6,62412.0,2.9,57.57176821102023,Marketing,fixed-term,Bachelor,Low,Remote,yellow,no,Stayed
+10660,44.0,0.4,34255.0,4.3,37.46598281704981,HR,permanent,Master,High,Hybrid,green,yes,Churned
+10349,40.0,0.5,36917.0,4.1,53.590550934803666,Sales,contractor,Bachelor,Medium,Remote,blue,no,Stayed
+10464,43.0,3.3,38748.0,4.5,50.911248672533766,HR,fixed-term,Bachelor,Medium,On-site,blue,no,Stayed
+10326,22.0,1.2,38941.0,1.8,54.66444596840261,Marketing,permanent,PhD,High,Remote,green,no,Stayed
+10187,28.0,0.2,34229.0,2.4,47.253562506337026,Marketing,fixed-term,Master,Medium,On-site,red,no,Stayed
+10124,,1.3,41667.0,1.8,55.413212940082786,Engineering,fixed-term,Bachelor,Medium,Remote,red,yes,Churned
+10871,42.0,6.0,35753.0,3.4,46.15818334293024,Sales,fixed-term,Master,Medium,Hybrid,red,no,Churned
+10609,17.0,5.8,42655.0,3.5,51.48780634807305,Sales,permanent,Master,High,Remote,blue,yes,Churned
+10144,33.0,2.2,33087.0,3.0,40.98007350556803,Sales,permanent,Bachelor,Medium,Remote,red,no,Stayed
+10979,52.0,7.7,59551.0,,64.14840662825554,Sales,contractor,Master,Low,On-site,red,yes,Churned
+10198,35.0,5.8,45793.0,2.4,51.41979913874005,Marketing,contractor,Master,High,On-site,green,yes,Churned
+10610,43.0,0.9,30854.0,4.7,48.28743695175066,HR,permanent,High School,High,Hybrid,yellow,yes,Churned
+10280,43.0,3.0,29415.0,4.9,60.30919338366907,Marketing,permanent,High School,High,Hybrid,blue,yes,Churned
+10294,,1.8,35784.0,,40.49309306584745,Sales,fixed-term,Bachelor,Medium,Remote,blue,no,Stayed
+10401,54.0,1.1,47830.0,3.4,47.26993251977416,Engineering,permanent,Bachelor,Low,On-site,red,no,Stayed
+10123,25.0,18.7,68502.0,3.5,53.60226037077429,Sales,contractor,PhD,Low,Hybrid,yellow,yes,Churned
+10184,24.0,0.8,40990.0,4.7,55.42203006909048,Marketing,contractor,Bachelor,Medium,Hybrid,blue,no,Stayed
+10203,22.0,5.0,51515.0,3.7,48.25352054318372,Engineering,permanent,Bachelor,Low,On-site,yellow,yes,Churned
+10439,37.0,0.4,29670.0,4.6,42.46796218409029,Marketing,permanent,Bachelor,High,Remote,blue,yes,Churned
+10247,,15.8,62227.0,3.8,40.121340898602284,Sales,permanent,High School,Medium,On-site,blue,no,Stayed
+10416,32.0,1.7,43939.0,4.0,49.7481131647052,Sales,contractor,PhD,Medium,Hybrid,yellow,yes,Churned
+10793,,0.6,33877.0,3.7,45.050354491092996,Sales,permanent,Bachelor,Medium,On-site,yellow,no,Stayed
+10782,32.0,2.6,50531.0,5.0,55.84622952486741,Sales,contractor,Master,Medium,On-site,green,no,Stayed
+10924,22.0,3.1,35409.0,4.0,48.62258939612073,Marketing,permanent,Bachelor,Medium,Remote,blue,yes,Churned
+10785,37.0,6.5,53527.0,2.3,45.67698814190459,Engineering,fixed-term,,High,Hybrid,blue,yes,Churned
+10905,22.0,19.2,54238.0,5.0,38.876725303294194,Sales,fixed-term,Bachelor,High,Remote,green,yes,Churned
+10130,,8.6,42163.0,4.4,55.44582400793628,Sales,permanent,Bachelor,High,On-site,yellow,no,Stayed
+10638,43.0,2.6,36613.0,3.0,53.82921710057263,Engineering,permanent,Master,Low,Hybrid,green,yes,Stayed
+10403,28.0,0.6,45063.0,4.1,52.811920179102756,Sales,permanent,Bachelor,High,On-site,yellow,no,Stayed
+10801,35.0,3.9,45575.0,4.8,41.18039235732826,Marketing,contractor,Master,Medium,On-site,red,yes,Churned
+10787,51.0,9.2,49502.0,5.0,40.72626994304066,HR,fixed-term,,Medium,Remote,blue,no,Stayed
+10736,46.0,0.0,42046.0,2.6,46.18862303326581,Marketing,contractor,Master,Medium,On-site,red,no,Churned
+10931,23.0,2.9,52646.0,4.9,73.0594658596774,Engineering,permanent,Bachelor,High,Hybrid,green,yes,Stayed
+10220,40.0,1.4,24206.0,4.2,50.08857703668895,Marketing,permanent,High School,Medium,On-site,blue,no,Stayed
+10642,43.0,1.0,35261.0,3.6,40.842449588664394,Sales,fixed-term,High School,High,Hybrid,blue,no,Churned
+10933,29.0,10.9,229604.0,,57.9643036664211,FINANCE,permanent,High School,Medium,Remote,green,yes,Stayed
+10853,33.0,2.1,54170.0,3.5,33.80826943484135,Engineering,contractor,Bachelor,Medium,Hybrid,yellow,no,Churned
+10824,,3.6,35583.0,2.3,50.07560180394133,Sales,fixed-term,Bachelor,Medium,Hybrid,yellow,yes,Churned
+10938,45.0,6.3,46485.0,3.0,43.13267604432649,Finance,fixed-term,Bachelor,Low,Hybrid,green,no,Stayed
+10625,44.0,6.6,27534.0,4.8,71.93449550288386,HR,permanent,Bachelor,Medium,Remote,yellow,no,Stayed
+10856,22.0,1.3,47078.0,2.7,55.568747223681456,Engineering,permanent,Bachelor,Low,On-site,green,no,Churned
+10951,29.0,0.6,29144.0,4.0,38.75878141139226,HR,permanent,Master,Low,Hybrid,red,no,Stayed
+10387,52.0,0.6,49832.0,5.0,39.85835781873032,Engineering,fixed-term,Bachelor,Medium,Remote,yellow,no,Stayed
+10993,30.0,6.6,54587.0,3.7,52.775158588818904,Engineering,fixed-term,Bachelor,High,Hybrid,green,no,Stayed
+10510,30.0,2.6,34922.0,,40.351066998136154,Marketing,,Master,Low,Remote,green,yes,Churned
+10268,24.0,3.7,28353.0,3.0,41.64875496027765,Marketing,permanent,Master,Medium,On-site,green,no,Stayed
+10837,24.0,8.5,57576.0,3.1,62.304600477599756,Finance,permanent,PhD,High,Hybrid,green,no,Stayed
+10442,37.0,6.9,48942.0,3.3,62.638559390963884,Finance,permanent,Bachelor,Medium,Remote,yellow,no,Stayed
+10497,32.0,8.5,33070.0,3.4,45.673624836664715,HR,fixed-term,Bachelor,High,Hybrid,red,no,Churned
+10113,25.0,2.5,35532.0,5.0,56.581430360025635,Finance,permanent,Bachelor,Medium,On-site,red,no,Stayed
+10692,43.0,4.1,35811.0,3.5,59.437155057560446,Sales,permanent,Bachelor,Medium,Hybrid,red,no,Stayed
+10233,33.0,0.4,30654.0,4.0,42.198561186122284,HR,permanent,PhD,Medium,Hybrid,yellow,no,Churned
+10887,44.0,1.5,37248.0,3.7,35.02767605515827,HR,permanent,Bachelor,High,Hybrid,blue,no,Stayed
+10608,33.0,1.2,136864.0,1.8,36.47134111035961,Sales,fixed-term,Bachelor,Medium,On-site,blue,yes,Churned
+10672,30.0,0.2,34170.0,4.1,61.64990882563923,Marketing,contractor,Bachelor,Low,Remote,green,no,Stayed
+10374,45.0,2.1,34270.0,3.2,31.25107935952467,HR,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10738,38.0,0.9,28665.0,3.1,64.01500346552157,Marketing,permanent,Bachelor,High,Hybrid,yellow,yes,Churned
+10860,34.0,2.5,49346.0,3.7,47.90624386688087,Engineering,fixed-term,Bachelor,High,Remote,yellow,no,Stayed
+10234,40.0,6.6,36042.0,3.2,57.35269309974987,Sales,permanent,Master,Low,Remote,red,no,Churned
+10802,39.0,0.3,47660.0,4.1,35.57285213997287,Engineering,fixed-term,PhD,High,On-site,green,no,Stayed
+10677,35.0,8.6,54909.0,3.1,70.52073311421935,Engineering,permanent,Bachelor,Low,On-site,yellow,yes,Churned
+10318,26.0,6.3,60224.0,,42.93293231626994,Engineering,fixed-term,Bachelor,Low,On-site,red,no,Stayed
+10649,29.0,10.9,47613.0,4.1,58.09657530148241,Marketing,fixed-term,Bachelor,Medium,Remote,green,yes,Churned
+10411,33.0,8.0,42179.0,,43.69951568651659,Sales,permanent,Master,Medium,On-site,yellow,no,Stayed
+10916,44.0,1.9,46272.0,2.9,30.296914186485992,Sales,fixed-term,Master,Medium,Remote,red,yes,Churned
+10710,41.0,3.1,36359.0,4.1,55.10600690410313,HR,fixed-term,Bachelor,High,Hybrid,yellow,no,Stayed
+10359,,2.1,43841.0,3.6,54.40353993877913,Finance,permanent,Bachelor,High,Hybrid,red,no,Stayed
+10259,37.0,3.2,36015.0,3.5,53.24758239533542,HR,permanent,Bachelor,Medium,Hybrid,red,no,Stayed
+10745,27.0,1.1,37172.0,3.4,54.78140575555808,Engineering,permanent,Master,Low,On-site,yellow,no,Stayed
+10628,35.0,2.2,24915.0,3.3,41.09564247057338,Marketing,permanent,Master,High,Hybrid,yellow,yes,Churned
+10633,28.0,1.2,33877.0,4.6,36.763504291578215,Sales,fixed-term,High School,Medium,Remote,yellow,yes,Churned
+10283,22.0,5.7,42838.0,4.4,48.86437435209549,Sales,permanent,Bachelor,High,On-site,green,no,Stayed
+10377,37.0,4.6,47209.0,1.6,49.61676164302627,Marketing,permanent,Bachelor,High,Hybrid,yellow,no,Churned
+10385,29.0,1.2,30405.0,4.6,41.111403019643255,Marketing,fixed-term,Bachelor,Low,Remote,yellow,no,Churned
+10225,32.0,1.9,49934.0,2.5,63.52039365974326,Engineering,permanent,High School,Low,Hybrid,red,no,Stayed
+10974,37.0,0.2,38242.0,4.5,56.38186998848573,Engineering,permanent,Master,Medium,Hybrid,green,yes,Churned
+10966,23.0,8.1,39322.0,5.0,59.057176004973655,Sales,permanent,Master,High,On-site,blue,no,Stayed
+10473,37.0,2.6,67580.0,4.3,44.59623661012945,Engineering,contractor,PhD,Medium,On-site,yellow,no,Stayed
+10348,41.0,5.2,46763.0,5.0,61.36191374642542,Engineering,,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10506,36.0,2.4,52727.0,4.8,57.88291656636004,Engineering,permanent,High School,Medium,On-site,yellow,no,Stayed
+10640,25.0,15.2,59106.0,3.0,52.3604306382437,Sales,contractor,Master,Medium,Remote,red,yes,Churned
+10514,38.0,8.3,178420.0,2.9,63.38592138295607,Marketing,permanent,Bachelor,High,Hybrid,blue,no,Stayed
+10798,42.0,0.8,30753.0,3.1,52.11879178828884,HR,permanent,Master,Low,Hybrid,blue,no,Stayed
+10947,37.0,11.1,58472.0,3.3,52.074887978521815,Engineering,permanent,Bachelor,Medium,Hybrid,red,no,Stayed
+10923,34.0,6.7,34293.0,,55.628544804571305,Marketing,fixed-term,Master,,Hybrid,yellow,no,Stayed
+10620,52.0,9.2,37435.0,4.9,62.841046951788975,Marketing,fixed-term,Bachelor,Low,Remote,red,no,Stayed
+10873,38.0,10.8,47523.0,4.0,75.85975175683896,HR,permanent,Master,Low,On-site,red,no,Stayed
+10821,42.0,4.7,35559.0,3.8,36.70992362776552,Marketing,permanent,PhD,Medium,On-site,yellow,yes,Churned
+10646,44.0,9.7,47132.0,5.0,47.94160140078656,Marketing,fixed-term,,Low,Hybrid,yellow,no,Stayed
+10864,22.0,5.4,38369.0,3.4,51.358559015662905,Sales,permanent,Bachelor,Medium,Hybrid,blue,no,Churned
+10557,22.0,4.5,45199.0,4.6,51.516572721450174,Engineering,fixed-term,Bachelor,Medium,Hybrid,green,yes,Churned
+10978,48.0,6.7,53202.0,3.5,54.09140922775994,Engineering,permanent,High School,Medium,On-site,blue,no,Stayed
+10578,26.0,0.3,44645.0,4.9,69.11606067063322,Finance,fixed-term,Master,Medium,On-site,green,no,Stayed
+10796,35.0,2.8,34775.0,2.7,39.446758414075404,Marketing,permanent,Bachelor,Medium,Hybrid,green,no,Churned
+10086,32.0,2.5,41421.0,3.7,51.51407396072019,Sales,permanent,Bachelor,Medium,On-site,blue,yes,Churned
+10243,30.0,2.8,46789.0,5.0,43.452302243760506,Finance,fixed-term,Bachelor,Medium,Hybrid,red,no,Stayed
+10699,43.0,0.9,60844.0,3.7,32.205610745765696,Engineering,contractor,Master,High,On-site,red,yes,Churned
+10160,27.0,11.3,41806.0,3.4,47.31860860758237,Marketing,permanent,Master,Medium,Hybrid,green,no,Stayed
+10525,44.0,13.0,43668.0,4.2,51.14941771759132,Marketing,permanent,Master,Low,Remote,green,no,Stayed
+10036,49.0,1.8,30566.0,3.9,49.69736942403014,Marketing,fixed-term,Bachelor,Medium,Remote,red,no,Stayed
+10541,27.0,0.1,38308.0,1.8,35.23342776481947,Finance,fixed-term,Master,Medium,On-site,green,yes,Churned
+10171,51.0,5.1,35769.0,4.4,35.12138296509377,HR,fixed-term,Master,,On-site,green,yes,Churned
+10655,32.0,2.1,39717.0,3.3,51.234291817036485,Sales,permanent,Master,Low,Hybrid,blue,yes,Churned
+10908,40.0,2.8,31799.0,3.1,38.643640952421705,Sales,,Bachelor,Medium,On-site,yellow,no,Stayed
+10875,48.0,5.6,51422.0,3.8,56.13265544661144,Engineering,fixed-term,Master,Low,On-site,green,yes,Churned
+10865,28.0,8.1,43519.0,4.9,49.039993382661415,Sales,contractor,Bachelor,Low,Hybrid,blue,no,Stayed
+10963,41.0,1.7,45851.0,5.0,55.303691889987995,Engineering,fixed-term,Bachelor,Low,On-site,red,no,Stayed
+10734,25.0,1.9,40276.0,2.3,38.952253263584836,Sales,permanent,PhD,Medium,Remote,blue,yes,Churned
+10096,33.0,0.7,27468.0,2.9,61.65594895144128,Sales,permanent,Master,Medium,Hybrid,yellow,no,Churned
+10564,39.0,0.7,48021.0,2.5,71.90417001188423,Engineering,permanent,High School,Medium,On-site,blue,no,Stayed
+10241,27.0,7.5,61879.0,2.4,65.97397293221623,Finance,contractor,Master,Medium,Hybrid,red,yes,Churned
+10743,25.0,2.8,34007.0,2.3,43.41617282059555,Marketing,fixed-term,Bachelor,High,On-site,red,yes,Churned
+10575,31.0,2.2,22903.0,4.0,58.31498866931662,Marketing,permanent,Bachelor,High,Hybrid,yellow,no,Stayed
+10691,39.0,12.3,44075.0,3.1,52.87272514027427,Sales,permanent,Bachelor,High,Hybrid,yellow,no,Stayed
+10461,26.0,10.8,63375.0,3.7,56.040516449216234,Engineering,permanent,PhD,Medium,Hybrid,green,no,Stayed
+10554,52.0,6.7,51135.0,3.5,20.568584345282666,HR,contractor,PhD,Medium,Remote,yellow,yes,Churned
+10896,27.0,2.5,37752.0,4.3,52.11209399224457,Engineering,fixed-term,Master,,On-site,red,no,Churned
+10207,30.0,3.0,54735.0,4.9,27.814300340489005,Engineering,fixed-term,Bachelor,High,Hybrid,red,no,Stayed
+10393,40.0,9.0,41991.0,3.0,54.18704578292368,Sales,permanent,Bachelor,High,Hybrid,blue,no,Stayed
+10795,27.0,0.1,50718.0,3.4,32.552396123946984,Engineering,permanent,Bachelor,Low,On-site,yellow,yes,Churned
+10398,32.0,0.6,43210.0,4.1,40.53509204011572,Sales,permanent,High School,High,On-site,blue,no,Stayed
+10767,45.0,3.1,38706.0,3.0,55.354587474096334,Marketing,fixed-term,,Medium,Remote,yellow,yes,Churned
+10866,42.0,3.9,49321.0,2.8,48.01940236781093,HR,contractor,Bachelor,Medium,Hybrid,yellow,no,Churned
+10218,36.0,5.0,41830.0,,58.05574702806173,Marketing,fixed-term,Bachelor,Low,Hybrid,red,no,Stayed
+10005,40.0,1.2,43570.0,4.1,51.17707418460958,Engineering,fixed-term,Bachelor,Medium,On-site,green,no,Stayed
+10769,29.0,6.1,41988.0,1.0,32.20124891791833,Sales,permanent,Bachelor,Low,Hybrid,blue,no,Churned
+10643,33.0,1.4,52274.0,3.1,52.496094582097115,Engineering,permanent,Master,Medium,Remote,yellow,no,Stayed
+10915,44.0,3.6,29428.0,4.4,52.52194854234287,HR,permanent,Bachelor,High,On-site,green,yes,Stayed
+10613,34.0,11.5,43082.0,4.4,75.83573660166567,HR,permanent,Bachelor,Medium,Hybrid,red,no,Stayed
+10739,33.0,1.2,39093.0,3.1,37.91141135379278,Sales,permanent,,High,Hybrid,blue,no,Stayed
+10547,44.0,7.9,59031.0,2.4,74.5987198502938,Engineering,fixed-term,High School,Low,On-site,yellow,no,Stayed
+10726,52.0,9.7,36619.0,,57.32151226054735,Marketing,permanent,Bachelor,High,On-site,yellow,yes,Stayed
+10684,48.0,1.8,33817.0,3.9,52.607668174830636,HR,fixed-term,Bachelor,Medium,On-site,yellow,no,Stayed
+10099,37.0,4.4,51083.0,3.3,51.91124233836392,Engineering,fixed-term,Master,Low,On-site,blue,no,Stayed
+10805,36.0,3.4,35652.0,3.0,62.66330267956289,Sales,permanent,Bachelor,Medium,Remote,green,no,Stayed
+10728,35.0,3.9,47660.0,4.3,50.23385214658508,Marketing,contractor,Bachelor,Low,Remote,green,yes,Churned
+10574,26.0,0.9,44718.0,3.8,51.3885603243088,HR,contractor,Bachelor,High,Hybrid,yellow,yes,Churned
+10407,26.0,3.2,44290.0,,40.91497488487809,Sales,fixed-term,Bachelor,High,Remote,yellow,yes,Churned
+10503,22.0,2.2,36720.0,3.7,29.553709961987316,Sales,permanent,Bachelor,High,On-site,yellow,no,Stayed
+10048,27.0,0.1,33340.0,3.8,39.81130042933265,Sales,permanent,Master,Medium,Hybrid,red,yes,Stayed
+10033,39.0,1.9,42373.0,3.8,39.74035182519222,Engineering,permanent,Bachelor,High,On-site,blue,yes,Stayed
+10780,40.0,3.0,40723.0,3.0,55.935394322931906,HR,fixed-term,Bachelor,High,On-site,green,no,Stayed
+10840,38.0,10.0,48444.0,,32.77743066042481,HR,permanent,Bachelor,Medium,On-site,blue,no,Stayed
+10201,39.0,4.2,30206.0,2.7,56.08267166344189,HR,fixed-term,PhD,Medium,Remote,blue,no,Stayed
+10135,31.0,1.6,39086.0,3.5,45.41123154975003,Finance,,Master,Medium,Hybrid,green,no,Stayed
+10028,48.0,1.5,35143.0,4.0,73.17636788673879,Sales,fixed-term,PhD,Medium,On-site,yellow,no,Stayed
+10948,41.0,9.7,47154.0,1.0,54.45677907081924,Finance,permanent,Bachelor,Medium,Hybrid,red,yes,Churned
+10231,30.0,2.6,37057.0,4.6,43.69541545814523,Marketing,contractor,Master,Medium,Hybrid,red,no,Stayed
+10490,22.0,0.7,37691.0,1.8,36.67321558974796,Marketing,permanent,Bachelor,Medium,Hybrid,green,yes,Churned
+10773,36.0,10.8,68153.0,4.3,68.9514861210897,Engineering,contractor,Master,Medium,On-site,blue,no,Stayed
+10379,35.0,0.4,33151.0,1.1,61.067745186243286,Marketing,permanent,Bachelor,Low,On-site,red,yes,Churned
+10289,22.0,1.1,45583.0,4.8,71.20993565845109,Engineering,permanent,Bachelor,High,Hybrid,blue,no,Stayed
+10419,38.0,6.2,30052.0,4.9,52.63755584822576,HR,permanent,High School,Medium,Hybrid,green,no,Stayed
+10675,,0.6,38327.0,2.7,63.52362545926151,Sales,fixed-term,Master,Medium,Hybrid,red,yes,Churned
+10392,37.0,5.5,42339.0,2.7,38.197682657996296,Sales,permanent,Bachelor,High,Hybrid,green,yes,Stayed
+10593,42.0,3.0,46661.0,3.0,68.07630805670686,Engineering,permanent,Bachelor,Medium,Hybrid,red,no,Stayed
+10499,22.0,0.5,44747.0,3.7,47.534289457404256,Finance,permanent,PhD,Low,On-site,green,yes,Churned
+10139,41.0,0.2,31973.0,3.0,38.445482061823405,Sales,permanent,Bachelor,Medium,Hybrid,blue,yes,Churned
+10063,22.0,1.1,32807.0,4.4,40.749153795213644,Marketing,fixed-term,Master,Medium,Hybrid,yellow,no,Stayed
+10472,22.0,7.9,43994.0,3.6,62.368324661272666,Finance,fixed-term,PhD,High,Remote,yellow,no,Stayed
+10648,24.0,2.1,32843.0,4.1,40.71734161344004,HR,fixed-term,Bachelor,Medium,On-site,yellow,yes,Churned
+10129,41.0,4.6,49015.0,2.9,21.49969890682818,Engineering,permanent,Master,High,On-site,blue,no,Stayed
+10997,45.0,2.7,47202.0,2.2,81.57771283044298,Finance,contractor,Bachelor,Medium,On-site,red,no,Stayed
+10521,43.0,2.0,29552.0,3.8,45.90659424781376,HR,permanent,Master,Medium,Remote,blue,no,Stayed
+10839,38.0,5.1,45212.0,4.7,54.458388752292464,HR,contractor,Master,High,On-site,yellow,no,Stayed
+10983,39.0,1.5,53972.0,3.3,38.3213469270829,Engineering,permanent,Master,Medium,Hybrid,green,no,Stayed
+10065,22.0,0.7,44416.0,3.3,50.7386343441088,Engineering,permanent,High School,Medium,Remote,green,no,Stayed
+10813,30.0,4.2,41285.0,4.3,43.161510995004235,FINANCE,permanent,Master,Medium,On-site,yellow,no,Stayed
+10015,34.0,8.1,45875.0,2.5,53.85710840531453,Engineering,fixed-term,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10157,34.0,1.2,27753.0,2.0,61.7066162931766,HR,,High School,High,Hybrid,red,yes,Churned
+10041,65.0,4.4,59722.0,3.5,58.913439016052465,Engineering,permanent,Master,Low,Remote,red,yes,Churned
+10493,29.0,6.3,52125.0,3.3,55.446245744993384,Engineering,permanent,Master,High,Hybrid,red,no,Stayed
+10380,34.0,8.0,50966.0,3.9,54.14784462079241,Engineering,permanent,,Medium,Hybrid,green,no,Stayed
+10188,52.0,1.7,22673.0,5.0,45.42781460680804,HR,permanent,Master,Medium,Hybrid,yellow,no,Stayed
+10764,34.0,7.2,41958.0,3.5,44.44726911986828,Marketing,permanent,Bachelor,Medium,On-site,blue,yes,Churned
+10217,29.0,2.2,34634.0,1.7,61.20967023614378,Sales,permanent,Master,Low,On-site,yellow,yes,Churned
+10792,40.0,6.0,36825.0,1.9,52.019990107573214,HR,fixed-term,PhD,Low,Remote,green,no,Stayed
+10053,22.0,0.3,50647.0,3.6,51.07983920725229,Finance,contractor,Bachelor,Medium,Remote,yellow,yes,Churned
+10879,95.0,5.9,48144.0,3.1,24.910428215049244,Engineering,permanent,Bachelor,Medium,Hybrid,blue,no,Stayed
+10338,39.0,1.5,37286.0,3.3,59.256767577138696,Marketing,fixed-term,Bachelor,High,Remote,green,no,Churned
+10749,34.0,3.2,42620.0,5.0,72.14329942556597,Finance,fixed-term,Master,Medium,Hybrid,red,no,Stayed
+10720,32.0,1.1,33000.0,3.2,53.32372333223985,Marketing,,High School,Medium,Remote,red,yes,Churned
+10725,29.0,4.4,27747.0,2.4,38.98713510160172,HR,fixed-term,Bachelor,Medium,On-site,green,no,Churned
+10296,32.0,3.3,39543.0,3.9,48.63010422306058,Sales,,High School,Low,On-site,blue,no,Stayed
+10702,49.0,2.1,34429.0,2.1,49.212115999197,Engineering,permanent,PhD,Medium,On-site,yellow,yes,Churned
+10252,22.0,0.8,44076.0,4.8,44.95871326348336,Sales,permanent,PhD,Low,On-site,red,yes,Churned
+10727,17.0,1.7,41130.0,2.6,60.07304357473262,Engineering,permanent,High School,Low,Remote,yellow,yes,Churned
+10462,38.0,1.7,26658.0,3.5,45.899705884610896,HR,fixed-term,Master,Low,Hybrid,green,yes,Churned
+10456,25.0,0.4,39736.0,4.2,36.73737838050843,Sales,contractor,High School,Low,On-site,red,yes,Stayed
+10281,35.0,3.5,33906.0,3.8,47.11937201648721,Marketing,fixed-term,Bachelor,Medium,On-site,green,no,Churned
+10816,48.0,3.9,45833.0,4.0,69.26285854855394,Sales,contractor,Master,Medium,Remote,green,yes,Churned
+10863,32.0,2.7,45589.0,2.7,69.35861025680605,Sales,permanent,PhD,Medium,On-site,green,no,Stayed
+10270,30.0,6.5,46949.0,3.9,70.77777585198444,Engineering,permanent,Bachelor,Medium,Remote,red,no,Stayed
+10202,38.0,13.9,57700.0,4.4,63.45935007838315,Engineering,permanent,High School,Medium,On-site,yellow,yes,Churned
+10162,44.0,2.9,37057.0,5.0,60.599501697623765,HR,permanent,Master,Low,On-site,green,no,Stayed
+10556,46.0,1.0,33119.0,2.4,59.4438522283539,Sales,permanent,PhD,Medium,Hybrid,blue,no,Stayed
+10730,22.0,0.8,46581.0,2.2,65.89523036103863,Engineering,fixed-term,Bachelor,Medium,On-site,yellow,yes,Churned
+10402,45.0,0.3,37623.0,3.3,55.850213322877984,Finance,permanent,High School,Low,Hybrid,green,yes,Churned
+10703,41.0,3.2,31432.0,4.0,43.631547857296106,Sales,permanent,High School,Medium,Hybrid,red,no,Stayed
+10477,31.0,19.8,66763.0,3.8,56.12269810105393,Engineering,fixed-term,High School,High,Hybrid,yellow,no,Stayed
+10822,39.0,0.5,51384.0,5.0,42.57671987123428,Engineering,permanent,Bachelor,Medium,On-site,blue,no,Stayed
+10772,39.0,0.7,24789.0,,45.48358910823053,Marketing,fixed-term,Bachelor,High,Hybrid,blue,no,Stayed
+10106,63.0,7.0,51300.0,2.3,41.753496597093125,Engineering,permanent,Bachelor,Medium,Hybrid,blue,no,Stayed
+10566,38.0,3.9,38074.0,3.1,60.274793433526916,HR,permanent,Bachelor,Medium,Remote,green,no,Stayed
+10390,23.0,2.3,31040.0,4.2,50.10545711741025,Marketing,permanent,Master,Medium,On-site,blue,yes,Churned
+10002,22.0,3.2,44055.0,2.6,52.4347507713677,Finance,permanent,Bachelor,High,Remote,green,yes,Churned
+10991,50.0,4.4,38121.0,3.3,46.90490114072771,Marketing,fixed-term,Bachelor,Low,Remote,red,no,Stayed
+10741,50.0,1.3,36748.0,4.4,49.24328927342937,Sales,fixed-term,Bachelor,High,Hybrid,green,yes,Churned
+10562,39.0,10.0,64334.0,2.9,72.10689726015764,Engineering,permanent,Master,High,On-site,red,no,Stayed
+10932,37.0,0.5,27449.0,3.6,36.006578341512295,Marketing,permanent,Master,Low,Hybrid,red,no,Stayed
+10081,22.0,0.2,35756.0,3.9,55.77072183835139,Marketing,fixed-term,High School,Medium,Hybrid,green,yes,Churned
+10206,34.0,0.5,47809.0,4.0,58.49584531046617,Engineering,fixed-term,PhD,High,Hybrid,green,no,Stayed
+10035,40.0,1.9,42816.0,1.4,64.6785044499731,Finance,permanent,Master,Medium,On-site,blue,no,Stayed
+10776,47.0,0.1,43830.0,1.3,46.94367557593205,Engineering,permanent,Bachelor,High,Remote,red,no,Stayed
+10509,30.0,1.8,38380.0,2.6,66.15872490122314,Finance,fixed-term,Master,High,Hybrid,blue,yes,Churned
+10428,37.0,1.4,35090.0,2.7,39.64038071393361,Marketing,contractor,PhD,Medium,On-site,yellow,no,Stayed
+10455,26.0,1.6,46615.0,3.5,50.53897347033207,Engineering,permanent,Bachelor,High,Remote,yellow,yes,Churned
+10367,33.0,0.4,34763.0,,61.53502849781544,Finance,fixed-term,High School,Medium,On-site,yellow,no,Stayed
+10092,22.0,2.5,34343.0,5.0,58.53348977340147,Marketing,fixed-term,PhD,High,Hybrid,blue,no,Stayed
+10340,22.0,5.8,49473.0,1.4,46.37500997117932,Engineering,permanent,Bachelor,Medium,On-site,yellow,no,Stayed
+10898,28.0,1.1,38597.0,4.0,59.60932178608262,Marketing,permanent,Bachelor,High,On-site,red,no,Stayed
+10565,42.0,1.8,31205.0,3.6,58.8239708978998,Sales,fixed-term,Bachelor,Medium,On-site,green,no,Stayed
+10346,37.0,1.9,28426.0,4.8,51.54031841683587,HR,permanent,,Medium,Hybrid,red,no,Stayed
+10777,42.0,0.9,52423.0,3.7,60.48203967675276,Engineering,fixed-term,High School,High,On-site,green,yes,Churned
+10242,29.0,6.4,47684.0,3.4,56.446898032842334,Finance,,High School,Medium,Hybrid,blue,no,Stayed
+10014,29.0,3.4,41752.0,2.0,55.99450686321704,Engineering,permanent,High School,Medium,On-site,red,yes,Churned
+10316,49.0,0.2,28158.0,2.9,57.8907520139991,HR,fixed-term,High School,Medium,On-site,red,yes,Stayed
+10601,22.0,3.9,56271.0,5.0,47.848036764398195,Engineering,permanent,Master,Low,On-site,red,yes,Churned
+10388,31.0,1.4,42495.0,3.1,53.38975893668261,Engineering,permanent,Master,Medium,On-site,red,no,Stayed
+10274,41.0,0.4,37740.0,3.3,57.147317275176995,Finance,permanent,Master,Medium,Hybrid,green,no,Stayed
+10167,33.0,0.5,27744.0,,63.304323443788164,Sales,fixed-term,Master,High,On-site,red,no,Churned
+10841,22.0,2.1,46855.0,2.4,42.79544929324941,Engineering,permanent,Bachelor,Medium,Remote,blue,yes,Churned
+10637,29.0,7.6,42888.0,5.0,55.6864461601277,Sales,permanent,PhD,High,Hybrid,blue,no,Stayed
+10647,30.0,3.8,36348.0,4.0,36.35529146382719,HR,permanent,PhD,Medium,Hybrid,red,no,Stayed
+10819,22.0,0.4,47436.0,4.2,45.64922758423684,Engineering,fixed-term,High School,High,Remote,blue,yes,Stayed
+10485,39.0,7.3,34292.0,3.5,44.93365166212081,HR,permanent,Bachelor,Medium,On-site,red,no,Stayed
+10522,47.0,1.5,43011.0,2.8,39.43888430812913,Sales,contractor,High School,Medium,Hybrid,blue,yes,Churned
+10505,26.0,5.3,35251.0,2.9,60.56101251669989,HR,permanent,Bachelor,High,Hybrid,yellow,no,Stayed
+10832,35.0,3.8,46290.0,,57.095994793835665,Sales,fixed-term,Master,High,Hybrid,blue,yes,Churned
+10244,39.0,1.1,25551.0,4.7,44.893915007024205,Sales,fixed-term,PhD,Medium,Hybrid,red,no,Stayed
+10567,42.0,0.7,31194.0,2.7,69.74078687745023,Sales,fixed-term,Bachelor,Medium,On-site,yellow,no,Churned
+10876,26.0,1.0,37692.0,2.8,61.37776780668662,Engineering,permanent,Bachelor,Medium,Hybrid,blue,no,Stayed
+10563,33.0,9.4,58808.0,2.9,58.04933390732326,Engineering,fixed-term,High School,Low,Remote,blue,yes,Churned
+10973,22.0,1.3,20461.0,2.8,35.56799206214206,Marketing,permanent,Master,Medium,Hybrid,green,no,Stayed
+10687,,4.9,37458.0,4.3,49.35227740202124,HR,contractor,High School,High,On-site,green,no,Stayed
+10958,41.0,2.2,43013.0,4.0,63.80138938868515,Engineering,permanent,Master,Medium,Hybrid,yellow,no,Stayed
+10190,35.0,4.6,45025.0,3.5,54.67690103858885,Engineering,fixed-term,Master,High,Hybrid,blue,yes,Churned
+10783,34.0,2.7,44432.0,3.7,52.37829540758336,Engineering,permanent,PhD,Low,Hybrid,blue,no,Stayed
+10700,36.0,3.7,37107.0,1.9,44.66995918173666,Sales,permanent,Master,Medium,Remote,red,yes,Churned
+10476,22.0,0.3,48271.0,3.7,45.533569531853935,Finance,fixed-term,Master,High,Hybrid,blue,no,Stayed
+10682,43.0,0.0,52508.0,3.6,60.06411040026555,Engineering,contractor,Master,Low,On-site,blue,yes,Churned
+10511,46.0,2.8,32277.0,4.2,52.12824398669969,HR,fixed-term,High School,Medium,On-site,yellow,no,Stayed
+10059,26.0,0.2,36504.0,2.4,49.421633876224064,Engineering,permanent,Master,Low,Remote,yellow,no,Stayed
+10475,38.0,4.5,34590.0,1.8,46.01554725010633,Sales,permanent,Bachelor,High,Hybrid,red,no,Stayed
+10561,22.0,2.9,32273.0,1.0,49.11626712473604,Marketing,permanent,Master,Medium,Hybrid,blue,no,Stayed
+10857,,1.6,54076.0,2.5,68.64048530411759,Engineering,fixed-term,Bachelor,Medium,On-site,green,no,Stayed
+10748,30.0,5.5,37048.0,,34.48462579031873,Sales,permanent,High School,Medium,On-site,yellow,no,Stayed
+10253,,0.3,40317.0,3.2,49.27142311158945,Marketing,permanent,Master,Medium,Hybrid,yellow,no,Stayed
+10022,43.0,1.5,40634.0,2.7,53.169520069841155,Engineering,permanent,Bachelor,Medium,On-site,blue,no,Stayed
+10314,45.0,2.1,40740.0,2.0,59.45929585270378,Finance,fixed-term,Master,Low,Remote,red,yes,Churned
+10460,,1.0,52593.0,1.5,59.46577003573387,Engineering,fixed-term,Bachelor,Medium,Hybrid,blue,yes,Churned
+10161,49.0,8.5,44061.0,4.5,51.66637895311838,Sales,fixed-term,Master,Medium,Hybrid,green,yes,Churned
+10277,38.0,0.6,29114.0,5.0,51.0172320847177,Marketing,permanent,Master,High,Hybrid,green,yes,Churned
+10956,24.0,0.5,44317.0,4.4,53.2717055287779,Sales,contractor,Master,High,Hybrid,green,yes,Churned
+10192,48.0,1.2,32246.0,,61.711019716695596,Marketing,permanent,PhD,High,Remote,yellow,no,Stayed
+10386,44.0,1.5,26645.0,3.1,48.40251502008413,Marketing,permanent,Bachelor,High,Hybrid,red,no,Stayed
+10806,24.0,4.1,39021.0,2.4,57.09932748147237,Marketing,fixed-term,PhD,High,Hybrid,blue,no,Churned
+10414,42.0,0.1,33537.0,1.8,45.34924053798994,HR,permanent,High School,Medium,Hybrid,yellow,no,Churned
+10492,29.0,1.3,31399.0,1.2,59.66956645344817,HR,permanent,Bachelor,Medium,Hybrid,blue,no,Stayed
+10344,37.0,5.2,43504.0,4.7,42.0510635299831,Sales,fixed-term,Bachelor,Low,Remote,red,yes,Churned
+10770,41.0,2.0,30610.0,3.3,60.64170702341044,Marketing,permanent,Master,Low,Hybrid,red,no,Stayed
+10309,46.0,8.5,44301.0,1.2,49.162169001109355,Marketing,permanent,High School,Medium,Remote,yellow,no,Stayed
+10662,48.0,0.6,40701.0,3.6,48.828279950256245,Finance,permanent,Master,Medium,Hybrid,green,no,Stayed
+10131,22.0,0.9,42297.0,2.7,70.5419384125607,Sales,fixed-term,Bachelor,High,On-site,blue,no,Churned
+10664,32.0,2.6,44797.0,3.2,46.54092719333172,Engineering,permanent,Master,Low,Remote,blue,no,Stayed
+10872,27.0,1.2,46732.0,3.0,42.37866551485902,Engineering,permanent,PhD,Low,On-site,blue,no,Stayed
+10100,,1.7,53851.0,3.1,38.502925271025944,Engineering,permanent,Bachelor,Medium,On-site,red,yes,Stayed
+10373,31.0,1.2,48773.0,3.6,45.19425586797526,Engineering,contractor,Master,Medium,On-site,green,no,Stayed
+10088,43.0,4.5,36281.0,2.0,41.03632452174819,HR,permanent,Master,Low,Hybrid,blue,no,Stayed
+10459,40.0,2.5,47885.0,3.2,56.823387820596594,Engineering,permanent,Bachelor,Medium,Hybrid,yellow,no,Stayed
+10331,22.0,1.8,37407.0,5.0,51.05278623909678,Sales,permanent,Bachelor,Medium,On-site,blue,no,Stayed
+10215,40.0,12.0,46864.0,1.7,54.11565719164282,Marketing,fixed-term,Master,Medium,Hybrid,yellow,no,Stayed
+10467,40.0,1.1,47166.0,4.0,56.43668753022491,Engineering,contractor,Bachelor,Medium,On-site,blue,no,Stayed
+10122,38.0,4.7,41289.0,2.7,46.92428582884201,Marketing,contractor,Bachelor,Medium,Hybrid,blue,no,Stayed
+10615,25.0,0.9,31239.0,3.0,30.10053730178875,Marketing,permanent,Bachelor,Medium,On-site,yellow,yes,Churned
+10021,35.0,12.1,44294.0,4.4,50.21888821164835,HR,fixed-term,PhD,Medium,Hybrid,green,yes,Churned
+10701,33.0,0.3,40217.0,3.5,42.33647390734984,Sales,contractor,Bachelor,Medium,On-site,red,yes,Churned
+10072,37.0,7.0,52209.0,2.6,43.201114602638135,Engineering,permanent,Bachelor,Medium,Hybrid,green,no,Stayed
+10107,34.0,13.8,42037.0,4.4,57.03492148225025,Sales,permanent,Master,Medium,Remote,green,no,Stayed
+10271,43.0,13.7,40870.0,4.3,49.669747362804394,FINANCE,fixed-term,High School,Medium,Hybrid,blue,yes,Churned
+10861,22.0,4.5,34321.0,2.7,64.5482617414665,Marketing,fixed-term,Master,High,Hybrid,yellow,yes,Churned
+10436,55.0,3.2,30781.0,3.4,79.92810570060641,Marketing,permanent,Bachelor,Medium,On-site,red,no,Stayed
+10103,44.0,0.9,38564.0,2.3,56.41947129443701,Sales,contractor,Bachelor,High,Hybrid,green,no,Stayed

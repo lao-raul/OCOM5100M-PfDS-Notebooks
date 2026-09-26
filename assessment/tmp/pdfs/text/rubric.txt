@@ -1,0 +1,216 @@
+
+===== PAGE 1 =====
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                     OCOM5100M    – Programming  for Data Science                   
+                                                                                    
+                              Assessment 2 – Marking Criteria                       
+                                                                                    
+                                Data Analysis and Modelling Project                 
+                                                                                    
+       Part 1 – Data Analysis Project                                               
+                                                                                    
+           Criterion    Not Met      Basic         Good         Excellent           
+                        0 - 49       50-59         60-69        70 - 100            
+                                                                                    
+        1.1 Project Aim and The aim is absent, A relevant aim and two The aim is clear and well The aim is precise,
+        Dataset Description unclear or unsuitable. objectives are motivated. Two specific, compelling and strongly
+                    Two measurable provided, although one measurable and grounded in the domain.
+                    objectives are not or both may be broad achievable objectives are Both objectives are
+                    defined. The dataset or only partly closely linked to the insightful, measurable
+                    source is missing or measurable. The dataset and domain. The and clearly drive the
+                    unreliable, and its source and main source, contents and analysis. Dataset
+                    contents, quality or dataset contents are structure are described provenance, contents
+                    suitability are identified. Basic accurately, with good and structure are
+                    described inaccurately comments are made discussion of quality, explained
+                    or only superficially. on quality and reliability, limitations and comprehensively, with a
+                                 suitability, with limited suitability. critical and well-
+                                 critical detail.           evidenced evaluation of 
+                                                            quality, reliability,   
+                                                            limitations and fitness for
+                                                            purpose.                
+        1.2 Exploratory The analysis is The notebook performs The workflow is correct, The EDA is rigorous,
+        Data Analysis and incomplete, incorrect a basic, mostly correct purposeful and easy to selective and highly
+        Code        or does not run exploration using follow. Code is well coherent. Code is robust,
+                    reliably. Code is poorly broadly appropriate organised, concise and reproducible and
+                    structured, uses tools. Code appropriately efficiently structured, with
+                    inappropriate methods organisation, naming commented, with comments explaining
+                    or libraries, or contains and comments are descriptive names and purpose rather than
+                    substantial irrelevant adequate but suitable use of pandas, restating syntax. Every
+                    work. Naming, inconsistent. Main core Python and output contributes to the
+                    comments and output outputs are visible and visualisation tools. analytical story, and
+                    interpretation are briefly explained, Outputs are interpreted interpretations reveal
+                    absent or unclear; although clearly and linked to strong critical judgement
+                    outputs may be interpretations are subsequent analysis without unnecessary or
+                    missing.     mainly descriptive or decisions. prohibited processing.
+                                 some choices are                                   
+                                 weakly justified.                                  
+        1.3 Objectives One or both objectives Both objectives are Each objective is The analysis provides a
+        Analysis    are not answered. addressed with at least answered through convincing and insightful
+                    Visual evidence is one relevant appropriate analysis and answer to each objective.
+                    absent, unsuitable or visualisation each. clear visual evidence. Visualisations are highly
+                    unclear. Specific Some numerical Specific values are effective, numerical
+                    numerical values are evidence is quoted, accurately selected and evidence is precise, and
+                    not reported though selection or interpreted in domain interpretation
+                    accurately, and interpretation may be terms. Findings are demonstrates strong
+                    findings are not limited. Conclusions logically explained and domain awareness,
+                    interpreted in the are broadly reasonable supported by the code, critical reasoning and
+                    context of the domain. but remain mainly outputs and appropriate consideration
+                                 descriptive. visualisations. of uncertainty or     
+                                                            alternative explanations.
+        1.4 Insights and The summary is A basic summary of The section synthesises The section offers a
+        Reflections missing, inaccurate or the main findings is the most important concise, critical synthesis
+                    disconnected from the provided. An findings accurately, that prioritises the most
+                    analysis. Main findings, unexpected aspect and identifies a meaningful important insights. The
+                    unexpected results or some limitations are unexpected result and unexpected finding is
+                    limitations are omitted mentioned, although discusses relevant thoughtfully interpreted,
+                    or asserted without the discussion may be limitations. Reflection is and limitations and
+                    evidence.    general or weakly clearly grounded in the implications are
+                                 connected to the analysis and avoids evaluated with nuance,
+                                 results.     overclaiming. specificity and clear   
+                                                            connection to the       
+                                                            evidence.               
+
+===== PAGE 2 =====
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Part 2 – Machine Learning Pipeline                                           
+                                                                                    
+           Criterion    Not Met      Basic         Good         Excellent           
+                         0-49        50-59         60-69        70-100              
+                                                                                    
+        2.1 Preprocessing Preprocessing is A functional A coherent, leakage-safe The pipeline is robust,
+        and Pipelines incomplete, preprocessing preprocessing pipeline is reproducible and
+                    inappropriate or workflow and pipeline correctly implemented. carefully engineered for
+                    introduces data are produced with Choices such as the dataset.  
+                    leakage. Numerical broadly appropriate imputation, encoding, Preprocessing decisions
+                    and categorical handling of the main scaling or feature are critically justified with
+                    features are feature types. Major treatment are appropriate strong awareness of
+                    mishandled, the test leakage is avoided. to the data and models. leakage, model
+                    set is used during The reflection gives a The reflection clearly requirements and trade-
+                    development, or a valid basic rationale, justifies decisions and offs. Alternatives are
+                    scikit-learn pipeline is although some choices recognises relevant evaluated
+                    not produced. are generic, alternatives or limitations. proportionately, and the
+                    Decisions are not inconsistent or       resulting workflow      
+                    explained.   insufficiently linked to   integrates cleanly with all
+                                 the dataset.               later modelling stages. 
+        2.2 Baseline Model Two valid baseline Two working Two appropriate and The baseline choices are
+        Training    classifiers are not classification pipelines meaningfully contrasting strategically selected to
+                    trained, or models are are trained using the baseline models are establish an informative
+                    fitted outside complete shared preprocessor. implemented correctly as comparison. Both
+                    pipelines. Code is The classifiers provide complete pipelines. The pipelines are clean,
+                    incorrect or usable baselines, and rationale is clear, reproducible and
+                    inconsistent with the a brief but reasonable dataset-aware and consistent, and the
+                    preprocessor, and justification is given. connected to expected concise rationale
+                    classifier choices are    model behaviour. demonstrates strong  
+                    not justified.                          understanding of        
+                                                            assumptions, strengths  
+                                                            and likely trade-offs.  
+        2.3 Cross-  Cross-validation is Both baseline pipelines Cross-validation is The evaluation is
+        Validation  absent, incorrectly are evaluated using a correctly and consistently rigorous and thoughtfully
+                    applied or leaks test broadly appropriate applied using suitable interpreted. Metric
+                    information. Results do cross-validation metrics. Results are choice, fold variability
+                    not include an procedure. At least one clearly reported and and relevant class trade-
+                    appropriate metric additional metric and interpreted in terms of offs are considered
+                    beyond accuracy, or the mean and standard performance and together. The model
+                    mean and standard deviation are reported. stability. The selected selected for tuning
+                    deviation are missing. The comparison and model is justified using follows convincingly from
+                    Model selection is model choice are the evidence and the the evidence, with
+                    unsupported. present but may be needs of the uncertainty and practical
+                                 mainly descriptive. classification task. significance handled
+                                                            appropriately.          
+        2.4 Hyperparameter A valid hyperparameter One model is tuned The search strategy, Tuning is efficient,
+        Tuning      search is not using a recognisable parameter space and leakage-safe and
+                    completed, the held- search procedure. The scoring choice are carefully justified. The
+                    out test set is used for best configuration is appropriate and applied search space reflects
+                    tuning, or the search is reported and correctly to the full informed model
+                    not applied to the full compared with pipeline. The best result knowledge, and the
+                    pipeline. The best baseline cross- is reported clearly, and comparison with baseline
+                    configuration and validation the reflection evaluates performance is nuanced.
+                    comparison with performance. The whether the improvement The discussion
+                    baseline performance explanation is broadly is meaningful, not merely recognises uncertainty,
+                    are missing or reasonable but may whether it is numerically diminishing returns and
+                    incorrect.   provide limited higher.    possible overfitting, and
+                                 justification or           avoids overstating small
+                                 interpretation.            gains.                  
+        2.5 Final Model The final model is not The final pipeline is Test performance is The final evaluation
+        Evaluation and evaluated correctly on evaluated on the test accurately interpreted offers a critical synthesis
+        Justification a held-out test set. set using precision, using appropriate metrics of test results, cross-
+                    Required metrics or a recall, F1 and a and class-level errors. validation and task
+                    labelled confusion labelled confusion The comparison with requirements. Error
+                    matrix are missing. matrix. A basic cross-validation supports trade-offs and limitations
+                    Results are  comparison with cross- a clear discussion of are analysed with
+                    misinterpreted, not validation is made, and generalisation. The fit-for- precision. The
+                    compared with cross- a reasonable purpose recommendation recommendation is
+                    validation, or no fit-for- recommendation is is balanced, evidence- proportionate, domain-
+                    purpose judgement is provided, although based and includes aware and transparent
+                    provided.                                                       
+
+===== PAGE 3 =====
+
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                 interpretation may be relevant areas for about uncertainty, risks
+                                 limited.     improvement.  and realistic next steps.
+                                                                                    
+       Process Log and Report Quality                                               
+                                                                                    
+           Criterion    Not Met      Basic         Good         Excellent           
+                         0-49        50-59         60-69        70-100              
+        Process Log The log is missing, All three required The log gives a specific The log demonstrates
+                    substantially areas are addressed: and reflective account of highly effective reflective
+                    incomplete or exceeds at least two dead ends, unsuccessful attempts practice and iterative
+                    the stated limit without one surprising finding across the work, explains problem-solving across
+                    justification. It does not and one change for a what was learned, Parts 1 and 2. Dead ends
+                    address two specific future attempt. identifies a surprising are analysed rather than
+                    dead ends, a Examples are result using a concrete merely listed, the
+                    surprising finding and recognisable and partly value or output, and surprising finding is
+                    one evidence-based linked to outputs, but proposes a feasible interpreted precisely, and
+                    change. Reflection is explanation of causes, improvement grounded in the proposed change is
+                    generic or   learning or  the submitted analysis focused, feasible and
+                    disconnected from the consequences may be and modelling. convincingly derived from
+                    submitted work. brief.                  the evidence.           
+        Report Quality Placeholder text The notebook is The notebook is polished, The submission is
+                    remains, required complete and generally coherent and exceptionally coherent
+                    headings are changed, readable, with professionally organised. and professional.
+                    outputs are missing, or headings retained and All outputs are visible, Presentation is
+                    the notebook contains most outputs visible. instructional text is consistent, concise and
+                    unresolved errors. Writing is removed, writing is clear virtually error-free;
+                    Writing and  understandable but and concise, and the section structure is
+                    organisation make the may contain minor relationships between preserved; outputs are
+                    work difficult to follow, errors, repetition or code, results and complete; and code,
+                    and code, outputs and uneven organisation. interpretation are easy to visualisations and
+                    commentary are poorly Connections between follow. commentary form a
+                    connected.   code, outputs and          seamless analytical     
+                                 commentary are             narrative within the stated
+                                 adequate.                  limits.                 
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    

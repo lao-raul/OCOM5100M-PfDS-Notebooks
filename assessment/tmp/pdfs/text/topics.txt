@@ -1,0 +1,441 @@
+
+===== PAGE 1 =====
+
+                                                                                    
+                                                                                    
+                                                                                    
+       OCOM5100M: Programming for Data Science Data Analysis Project                
+                                                                                    
+                                                                                    
+                                                                                    
+       OCOM5100M                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Programming                for   Data     Science                            
+                                                                                    
+                                                                                    
+                                                                                    
+       Data    Analysis     Project    Topics                                       
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Contents                                                                     
+                                                                                    
+       OCOM5100M  ............................................................................................................................ 1
+                                                                                    
+       Programming for Data Science .................................................................................................. 1
+                                                                                    
+         Data Analysis Project Topics ................................................................................................. 1
+                                                                                    
+           1. Air Accidents Analysis (2008-2022) ................................................................................ 2
+                                                                                    
+                                                                                    
+           2. UK Online Retail E-commerce Data ............................................................................... 2
+                                                                                    
+           3. S&P 500 Stock Returns (2009-2019) ............................................................................. 2
+                                                                                    
+           4. England’s Unpaid Care Workforce ................................................................................. 3
+                                                                                    
+           5. Obesity and Lifestyle Factors ......................................................................................... 3
+                                                                                    
+           6. UFO Sighting Reports in the United States .................................................................... 3
+                                                                                    
+           7. Video Game Player Retention Factors ........................................................................... 3
+                                                                                    
+           8. Diabetes Health Indicators ............................................................................................. 4
+                                                                                    
+           9. Formula 1 Championship Data (1950 – 2020) ................................................................ 4
+                                                                                    
+           10. Global Happiness and Wellbeing.................................................................................. 4
+                                                                                    
+           11. Retail Shopping Behaviour and Fraud Detection .......................................................... 4
+                                                                                    
+           12. Urban Air Quality Analysis (1958 – 2025) ..................................................................... 5
+                                                                                    
+           13. UK Earthquakes (1995 – 2024) .................................................................................... 5
+                                                                                    
+           14. Flight Delays and Cancellations (2024) ........................................................................ 5
+                                                                                    
+                                                                                    
+       © University of Leeds                                              1 of 7    
+                                                                                    
+
+===== PAGE 2 =====
+
+                                                                                    
+                                                                                    
+                                                                                    
+       OCOM5100M: Programming for Data Science Data Analysis Project                
+                                                                                    
+                                                                                    
+                                                                                    
+           15. Global Cybersecurity Threats (2015 – 2024) ................................................................ 5
+                                                                                    
+           16. Breast Cancer Gene Expression and Clinical Data ...................................................... 6
+                                                                                    
+           17. Global Climate Change Indicators ................................................................................ 6
+                                                                                    
+           18. Netflix Movies and TV Shows ....................................................................................... 6
+                                                                                    
+           19. Spotify Music Characteristics and Popularity ................................................................ 6
+                                                                                    
+           20. World University Rankings ........................................................................................... 7
+                                                                                    
+                                                                                    
+           21. Global Energy Consumption and Production ................................................................ 7
+                                                                                    
+                                                                                    
+                                                                                    
+       1. Air Accidents    Analysis   (2008-2022)                                   
+                                                                                    
+                                                                                    
+       Explore temporal trends in accident frequency and fatalities across different time periods.
+       Analyse patterns by flight phase, aircraft characteristics, and engine types. Investigate
+                                                                                    
+       geographical distribution of accidents and compare against global air traffic densities. Examine
+       correlations between aircraft attributes and safety outcomes through statistical analysis.
+                                                                                    
+       Dataset: Air Accidents from Jan2008 to May2022                               
+                                                                                    
+                                                                                    
+       2. UK  Online   Retail E-commerce      Data                                  
+                                                                                    
+       Identify high-performing products and key sales markets to understand demand patterns.
+                                                                                    
+       Analyse revenue trends across different timeframes to detect seasonal variations and peak
+                                                                                    
+       periods. Segment customers based on purchasing behaviours including frequency, value, and
+       product preferences. Develop insights for inventory optimization and marketing strategies.
+                                                                                    
+       Dataset: E-commerce data                                                     
+                                                                                    
+                                                                                    
+       3. S&P   500  Stock  Returns   (2009-2019)                                   
+                                                                                    
+       Visualize key financial metrics across S&P 500 companies segmented by industry and sector.
+                                                                                    
+       Evaluate relationships between financial ratios and stock price movements. Apply predictive
+                                                                                    
+       modelling techniques to forecast stock performance using historical data. Identify potential
+       leading indicators of company performance.                                   
+                                                                                    
+                                                                                    
+       © University of Leeds                                              2 of 7    
+                                                                                    
+
+===== PAGE 3 =====
+
+                                                                                    
+                                                                                    
+                                                                                    
+       OCOM5100M: Programming for Data Science Data Analysis Project                
+                                                                                    
+                                                                                    
+                                                                                    
+       Dataset: S&P 500 Stock Returns                                               
+                                                                                    
+                                                                                    
+       4. England’s    Unpaid   Care  Workforce                                     
+                                                                                    
+       Analyse regional distribution of unpaid carers across England. Investigate gender disparities in
+                                                                                    
+       unpaid care provision. Examine age group contributions to the unpaid care workforce. Explore
+       relationships between deprivation levels and care provision patterns.        
+                                                                                    
+       Dataset: Office of National Statistics                                       
+                                                                                    
+                                                                                    
+       5. Obesity   and  Lifestyle  Factors                                         
+                                                                                    
+                                                                                    
+       Conduct exploratory analysis to identify lifestyle attributes correlating with weight levels. Apply
+       regression techniques to examine relationships between numerical and categorical variables
+                                                                                    
+       and BMI. Determine the most relevant features influencing obesity through unsupervised
+       learning methods. Validate causality between behaviours and weight outcomes. 
+                                                                                    
+       Dataset: Estimation of Obesity Levels based on eating habits and physical condition
+                                                                                    
+                                                                                    
+       6. UFO   Sighting   Reports   in the United   States                         
+                                                                                    
+       Analyse trends in sighting frequency and geographical distribution across the US. Examine
+                                                                                    
+       temporal patterns and seasonal variations in reported sightings. Investigate characteristics of
+                                                                                    
+       first-hand accounts and witness descriptions. Explore potential correlations with weather
+       events and urban density.                                                    
+                                                                                    
+       Dataset: Kaggle: UFO Sightings                                               
+                                                                                    
+       Secondary Datasets:                                                          
+                                                                                    
+          • Kaggle: United States Cities Database                                   
+                                                                                    
+          • Kaggle: US Weather Events Data                                          
+                                                                                    
+                                                                                    
+       7. Video   Game   Player  Retention    Factors                               
+                                                                                    
+       Compare player engagement between single-player and multiplayer games. Examine the
+                                                                                    
+       relationship between achievement systems and average playtime. Identify common
+                                                                                    
+                                                                                    
+                                                                                    
+       © University of Leeds                                              3 of 7    
+                                                                                    
+
+===== PAGE 4 =====
+
+                                                                                    
+                                                                                    
+                                                                                    
+       OCOM5100M: Programming for Data Science Data Analysis Project                
+                                                                                    
+                                                                                    
+                                                                                    
+       characteristics among top-performing games with highest player retention. Analyse tags and
+                                                                                    
+       features associated with successful games.                                   
+                                                                                    
+       Dataset: Kaggle: Steam Games Dataset                                         
+                                                                                    
+       8. Diabetes   Health   Indicators                                            
+                                                                                    
+                                                                                    
+       Identify indicators most strongly associated with diabetes diagnosis. Investigate how
+       demographic factors influence predictive variables. Apply machine learning models to predict
+                                                                                    
+       diabetes development. Examine interactions between multiple health indicators.
+                                                                                    
+       Dataset: Kaggle: Diabetes Health Indicators Dataset                          
+                                                                                    
+                                                                                    
+       9. Formula    1 Championship      Data  (1950  – 2020)                       
+                                                                                    
+       Create comprehensive visualizations of race results and driver performance. Develop
+                                                                                    
+       integrated dashboards combining multiple performance metrics. Analyse historical trends in
+       racing outcomes. Compare performance across different eras and rule changes. 
+                                                                                    
+       Dataset: Kaggle: Formula 1 World Championship 1950 - 2020                    
+                                                                                    
+                                                                                    
+       10.  Global  Happiness    and  Wellbeing                                     
+                                                                                    
+       Visualize and compare happiness levels across countries and regions. Quantify relative
+                                                                                    
+       contributions of various factors to national wellbeing including GDP, social support, health,
+                                                                                    
+       freedom, generosity, and corruption. Analyse chronological trends in happiness from 2011-
+       2024. Investigate correlations between different happiness factors. Compare regional
+                                                                                    
+       trajectories and identify socio-economic drivers of wellbeing changes.       
+                                                                                    
+       Dataset: World Happiness Report                                              
+                                                                                    
+       11.  Retail Shopping    Behaviour    and  Fraud   Detection                  
+                                                                                    
+                                                                                    
+       Analyse customer spending patterns and demographic influences on purchasing behaviour.
+       Detect fraud patterns using risk metrics across different payment methods. Evaluate
+                                                                                    
+       relationships between consumer behaviour and fraud likelihood. Identify satisfaction indicators
+                                                                                    
+       and their connections to transaction characteristics.                        
+                                                                                    
+                                                                                    
+       © University of Leeds                                              4 of 7    
+                                                                                    
+
+===== PAGE 5 =====
+
+                                                                                    
+                                                                                    
+                                                                                    
+       OCOM5100M: Programming for Data Science Data Analysis Project                
+                                                                                    
+                                                                                    
+                                                                                    
+       Datasets: Kaggle: Shopping behaviour dataset                                 
+                                                                                    
+                                                                                    
+       12.  Urban  Air  Quality  Analysis   (1958  – 2025)                          
+                                                                                    
+       Classify and visualize temporal trends in PM₂.₅ and NO₂ concentrations across cities. Examine
+                                                                                    
+       long-term changes and seasonal patterns in pollution levels. Identify cities with highest
+       average pollution and those showing significant improvements. Assess correlations between
+                                                                                    
+       different pollutants across locations and time periods.                      
+                                                                                    
+       Dataset: Kaggle: Urban Air Quality and Climate Dataset                       
+                                                                                    
+                                                                                    
+       13.  UK  Earthquakes    (1995   – 2024)                                      
+                                                                                    
+       Analyse changes in recorded earthquake frequency over three decades. Examine magnitude
+                                                                                    
+       distribution and identify most severe seismic events. Investigate geographical distribution
+       patterns across the UK. Explore temporal clustering and seasonal variations if present.
+                                                                                    
+       Dataset: Earthquakes Recent UK Events Data                                   
+                                                                                    
+                                                                                    
+       14.  Flight Delays   and  Cancellations    (2024)                            
+                                                                                    
+       Analyse patterns and trends in flight cancellations by time period. Identify causes and duration
+                                                                                    
+       patterns of flight delays. Determine which airports experience the most operational disruptions.
+                                                                                    
+       Examine relationships between delay causes and severity.                     
+                                                                                    
+       Datasets: Kaggle: Flight delay and cancellation data                         
+                                                                                    
+       15.  Global  Cybersecurity    Threats   (2015  – 2024)                       
+                                                                                    
+                                                                                    
+       Analyse financial impact across different attack types and threat categories. Measure
+       effectiveness of various defence mechanisms and response times. Identify most targeted
+                                                                                    
+       industries by country and region. Examine temporal trends in threat evolution and mitigation
+       success rates.                                                               
+                                                                                    
+                                                                                    
+       Dataset: Kaggle: Global Cybersecurity Threats (2015 – 2024)                  
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       © University of Leeds                                              5 of 7    
+                                                                                    
+
+===== PAGE 6 =====
+
+                                                                                    
+                                                                                    
+                                                                                    
+       OCOM5100M: Programming for Data Science Data Analysis Project                
+                                                                                    
+                                                                                    
+                                                                                    
+       16.  Breast  Cancer   Gene   Expression    and  Clinical  Data               
+                                                                                    
+                                                                                    
+       Integrate RNA-sequencing gene expression data with clinical information for key genes
+       (BRCA1, BRCA2, TP53, ERBB2, ESR1). Investigate differential expression patterns between
+                                                                                    
+       tumour and normal samples. Assess subtype-specific variations across molecular
+                                                                                    
+       classifications. Evaluate correlations between gene expression and clinical parameters
+       including patient age and tumour stage. Generate visualizations to illustrate expression
+                                                                                    
+       patterns and clinical associations.                                          
+                                                                                    
+       Dataset: Xena: Breast Cancer Gene Expression                                 
+                                                                                    
+       17.  Global  Climate   Change   Indicators                                   
+                                                                                    
+                                                                                    
+       Analyse global temperature changes across different regions and time periods. Examine
+       trends in climate indicators such as CO₂ emissions, sea level rise, and extreme weather
+                                                                                    
+       events. Compare climate change impacts between developed and developing nations.
+                                                                                    
+       Investigate correlations between industrial activity and environmental changes. Assess
+       seasonal and annual variations in temperature anomalies.                     
+                                                                                    
+       Dataset: Kaggle: Temperature change                                          
+                                                                                    
+                                                                                    
+       18.  Netflix Movies   and  TV  Shows                                         
+                                                                                    
+       Explore content distribution across genres, countries, and release years. Analyse trends in
+                                                                                    
+       content production and platform additions over time. Investigate differences between movie
+       and TV show characteristics including duration and ratings. Examine geographical patterns in
+                                                                                    
+       content creation. Identify popular genres and their evolution across different time periods.
+                                                                                    
+       Dataset: Kaggle: Netflix Shows                                               
+                                                                                    
+                                                                                    
+       19.  Spotify  Music  Characteristics    and  Popularity                      
+                                                                                    
+       Analyse audio features that correlate with track popularity including tempo, energy, and
+                                                                                    
+       valence. Explore genre distributions and their characteristic sound profiles. Investigate
+       temporal trends in music characteristics across decades. Examine relationships between artist
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       © University of Leeds                                              6 of 7    
+                                                                                    
+
+===== PAGE 7 =====
+
+                                                                                    
+                                                                                    
+                                                                                    
+       OCOM5100M: Programming for Data Science Data Analysis Project                
+                                                                                    
+                                                                                    
+                                                                                    
+       popularity and track features. Compare audio patterns across different music genres and
+                                                                                    
+       cultural regions.                                                            
+                                                                                    
+       Dataset: Kaggle: Ultimate Spotify Tracks Database                            
+                                                                                    
+       20.  World  University   Rankings                                            
+                                                                                    
+                                                                                    
+       Compare university performance metrics across different ranking systems. Analyse
+       geographical distribution of top-performing institutions. Investigate correlations between
+                                                                                    
+       various performance indicators such as research output, teaching quality, and international
+                                                                                    
+       outlook. Examine trends in institutional rankings over time. Explore relationships between
+       university characteristics and overall scores.                               
+                                                                                    
+       Dataset: Kaggle: World University Rankings                                   
+                                                                                    
+                                                                                    
+       21.  Global  Energy   Consumption      and  Production                       
+                                                                                    
+       Analyse energy consumption patterns across countries and regions over time. Compare
+                                                                                    
+       renewable versus non-renewable energy source adoption rates. Investigate relationships
+                                                                                    
+       between economic development and energy usage. Examine trends in energy efficiency and
+       carbon intensity. Explore disparities in per capita energy consumption across different income
+                                                                                    
+       levels and geographical areas.                                               
+                                                                                    
+       Dataset: Kaggle: World Energy Consumption                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       © University of Leeds                                              7 of 7    
+                                                                                    
