@@ -35,6 +35,7 @@ The final code, analytical decisions, interpretations and written reflections mu
 ### Part 1 public sources
 
 - Kaggle dataset: <https://www.kaggle.com/datasets/debayank2024/ai-impact-on-jobs-and-salaries-2020-2026>
+  Downloaded in assessment/ai_jobs_salaries_clean.csv
 - Underlying open salary repository: <https://github.com/foorilla/ai-jobs-net-salaries>
 
 Before writing Section 1.1, record the exact downloaded filename, Kaggle version/update date, download date, row and column counts, licence and the relationship between the Kaggle file and the underlying source.
