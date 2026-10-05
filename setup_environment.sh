@@ -86,6 +86,7 @@ find_conda() {
     fi
 
     for candidate in \
+        "/opt/homebrew/anaconda3/bin/conda" \
         "/opt/anaconda3/bin/conda" \
         "/usr/local/anaconda3/bin/conda" \
         "$USER_HOME/anaconda3/bin/conda" \

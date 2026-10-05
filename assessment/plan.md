@@ -1,8 +1,33 @@
 # OCOM5100M Summative Assessment 2 - Detailed Plan and Task List
 
-> Last updated: 27 September 2026  
+> Last updated: 5 October 2026  
 > Submission deadline: 26 October 2026, 14:00 UTC / 22:00 China Standard Time  
 > Working notebook: `P4DS_A2_Data_Analysis_Project.ipynb`
+
+## 0. Current progress snapshot (checked 5 October 2026)
+
+The working notebook now contains a substantial Section 1.1 draft and a nearly complete, reproducible Section 1.2. The status below is based on the saved notebook and its visible outputs, not on planned work.
+
+| Area | Current status | Evidence / implication |
+|---|---|---|
+| Project setup | **Complete** | Student ID, title, aim, two objectives and both local datasets are in place. |
+| Part 1, Section 1.1 | **Substantial draft** | Aim, objectives, source, collection method, scope, dimensions, quality evidence and core limitations are drafted. Dataset version/update date, download date, licence and an explicit non-causal boundary still need finalisation. |
+| Part 1, Section 1.2 | **Approximately 95% complete** | The audit, category checks, year/geography coverage, missingness, duplicates, salary/outlier review, sample flow, decision gates and reusable summary are present. The section has 575 markdown words and 147 non-empty code lines; all nine code cells run in order without errors. Only final wording polish remains. |
+| Part 1, Section 1.3 | **Not started** | Both objective code cells and both interpretation cells are still placeholders. |
+| Part 1, Section 1.4 | **Not started** | The reflection remains the supplied prompt. |
+| Part 2 dataset exploration | **Not complete** | The CSV is loaded in a cell without an executed output or the required audit. |
+| Part 2 Sections 2.1–2.5 | **Not started** | Preprocessing, models, cross-validation, tuning, evaluation and reflections remain template placeholders. |
+| Process Log | **Not started** | No student-written dead ends, surprising finding or future improvement has been recorded. |
+
+### Overall estimate
+
+By assessed content, the project is approximately **25–30% complete**. Part 1's evidence base is now established, but both objective analyses, the Part 1 reflection, all Part 2 modelling and the Process Log remain outstanding. This is a completion estimate, not a predicted mark.
+
+### Next three priorities
+
+1. Complete Section 1.3 Objective 1 using the existing `summary` table, an appropriate distribution visual, exact numerical evidence and the promised outlier sensitivity check.
+2. Complete Section 1.3 Objective 2 using work-mode counts/percentages, salary summaries, experience-level controls and the promised cross-border sensitivity check.
+3. Write Section 1.4, finalise Section 1.1 provenance/licence details, then begin the Part 2 audit and leakage-safe split.
 
 ## 1. Purpose of this file
 
@@ -30,7 +55,7 @@ The final code, analytical decisions, interpretations and written reflections mu
 - `P4DS_A2_Data_Analysis_Project.ipynb` - required submission template and exact final filename.
 - `employee_churn_dataset.csv` - fixed dataset for Part 2.
 - `plan.md` - this planning file; do not submit unless the module team explicitly asks for it.
-- Part 1 CSV - still needs to be downloaded and stored locally with a clear, stable filename.
+- `ai_jobs_salaries_clean.csv` - downloaded Part 1 working dataset.
 
 ### Part 1 public sources
 
@@ -141,12 +166,12 @@ Measure how work-mode composition changes from 2023 to 2025 and examine salary d
 
 Before finalising the objectives, confirm all of the following:
 
-- [ ] Each year from 2023 to 2025 is present after filtering to `company_location == "US"`.
-- [ ] Each experience level used in comparisons has a defensible sample size.
-- [ ] `remote_ratio` values and the meaning of any derived `work_mode` field are documented and internally consistent.
-- [ ] The proposed comparisons can be answered with available variables.
+- [x] Each year from 2023 to 2025 is present after filtering to `company_location == "US"`.
+- [x] Each experience level used in comparisons has a defensible sample size; the smallest year-by-experience cell has 162 rows.
+- [x] `remote_ratio` values and the meaning of the derived `work_mode` field are documented and internally consistent.
+- [x] The proposed comparisons can be answered with available variables.
 - [ ] Each objective can be supported by at least one clear visualisation and one quoted numerical result.
-- [ ] Neither objective uses causal language.
+- [x] Neither objective uses causal language.
 
 If an objective fails these checks, revise its scope before producing final figures.
 
@@ -156,13 +181,13 @@ If an objective fails these checks, revise its scope before producing final figu
 
 ## 5.1 Data acquisition and provenance
 
-- [ ] Download the chosen CSV from Kaggle without changing the raw file.
+- [x] Download the chosen CSV from Kaggle; a local working file exists as `ai_jobs_salaries_clean.csv`.
 - [ ] Save a working copy under a short, descriptive filename if necessary; keep the raw download separately during development.
-- [ ] Record the dataset version, update date, download date, licence and URL.
+- [ ] Record the dataset version, update date, download date, licence and URL. (URL is present in the draft; the remaining facts still need evidence.)
 - [ ] Check whether the Kaggle data is a filtered or enriched copy of the `foorilla/ai-jobs-net-salaries` source.
 - [ ] Identify which columns are original and which are uploader-derived, especially label, work-mode, outlier or role-family fields.
-- [ ] Record how the original salary records were collected. Note that self-reported or platform-collected records may contain selection and reporting bias.
-- [ ] Verify the actual year range. If the local data ends in 2025, describe it as 2023-2025 rather than relying on “2020-2026” in the Kaggle title.
+- [x] Record how the original salary records were collected. The Section 1.1 draft identifies the anonymous salary survey and notes self-selection bias.
+- [x] Verify the actual year range. The notebook confirms 2020-2025, with the analysis restricted to 2023-2025.
 
 **Deliverable:** a provenance note containing exact facts for Section 1.1, with links saved for citation.
 
@@ -170,15 +195,15 @@ If an objective fails these checks, revise its scope before producing final figu
 
 Perform the following checks before filtering or cleaning:
 
-- [ ] Print dataset shape and column names.
-- [ ] Inspect a small number of rows and the data types.
-- [ ] Produce counts and percentages of missing values.
-- [ ] Check complete-row duplicates and plausible duplicate salary records.
-- [ ] Check unique categories and spelling/case consistency.
-- [ ] Count observations by year, company location, employee residence, experience level, employment type, remote ratio and company size.
-- [ ] Summarise `salary_in_usd` with count, minimum, quartiles, median, mean and maximum.
-- [ ] Inspect the salary distribution and identify extreme values without automatically deleting them.
-- [ ] Verify whether `salary_outlier_flag`, `work_mode` and `role_family` are derived variables and whether their derivation is sufficiently documented.
+- [x] Print dataset shape and column names in a dedicated audit cell: 71,913 rows and 17 columns.
+- [x] Inspect a small number of rows and the data types.
+- [x] Produce counts and percentages of missing values.
+- [x] Check complete-row duplicates and plausible duplicate salary records without misclassifying the broad five-field key as a unique identifier.
+- [x] Check unique categories and spelling/case consistency.
+- [x] Count observations by year, company location, employee residence, experience level, employment type, remote ratio and company size.
+- [x] Summarise `salary_in_usd` with count, minimum, quartiles, median, mean and maximum.
+- [x] Inspect salary spread and extreme values without automatically deleting them.
+- [x] Cross-check `salary_outlier_flag` against an IQR rule and validate `work_mode` against `remote_ratio`; exclude undocumented `role_family` and `isco_group_hint` because neither objective requires them.
 
 **Required notebook behaviour:** after each purposeful code block, add a short markdown interpretation explaining what the output shows and how it affects the next analytical step.
 
@@ -214,6 +239,8 @@ Apply the intended scope transparently and report how many rows remain after eac
 
 **Deliverable:** a compact sample-flow table showing the row count after each restriction.
 
+**Current decision status:** complete. The analytical sample contains 58,663 full-time records for US-based companies in 2023-2025. Outlier-flagged and cross-border records are retained; the planned sensitivity checks must be implemented in Section 1.3.
+
 ## 5.4 Section 1.1 - Project Aim and Data Description (10 marks)
 
 **Required length:** approximately 400-500 words.  
@@ -221,16 +248,16 @@ Apply the intended scope transparently and report how many rows remain after eac
 
 Include, in the student's own wording:
 
-- [ ] A precise project aim.
-- [ ] Two specific, measurable and achievable objectives.
-- [ ] Dataset name, source URL, original source and licence.
-- [ ] Collection method and time coverage.
-- [ ] Exact rows and columns in the downloaded version.
-- [ ] Main variables needed for the objectives.
-- [ ] Why the analysis focuses on 2023-2025 and US-based companies.
-- [ ] Data-quality evidence from the student's audit: missingness, duplicates, category issues, imbalance and outliers.
+- [x] A project aim is entered and is supported by the completed audit.
+- [x] Two measurable objectives are entered and their required groups have feasible sample sizes.
+- [ ] Dataset name, source URL and original source are drafted; licence still needs to be verified and stated.
+- [x] Collection method and time coverage.
+- [x] Exact rows and columns are stated and reproduced in the notebook.
+- [x] Main variables needed for the objectives.
+- [x] Why the analysis focuses on 2023-2025 and US-based companies.
+- [x] Data-quality evidence from the student's audit: missingness, duplicates, category issues, imbalance and outliers.
 - [ ] Reliability limitations: self-selection/reporting, unequal yearly coverage, dominance of US records, possible uploader-derived labels, and lack of population weights.
-- [ ] Why the data is still suitable for descriptive EDA.
+- [x] Why the data is still suitable for descriptive EDA.
 - [ ] A clear boundary that the study describes associations in this dataset and does not estimate causal AI impact.
 
 **Excellent-level check:** the provenance, contents, structure, limitations and fitness for purpose are evaluated critically, not merely listed.
@@ -255,14 +282,16 @@ Suggested workflow order:
 
 Code-quality checklist:
 
-- [ ] Use descriptive variable names rather than generic names such as `df1` or `x`.
-- [ ] Organise code into purposeful blocks; do not repeat the same grouping logic unnecessarily.
-- [ ] Write comments that explain why a step is performed, not comments that restate syntax.
-- [ ] Keep the workflow reproducible from the raw CSV.
-- [ ] Avoid unused imports, abandoned code and irrelevant charts.
-- [ ] Do not use scikit-learn anywhere in Part 1.
-- [ ] Ensure every displayed output contributes to a later decision or finding.
-- [ ] Follow each code block with a concise interpretation linked to the next step.
+- [x] Use descriptive variable names rather than generic names such as `df1` or `x`.
+- [x] Organise code into purposeful blocks; do not repeat the same grouping logic unnecessarily.
+- [x] Write comments that explain why a step is performed, not comments that restate syntax.
+- [x] Keep the workflow reproducible from the raw CSV.
+- [x] Avoid unused imports, abandoned code and irrelevant charts.
+- [x] Do not use scikit-learn anywhere in Part 1.
+- [x] Ensure every displayed output contributes to a later decision or finding.
+- [x] Follow each code block with a concise interpretation linked to the next step.
+
+**Current Section 1.2 status:** 575 markdown words and 147 non-empty code lines. All nine code cells execute in order without errors. Before final submission, correct the minor formatting typo in the phrase “`salary_in_usd ranges`” and rerun after Sections 1.3-2.5 are complete.
 
 ## 5.6 Section 1.3 - Objective 1 Analysis (6 marks shared across both objectives)
 
@@ -510,30 +539,30 @@ Code budget:
 
 ## 9. Recommended work schedule
 
-### 27-30 September: project setup and evidence collection
+### 2-4 October: recover the evidence base and complete Part 1 audit
 
-- [ ] Download and preserve the Part 1 data.
-- [ ] Record provenance, version and licence.
-- [ ] Run the initial Part 1 audit.
-- [ ] Confirm the 2023-2025 US sample and objective feasibility.
-- [ ] Reproduce the Part 2 structural checks.
-- [ ] Start the process diary.
+- [x] Download and preserve the Part 1 working CSV.
+- [ ] Record provenance, version, update/download dates and licence with evidence.
+- [x] Replace the current raw-data display with a compact, reproducible Part 1 audit.
+- [x] Confirm the 2023-2025 US sample and objective feasibility from fresh outputs.
+- [ ] Reproduce the Part 2 structural checks and record the results.
+- [ ] Start the process diary immediately, including any failed or revised approaches.
 
-### 1-7 October: Part 1 EDA and objective analysis
+### 5-9 October: Part 1 EDA and objective analysis
 
-- [ ] Complete data-quality checks and define the analytical sample.
-- [ ] Resolve employment-type, geography and outlier decision gates.
-- [ ] Build summary tables and candidate figures.
+- [x] Complete data-quality checks and define the analytical sample.
+- [x] Resolve employment-type, geography and outlier decision gates.
+- [ ] Build summary tables and candidate figures. (Objective 1 summary table is ready; figures and Objective 2 summaries remain.)
 - [ ] Select only the figures that answer the two objectives.
 - [ ] Verify all quoted values against output.
 
-### 8-12 October: Part 1 writing and refinement
+### 10-12 October: Part 1 writing and refinement
 
-- [ ] Draft Section 1.1 independently from recorded evidence.
-- [ ] Add concise Section 1.2 interpretations after each output block.
+- [x] Draft Section 1.1 independently from recorded evidence. (Final provenance/licence details remain.)
+- [x] Add concise Section 1.2 interpretations after each output block.
 - [ ] Draft both Section 1.3 analyses independently.
 - [ ] Draft Section 1.4 synthesis.
-- [ ] Check Part 1 code and word limits.
+- [x] Check the current Part 1 code and word limits. Recheck after Section 1.3 is complete.
 
 ### 13-18 October: Part 2 preprocessing and baselines
 
