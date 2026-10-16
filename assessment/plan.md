@@ -1,661 +1,449 @@
-# OCOM5100M Summative Assessment 2 - Detailed Plan and Task List
+# OCOM5100M Summative Assessment 2 — Current Plan
 
-> Last updated: 5 October 2026  
-> Submission deadline: 26 October 2026, 14:00 UTC / 22:00 China Standard Time  
+> Status date: 15 October 2026
+>
+> Submission deadline: 26 October 2026, 14:00 UTC / 22:00 China Standard Time
+>
 > Working notebook: `P4DS_A2_Data_Analysis_Project.ipynb`
 
-## 0. Current progress snapshot (checked 5 October 2026)
+## 1. Purpose and academic-integrity boundary
 
-The working notebook now contains a substantial Section 1.1 draft and a nearly complete, reproducible Section 1.2. The status below is based on the saved notebook and its visible outputs, not on planned work.
+This is a private working plan. It records the latest status only and is not text to paste into the assessed notebook.
 
-| Area | Current status | Evidence / implication |
+The student's final code, preprocessing/model decisions, interpretations and reflections must be their own. Permitted AI support includes planning, explaining concepts, debugging student-written code and proofreading student-written prose. AI must not generate submission code, choose the final preprocessing/model strategy for the student, or write the assessed analytical discussion.
+
+## 2. Current status
+
+| Area | Status | Evidence / next action |
 |---|---|---|
-| Project setup | **Complete** | Student ID, title, aim, two objectives and both local datasets are in place. |
-| Part 1, Section 1.1 | **Substantial draft** | Aim, objectives, source, collection method, scope, dimensions, quality evidence and core limitations are drafted. Dataset version/update date, download date, licence and an explicit non-causal boundary still need finalisation. |
-| Part 1, Section 1.2 | **Approximately 95% complete** | The audit, category checks, year/geography coverage, missingness, duplicates, salary/outlier review, sample flow, decision gates and reusable summary are present. The section has 575 markdown words and 147 non-empty code lines; all nine code cells run in order without errors. Only final wording polish remains. |
-| Part 1, Section 1.3 | **Not started** | Both objective code cells and both interpretation cells are still placeholders. |
-| Part 1, Section 1.4 | **Not started** | The reflection remains the supplied prompt. |
-| Part 2 dataset exploration | **Not complete** | The CSV is loaded in a cell without an executed output or the required audit. |
-| Part 2 Sections 2.1–2.5 | **Not started** | Preprocessing, models, cross-validation, tuning, evaluation and reflections remain template placeholders. |
-| Process Log | **Not started** | No student-written dead ends, surprising finding or future improvement has been recorded. |
+| Part 1, Section 1.1 | **Content complete** | Approximately 480 words; aim, objectives, metadata, provenance, scope, quality and limitations are present. |
+| Part 1, Section 1.2 | **Content complete** | Approximately 581 words; code runs and stays below the 600-word commentary limit. |
+| Part 1, Section 1.3 | **Content complete** | Objective 1 approximately 303 words; Objective 2 approximately 320 words; both have figures, exact values and sensitivity checks. |
+| Part 1, Section 1.4 | **Content complete** | Approximately 248 words; findings, unexpected result, checking and limitations are present. |
+| Part 1 code limit | **Pass at current state** | Sections 1.2 and 1.3 contain 242 non-empty code lines, below the 250-line maximum. Do not add Part 1 code unless other lines are removed. |
+| Part 1 final QA | **Pending** | Perform the final clean run only after Part 2 is complete, then recheck all quoted values and figures. |
+| Part 2 dataset loading | **Minimal start only** | The CSV is read into `df`, but there is no displayed audit or interpretation yet. |
+| Sections 2.1–2.5 | **Not started** | Template comments/placeholders remain; no preprocessing pipeline, models, CV, tuning or test evaluation exists. |
+| Process Log | **Not started** | Begin recording genuine attempts, problems and decisions now. |
 
-### Overall estimate
+## 3. Non-negotiable limits and requirements
 
-By assessed content, the project is approximately **25–30% complete**. Part 1's evidence base is now established, but both objective analyses, the Part 1 reflection, all Part 2 modelling and the Process Log remain outstanding. This is a completion estimate, not a predicted mark.
+- Part 2 is a binary classification pipeline using the module-provided `employee_churn_dataset.csv`.
+- Section 2.1: preprocessing pipeline plus approximately 200–250 words.
+- Section 2.2: two complete baseline classification pipelines plus approximately 100–150 words.
+- Section 2.3: cross-validation for both pipelines, at least one metric beyond accuracy, and mean plus standard deviation across folds; reflection approximately 200–250 words.
+- Section 2.4: tune one selected full pipeline, report the best configuration, compare with baseline CV; reflection approximately 200–250 words.
+- Section 2.5: evaluate once on the held-out test set, report precision, recall and F1, display a confusion matrix with labelled axes, and compare with CV; justification approximately 250–300 words.
+- Process Log: no more than 400 words.
+- Whole notebook: no more than 600 code lines and 3,800 markdown words.
+- Keep all supplied blue headings, remove all instructional text/placeholders, save visible outputs, and submit the exact required filename.
 
-### Next three priorities
+## 4. Current word and code budget
 
-1. Complete Section 1.3 Objective 1 using the existing `summary` table, an appropriate distribution visual, exact numerical evidence and the promised outlier sensitivity check.
-2. Complete Section 1.3 Objective 2 using work-mode counts/percentages, salary summaries, experience-level controls and the promised cross-border sensitivity check.
-3. Write Section 1.4, finalise Section 1.1 provenance/licence details, then begin the Part 2 audit and leakage-safe split.
+### Completed Part 1 markdown
 
-## 1. Purpose of this file
-
-This is a private working plan, not text to paste into the assessed notebook. It separates:
-
-1. **Requirements from the assessment documents** - compulsory instructions that must be followed.
-2. **Project planning decisions already made** - the selected topic, period and geographical scope.
-3. **Provisional analysis options and decision gates** - choices that must be confirmed from the student's own outputs and justified in the student's own words.
-
-The final code, analytical decisions, interpretations and written reflections must be the student's own work. Keep copies of drafts, AI prompts and AI outputs, and include an AI acknowledgement in the final notebook.
-
----
-
-## 2. Source documents and current files
-
-### Assessment documents
-
-- `Summative Assessment 2- Data Analysis Project Brief.pdf` - authoritative requirements, limits and submission rules.
-- `OCOM5100M_Summative Assessment 2 Student Rubric.pdf` - criteria for Basic, Good and Excellent work.
-- `OCOM5100M Data Analysis Project Topics.pdf` - suggested topics only; it is not an additional submission requirement.
-- `OCOM5100M Data Analysis Project Topics.docx` - editable version of the suggested topics.
-
-### Working files
-
-- `P4DS_A2_Data_Analysis_Project.ipynb` - required submission template and exact final filename.
-- `employee_churn_dataset.csv` - fixed dataset for Part 2.
-- `plan.md` - this planning file; do not submit unless the module team explicitly asks for it.
-- `ai_jobs_salaries_clean.csv` - downloaded Part 1 working dataset.
-
-### Part 1 public sources
-
-- Kaggle dataset: <https://www.kaggle.com/datasets/debayank2024/ai-impact-on-jobs-and-salaries-2020-2026>
-  Downloaded in assessment/ai_jobs_salaries_clean.csv
-- Underlying open salary repository: <https://github.com/foorilla/ai-jobs-net-salaries>
-
-Before writing Section 1.1, record the exact downloaded filename, Kaggle version/update date, download date, row and column counts, licence and the relationship between the Kaggle file and the underlying source.
-
----
-
-## 3. Non-negotiable assessment requirements
-
-### Overall marks and limits
-
-| Component | Marks | Main requirement |
+| Section | Current approximate words | Limit/status |
 |---|---:|---|
-| Part 1: Data Analysis Project | 32 | Own public dataset and exploratory analysis |
-| Part 2: Machine Learning Pipeline | 32 | Fixed employee churn dataset |
-| Process Log | 12 | Maximum 400 words |
-| Report Quality | 4 | Complete, coherent, polished notebook |
-| **Total** | **80** | Worth 80% of the module grade |
+| 1.1 | 480 | Within 400–500 |
+| 1.2 | 581 | Within maximum 600 |
+| 1.3 Objective 1 | 303 | Within 250–325 |
+| 1.3 Objective 2 | 320 | Within 250–325 |
+| 1.4 | 248 | Within 200–250; do not expand |
 
-- Maximum **600 code lines** across Parts 1 and 2.
-- Maximum **3,800 markdown words** across Parts 1, 2 and the Process Log.
-- Sections 1.2 and 1.3 together must not exceed **250 non-empty code lines**.
-- Section 1.2 commentary must not exceed **600 words**.
-- The limits are ceilings, not targets. Concise and relevant work is preferred.
-- Part 1 may use core Python, pandas, NumPy and a visualisation library. Do **not** use scikit-learn in Part 1, except to load a built-in dataset, which is not relevant to this project.
-- Part 2 must use scikit-learn pipelines and the fixed `employee_churn_dataset.csv`.
+Completed Part 1 assessed prose is approximately 1,972 words. Preserve a buffer because headings, labels and the final counter may count tokens differently.
 
-### Notebook and submission rules
+### Code budget
 
-- Keep every main blue heading exactly as supplied. Do not delete or rename it.
-- Remove all placeholder and instructional text before submission.
-- Enter the Student ID in the designated cell.
-- Run `Kernel -> Restart & Run All` and confirm that every cell completes without errors.
-- Keep all required outputs and figures visible in the saved notebook.
-- Submit only `P4DS_A2_Data_Analysis_Project.ipynb`, unless explicitly instructed otherwise.
-- Use the exact filename `P4DS_A2_Data_Analysis_Project.ipynb`.
-- Aim to upload by 25 October to preserve a one-day safety margin.
+- Sections 1.2 + 1.3: 242 non-empty lines; hard maximum 250.
+- Current fixed code outside unfinished Part 2 includes approximately 242 Part 1 lines plus 23 lines in the supplied word-count cell.
+- Approximate remaining whole-notebook capacity before reaching 600 lines: 335 lines.
+- Target Part 2 implementation: approximately 220–270 readable non-empty lines, leaving a safety margin.
+- Replace template comments rather than keeping them beside the final code.
 
-### AI and academic-integrity boundary
+### Part 2 writing targets
 
-Permitted support includes explaining concepts, debugging code written by the student, and proofreading text drafted by the student. AI must not:
+| Section | Required range | Working target |
+|---|---:|---:|
+| 2.1 | 200–250 | 215–235 |
+| 2.2 | 100–150 | 115–135 |
+| 2.3 | 200–250 | 215–235 |
+| 2.4 | 200–250 | 215–235 |
+| 2.5 | 250–300 | 265–285 |
+| Process Log | Maximum 400 | 350–390 |
 
-- generate notebook code for submission;
-- write or substantially rewrite analytical prose or reflections;
-- make preprocessing, model or hyperparameter decisions on the student's behalf;
-- produce content submitted as evidence of the student's understanding.
+Using the midpoint of these targets should keep the complete notebook below 3,800 words.
 
-Therefore, this plan provides tasks, questions and validation gates. For every gate marked **Student decision**, inspect the actual output, choose the approach yourself, record the evidence, and explain the reasoning in your own words.
+## 5. Verified Part 2 dataset facts
 
----
+These facts were checked directly from `employee_churn_dataset.csv`. Reproduce the relevant evidence in the notebook before relying on it in a reflection.
 
-## 4. Chosen Part 1 project scope
-
-### Topic decision
-
-Use the Kaggle dataset **AI Impact on Jobs & Salaries (2020-2026)**, but do not repeat its title as a causal claim. The data describes salary records for AI, machine-learning, data-science and related roles; it does not directly measure job displacement, unemployment or the causal effect of AI on the labour market.
-
-### Working project framing
-
-- **Population of interest:** records for employees working for US-based companies.
-- **Time period:** 2023-2025, subject to verifying the downloaded data.
-- **Main outcome:** `salary_in_usd`.
-- **Main explanatory dimensions:** experience level, work year and work arrangement.
-- **Geographical filter:** use `company_location == "US"` for the main analysis.
-- **Reason for the US restriction:** US records dominate the dataset, while many other countries have small and unequal samples. Restricting the scope reduces cross-country wage, labour-market and cost-of-living differences, but conclusions will not generalise beyond this dataset's US-company records.
-
-### Important scope wording
-
-Use cautious language such as:
-
-- “records in this dataset for US-based companies”;
-- “was associated with” or “differed across groups”;
-- “the observed median/proportion”.
-
-Avoid claims such as:
-
-- “AI caused salaries to increase”;
-- “remote work increased salary”;
-- “the dataset represents all US AI workers”;
-- “2026 results”, unless verified 2026 observations actually exist;
-- “AI replaced jobs”, because there is no displacement or unemployment measure.
-
-### Provisional title, aim and objectives
-
-These are planning skeletons only. Verify feasibility through the student's own EDA and write the final wording independently.
-
-**Provisional title direction**
-
-Recent salary patterns and working arrangements in US AI, machine-learning and data roles, 2023-2025
-
-**Provisional aim direction**
-
-Examine recent salary patterns and working arrangements among AI/ML/data professionals employed by US-based companies between 2023 and 2025.
-
-**Provisional Objective 1 direction**
-
-Quantify and compare the distribution of `salary_in_usd` across experience levels and work years in the filtered US sample, using group sizes, medians and spread.
-
-**Provisional Objective 2 direction**
-
-Measure how work-mode composition changes from 2023 to 2025 and examine salary differences between work modes while accounting for experience-level composition.
-
-### Objective feasibility gate
-
-Before finalising the objectives, confirm all of the following:
-
-- [x] Each year from 2023 to 2025 is present after filtering to `company_location == "US"`.
-- [x] Each experience level used in comparisons has a defensible sample size; the smallest year-by-experience cell has 162 rows.
-- [x] `remote_ratio` values and the meaning of the derived `work_mode` field are documented and internally consistent.
-- [x] The proposed comparisons can be answered with available variables.
-- [ ] Each objective can be supported by at least one clear visualisation and one quoted numerical result.
-- [x] Neither objective uses causal language.
-
-If an objective fails these checks, revise its scope before producing final figures.
-
----
-
-## 5. Part 1 execution plan
-
-## 5.1 Data acquisition and provenance
-
-- [x] Download the chosen CSV from Kaggle; a local working file exists as `ai_jobs_salaries_clean.csv`.
-- [ ] Save a working copy under a short, descriptive filename if necessary; keep the raw download separately during development.
-- [ ] Record the dataset version, update date, download date, licence and URL. (URL is present in the draft; the remaining facts still need evidence.)
-- [ ] Check whether the Kaggle data is a filtered or enriched copy of the `foorilla/ai-jobs-net-salaries` source.
-- [ ] Identify which columns are original and which are uploader-derived, especially label, work-mode, outlier or role-family fields.
-- [x] Record how the original salary records were collected. The Section 1.1 draft identifies the anonymous salary survey and notes self-selection bias.
-- [x] Verify the actual year range. The notebook confirms 2020-2025, with the analysis restricted to 2023-2025.
-
-**Deliverable:** a provenance note containing exact facts for Section 1.1, with links saved for citation.
-
-## 5.2 Initial data audit
-
-Perform the following checks before filtering or cleaning:
-
-- [x] Print dataset shape and column names in a dedicated audit cell: 71,913 rows and 17 columns.
-- [x] Inspect a small number of rows and the data types.
-- [x] Produce counts and percentages of missing values.
-- [x] Check complete-row duplicates and plausible duplicate salary records without misclassifying the broad five-field key as a unique identifier.
-- [x] Check unique categories and spelling/case consistency.
-- [x] Count observations by year, company location, employee residence, experience level, employment type, remote ratio and company size.
-- [x] Summarise `salary_in_usd` with count, minimum, quartiles, median, mean and maximum.
-- [x] Inspect salary spread and extreme values without automatically deleting them.
-- [x] Cross-check `salary_outlier_flag` against an IQR rule and validate `work_mode` against `remote_ratio`; exclude undocumented `role_family` and `isco_group_hint` because neither objective requires them.
-
-**Required notebook behaviour:** after each purposeful code block, add a short markdown interpretation explaining what the output shows and how it affects the next analytical step.
-
-## 5.3 Define the analytical sample
-
-Apply the intended scope transparently and report how many rows remain after each major filter:
-
-1. Start with the full dataset.
-2. Keep `work_year` in 2023, 2024 and 2025.
-3. Keep `company_location == "US"`.
-4. Retain rows with a valid `salary_in_usd` for salary analysis.
-5. Review employment type and other group sizes before deciding whether additional restrictions are necessary.
-
-### Student decision: employment type
-
-- Compare counts for full-time, part-time, contract and freelance records.
-- Decide whether to analyse all employment types, restrict to full-time, or retain all but stratify/flag them.
-- Base the decision on comparability and sample size, not convenience.
-- Record the choice and its consequence for generalisability.
-
-### Student decision: extreme salaries
-
-- Examine suspected outliers in context by role, experience, year and employment type.
-- Do not remove valid high salaries only because they are large.
-- If exclusions are considered, define the rule before viewing the preferred result and run a sensitivity comparison with and without the affected observations.
-- Report the effect of the choice on the relevant median/mean or visualisation.
-
-### Student decision: geography definition
-
-- Main plan: `company_location == "US"` because the intended topic is the US employment market.
-- Separately check the overlap with `employee_residence == "US"`.
-- If cross-border remote records are material, disclose them or run a sensitivity check rather than silently changing the definition.
-
-**Deliverable:** a compact sample-flow table showing the row count after each restriction.
-
-**Current decision status:** complete. The analytical sample contains 58,663 full-time records for US-based companies in 2023-2025. Outlier-flagged and cross-border records are retained; the planned sensitivity checks must be implemented in Section 1.3.
-
-## 5.4 Section 1.1 - Project Aim and Data Description (10 marks)
-
-**Required length:** approximately 400-500 words.  
-**Planning target:** 430-470 words.
-
-Include, in the student's own wording:
-
-- [x] A project aim is entered and is supported by the completed audit.
-- [x] Two measurable objectives are entered and their required groups have feasible sample sizes.
-- [ ] Dataset name, source URL and original source are drafted; licence still needs to be verified and stated.
-- [x] Collection method and time coverage.
-- [x] Exact rows and columns are stated and reproduced in the notebook.
-- [x] Main variables needed for the objectives.
-- [x] Why the analysis focuses on 2023-2025 and US-based companies.
-- [x] Data-quality evidence from the student's audit: missingness, duplicates, category issues, imbalance and outliers.
-- [ ] Reliability limitations: self-selection/reporting, unequal yearly coverage, dominance of US records, possible uploader-derived labels, and lack of population weights.
-- [x] Why the data is still suitable for descriptive EDA.
-- [ ] A clear boundary that the study describes associations in this dataset and does not estimate causal AI impact.
-
-**Excellent-level check:** the provenance, contents, structure, limitations and fitness for purpose are evaluated critically, not merely listed.
-
-## 5.5 Section 1.2 - Exploratory Data Analysis and Code (12 marks)
-
-**Hard limits:** Sections 1.2 and 1.3 combined <=250 non-empty code lines; Section 1.2 commentary <=600 words.  
-**Planning target:** 130-170 Part 1 code lines before final trimming and 350-500 words of Section 1.2 commentary.
-
-Suggested workflow order:
-
-1. Imports and display settings.
-2. Load the Part 1 CSV.
-3. Inspect shape, columns, rows and types.
-4. Audit missing values and duplicates.
-5. Audit year, geography and category distributions.
-6. Validate or create only the derived fields needed for the objectives.
-7. Apply the documented analytical-sample filters.
-8. Show filtered sample sizes and group coverage.
-9. Examine salary distribution and potential outliers.
-10. Produce reusable summary tables needed by Section 1.3.
-
-Code-quality checklist:
-
-- [x] Use descriptive variable names rather than generic names such as `df1` or `x`.
-- [x] Organise code into purposeful blocks; do not repeat the same grouping logic unnecessarily.
-- [x] Write comments that explain why a step is performed, not comments that restate syntax.
-- [x] Keep the workflow reproducible from the raw CSV.
-- [x] Avoid unused imports, abandoned code and irrelevant charts.
-- [x] Do not use scikit-learn anywhere in Part 1.
-- [x] Ensure every displayed output contributes to a later decision or finding.
-- [x] Follow each code block with a concise interpretation linked to the next step.
-
-**Current Section 1.2 status:** 575 markdown words and 147 non-empty code lines. All nine code cells execute in order without errors. Before final submission, correct the minor formatting typo in the phrase “`salary_in_usd ranges`” and rerun after Sections 1.3-2.5 are complete.
-
-## 5.6 Section 1.3 - Objective 1 Analysis (6 marks shared across both objectives)
-
-**Required length:** approximately 250-325 words for the objective, plus visualisation.  
-**Planning target:** 270-300 words.
-
-Analytical tasks:
-
-- [ ] Report group counts so salary comparisons are not separated from sample size.
-- [ ] Calculate median salary and an appropriate measure of spread for each experience level.
-- [ ] Check whether the result differs materially by year.
-- [ ] Compare mean and median to identify skew, but avoid filling the notebook with redundant statistics.
-- [ ] Select a visualisation that shows both the centre and distribution, not only a single average.
-- [ ] Check that labels, units, ordering and title identify the US sample and 2023-2025 period.
-
-Evidence checklist for the student's interpretation:
-
-- [ ] Quote at least one exact value visible in the figure or accompanying output.
-- [ ] Interpret the value in the context of AI/ML/data salaries.
-- [ ] Discuss group size, spread and overlap, not only which group is highest.
-- [ ] Consider alternative explanations such as role composition, company size or unequal yearly samples.
-- [ ] Use association/descriptive language rather than causality.
-- [ ] State whether the objective was answered and how strongly the evidence supports the answer.
-
-## 5.7 Section 1.3 - Objective 2 Analysis
-
-**Required length:** approximately 250-325 words for the objective, plus visualisation.  
-**Planning target:** 270-300 words.
-
-Analytical tasks:
-
-- [ ] Validate the mapping between `remote_ratio` and onsite/hybrid/remote labels.
-- [ ] Calculate counts and within-year percentages for each work mode.
-- [ ] Compare work-mode composition across 2023, 2024 and 2025.
-- [ ] Calculate salary summaries by work mode.
-- [ ] Check work-mode salary comparisons within experience levels to reduce composition bias.
-- [ ] Decide whether one figure or two compact, complementary figures communicate the objective most clearly.
-
-Evidence checklist for the student's interpretation:
-
-- [ ] Quote at least one exact percentage or salary statistic shown in the output.
-- [ ] Explain whether the work-mode mix changed across years.
-- [ ] Explain whether the unadjusted salary comparison changes after considering experience level.
-- [ ] Discuss sample-size imbalance and possible confounding.
-- [ ] Do not claim that work mode caused a salary difference.
-- [ ] State whether the objective was answered and what uncertainty remains.
-
-## 5.8 Section 1.4 - Part 1 Insights and Reflections (4 marks)
-
-**Required length:** approximately 200-250 words.  
-**Planning target:** 215-235 words.
-
-Write a concise synthesis, not a repetition of both objective sections:
-
-- [ ] Prioritise two or three main findings and reference the most important numbers.
-- [ ] Identify one genuinely unexpected observation from the outputs.
-- [ ] Explain why it was unexpected and whether further checking changed the interpretation.
-- [ ] Discuss the most consequential limitations: sampling/self-reporting, unequal year coverage, restricted geography, group imbalance, derived categories, outliers and uncontrolled confounding.
-- [ ] Explain what the findings can and cannot support.
-- [ ] Avoid introducing new analysis that was not shown earlier.
-
----
-
-## 6. Part 2 dataset status and execution plan
-
-## 6.1 Verified starting point
-
-The fixed dataset currently contains:
+### Structure and target
 
 - 1,020 rows and 14 columns.
-- Target: `churned`, with 641 `Stayed` and 379 `Churned` records.
+- Target: `churned`.
+- Target counts: 641 `Stayed` (62.8%) and 379 `Churned` (37.2%).
+- The imbalance is moderate rather than extreme, but accuracy alone could still hide class-specific errors.
+- Treat `Churned` as the operational positive class unless the student defines and justifies another convention.
+
+### Missing values
+
+| Column | Missing rows |
+|---|---:|
+| `age` | 41 |
+| `satisfaction_score` | 63 |
+| `contract_type` | 20 |
+| `education_level` | 25 |
+| `performance_rating` | 30 |
+
+All other columns are complete in the raw file.
+
+### Duplicate and category issues
+
 - 20 complete duplicate rows.
-- Missing values in `age` (41), `satisfaction_score` (63), `contract_type` (20), `education_level` (25) and `performance_rating` (30).
-- Inconsistent department labels, including case and trailing-space variants.
-- Numerical, categorical and binary-like fields.
-- Fields requiring explicit relevance or leakage review: `employee_id`, `favourite_colour` and `exit_interview_completed`.
+- `employee_id` has 1,000 unique values across 1,020 rows; the 20 duplicated IDs correspond to the exact duplicate records.
+- `department` contains case and whitespace variants, including `HR `, `FINANCE`, `marketing`, `Sales ` and `engineering`.
+- These variants must be normalised consistently before encoding.
 
-These observations are planning facts only. Reproduce and display the relevant checks in the notebook before using them in any justification.
+### Numerical ranges that require review
 
-## 6.2 Dataset loading and exploration
+| Feature | Observed range / median |
+|---|---|
+| `age` | 17–95; median 35 |
+| `years_at_company` | 0–28.6; median 2.7 |
+| `salary` | 17,896–229,604; median 42,041.5 |
+| `satisfaction_score` | 1–5; median 3.5 |
+| `engagement_index` | 11.63–83.77; median 50.60 |
 
-- [ ] Load `employee_churn_dataset.csv` using a dedicated name such as `churn_data`, rather than reusing the Part 1 dataframe name.
-- [ ] Confirm shape, columns, data types, target classes, missingness and duplicates.
-- [ ] Standardise string whitespace/case only after showing the issue.
-- [ ] Examine numerical ranges and categorical levels for invalid or implausible values.
-- [ ] Calculate target count and proportion.
-- [ ] Examine candidate predictors against the target only to understand the data, not to use the held-out test set for repeated decision-making.
-- [ ] Create a short feature-role table: identifier, numerical predictor, categorical predictor, possible irrelevant feature, possible post-outcome feature, and target.
+Do not automatically delete unusual ages or salaries. Inspect their context and decide whether they are plausible, errors or values that should be retained with robust preprocessing.
 
-## 6.3 Leakage-safe data split
+### Feature-role and leakage questions
 
-- [ ] Define features and target explicitly.
-- [ ] Decide how to handle exact duplicate rows and justify the timing of removal.
-- [ ] Create a held-out test set before fitting imputers, encoders, scalers or models.
-- [ ] Preserve target class proportions where appropriate and set a reproducible random state.
-- [ ] Keep the test set untouched until Section 2.5.
-- [ ] Fit all learned preprocessing only inside the training pipeline.
+- `employee_id`: identifier-like and unlikely to generalise; decide whether it should be excluded from predictors.
+- `favourite_colour`: no clear workplace mechanism; decide whether retaining it risks learning noise or spurious patterns.
+- `exit_interview_completed`: a serious timing/leakage concern. Among `yes` records, 297 are `Churned` and 34 `Stayed`; among `no` records, 82 are `Churned` and 607 `Stayed`. Decide whether this field would be available at the intended prediction time.
+- The intended prediction moment must be stated before deciding which features are legitimate.
 
-### Student decision: feature inclusion
+## 6. Part 2 end-to-end logic
 
-For each questionable variable, answer in writing before modelling:
+The required workflow is:
 
-- `employee_id`: does it carry generalisable information or only identify rows?
-- `favourite_colour`: is there a plausible task-related reason to retain it, or would apparent association be spurious?
-- `exit_interview_completed`: would this information be available at the intended prediction time, or is it a post-churn/procedural leakage risk?
+1. Audit the raw dataset.
+2. Define the prediction target and prediction moment.
+3. Resolve exact duplicates and feature eligibility.
+4. Create a held-out train/test split.
+5. Build learned preprocessing inside a scikit-learn pipeline fitted on training data only.
+6. Train two complete baseline pipelines.
+7. Compare both pipelines using the same cross-validation folds and metrics.
+8. Select one model from that evidence.
+9. Tune only that full pipeline using training data.
+10. Lock all development decisions.
+11. Evaluate the final pipeline once on the held-out test set.
+12. Interpret errors, generalisation and fitness for purpose.
 
-Do not let model performance alone determine inclusion. Define the prediction moment and feature availability first.
+The held-out test set must not be used to choose preprocessing, features, models, metrics or hyperparameters.
 
-## 6.4 Section 2.1 - Preprocessing and Pipelines (10 marks)
+## 7. Dataset loading and exploration
 
-**Required length:** approximately 200-250 words.  
-**Planning target:** 215-235 words.
+The current loading cell only reads the CSV. Expand the exploration enough to support Section 2.1 decisions without turning it into an unfocused EDA section.
 
-- [ ] Separate numerical and categorical feature lists.
-- [ ] Choose missing-value treatments based on the observed distributions and meaning of each feature.
-- [ ] Correct known category formatting issues inside a reproducible workflow where possible.
-- [ ] Choose an encoding method appropriate to the categorical variables and intended models.
-- [ ] Decide whether numerical scaling is required for each candidate model.
-- [ ] Use a `ColumnTransformer` or equivalent pipeline structure.
-- [ ] Ensure the same fitted preprocessing is used during cross-validation, tuning and final prediction.
-- [ ] Confirm transformed output has the expected rows and no unintended missing values.
+### Required audit tasks
 
-Reflection questions:
+- [ ] Load the data using a Part 2-specific variable name rather than the generic `df` if this improves clarity.
+- [ ] Display shape, column names, data types and a small sample.
+- [ ] Display target counts and percentages.
+- [ ] Display missing counts and percentages.
+- [ ] Check exact duplicates and duplicate `employee_id` values.
+- [ ] Inspect unique levels for every categorical column.
+- [ ] Show the `department` spelling/case/whitespace problem.
+- [ ] Summarise numerical features and inspect implausible/extreme values.
+- [ ] Use a small number of target-related summaries only where they inform a feature or metric decision.
+- [ ] Add a concise markdown interpretation connecting each issue to Section 2.1.
 
-- What evidence in the data supports each preprocessing choice?
-- How does the pipeline prevent leakage?
-- Which reasonable alternatives were considered, and what trade-off led to the student's final choice?
-- What limitations remain after preprocessing?
+### Avoid
 
-## 6.5 Section 2.2 - Baseline Model Training (4 marks)
+- Do not inspect the future test set repeatedly after splitting.
+- Do not add numerous unrelated charts.
+- Do not transform the complete dataset with learned imputers, encoders or scalers before the split.
+- Do not let test performance determine feature eligibility.
 
-**Required length:** approximately 100-150 words.  
-**Planning target:** 115-135 words.
+## 8. Section 2.1 — Preprocessing and Pipelines (10 marks)
 
-- [ ] Select two valid, meaningfully different classification algorithms.
-- [ ] Build each as a complete pipeline containing the shared or appropriate preprocessor.
-- [ ] Use default or clearly baseline settings initially; do not tune here.
-- [ ] Explain how the algorithms differ in assumptions, flexibility and interpretability.
-- [ ] Explain why both provide an informative comparison for this dataset.
+This is the highest-mark Part 2 section. Its purpose is to produce one reproducible, leakage-safe preprocessing design that all later models use.
 
-**Student decision:** choose the classifiers from course material based on understanding of their behaviour and the dataset. The final rationale must be the student's own, not copied from this plan or an AI response.
+### Step 1 — define the prediction task
 
-## 6.6 Section 2.3 - Cross-Validation (6 marks)
+- [ ] State what `Churned` and `Stayed` mean.
+- [ ] Define when the prediction would be made, for example before an employee leaves and while an intervention is still possible.
+- [ ] Define the positive class consistently for scoring and the confusion matrix.
+- [ ] Explain the practical cost of false negatives and false positives before choosing a primary metric.
 
-**Required length:** approximately 200-250 words.  
-**Planning target:** 215-235 words.
+### Step 2 — resolve rows before splitting
 
-- [ ] Apply the same cross-validation strategy to both complete pipelines.
-- [ ] Keep the held-out test set out of cross-validation.
-- [ ] Report accuracy plus at least one metric beyond accuracy.
-- [ ] Report mean and standard deviation across folds for every comparison metric used.
-- [ ] Present the two models in one compact comparison table.
-- [ ] Compare central performance and fold-to-fold stability.
-- [ ] Select one model for tuning using evidence and task priorities.
+**Student decision: exact duplicates**
 
-### Student decision: primary metric
+- Confirm that the 20 duplicates are complete-row duplicates.
+- Consider the leakage risk if identical rows enter different folds or train/test partitions.
+- Decide whether to remove them before splitting and justify the choice.
+- Record the resulting row count.
 
-Define the practical meaning of false negatives and false positives for employee churn. Use that reasoning, target balance and the observed results to choose the primary metric. Do not select a metric only because it gives the largest score.
+Do not treat repeated categories or similar employees as duplicates; only the verified identical records support this decision.
 
-## 6.7 Section 2.4 - Hyperparameter Tuning (6 marks)
+### Step 3 — decide which features are eligible
 
-**Required length:** approximately 200-250 words.  
-**Planning target:** 215-235 words.
+Create a compact feature-role table in planning notes:
 
-- [ ] Tune only the model selected from the cross-validation evidence.
-- [ ] Search parameters on the complete pipeline, not on a separately preprocessed dataset.
-- [ ] Use training data only; keep the held-out test set untouched.
-- [ ] Choose a compact, interpretable search space linked to model behaviour.
-- [ ] Use the primary metric selected in Section 2.3 unless a change is explicitly justified.
-- [ ] Report the best configuration and best cross-validation result.
-- [ ] Compare tuned performance directly with the matching baseline mean and variability.
-- [ ] Judge whether improvement is meaningful, not merely numerically positive.
-- [ ] Consider diminishing returns and possible overfitting to cross-validation folds.
+| Role | Candidate columns / question |
+|---|---|
+| Target | `churned` |
+| Identifier | Is `employee_id` useful or merely a row identifier? |
+| Numerical predictors | `age`, `years_at_company`, `salary`, `satisfaction_score`, `engagement_index` |
+| Categorical predictors | `department`, `contract_type`, `education_level`, `performance_rating`, `remote_work_level` |
+| Questionable relevance | Is `favourite_colour` defensible for this prediction task? |
+| Possible post-outcome leakage | Would `exit_interview_completed` be known at prediction time? |
 
-## 6.8 Section 2.5 - Final Model Evaluation and Justification (6 marks)
+For every excluded feature, state a domain/timing reason. Do not exclude or retain it solely because it changes validation performance.
 
-**Required length:** approximately 250-300 words.  
-**Planning target:** 265-285 words.
+### Step 4 — create the hold-out split
 
-- [ ] Refit the selected final pipeline on the permitted training data.
-- [ ] Evaluate exactly once on the held-out test set after development decisions are complete.
-- [ ] Report precision, recall and F1, plus any other justified metric.
-- [ ] Display a confusion matrix with clear class labels and labelled axes.
-- [ ] State which class is treated as positive.
-- [ ] Compare test performance with baseline and tuned cross-validation results.
-- [ ] Interpret false positives and false negatives in the churn context.
-- [ ] Evaluate generalisation using the size and direction of the CV-test difference.
+- [ ] Separate `X` and `y` explicitly.
+- [ ] Choose and justify a test-set fraction.
+- [ ] Use a fixed random state for reproducibility.
+- [ ] Preserve target proportions where appropriate.
+- [ ] Print train/test shapes and target proportions as a validation check.
+- [ ] Do not fit preprocessing before this split.
+
+### Step 5 — deterministic data cleaning
+
+- [ ] Normalise `department` whitespace and case consistently.
+- [ ] Decide whether this deterministic cleaning occurs before the split or through a pipeline-compatible transformation; explain why it cannot learn information from the target.
+- [ ] Recheck that the cleaned department levels are the intended five departments.
+- [ ] Do not silently change other categories unless the audit shows a specific inconsistency.
+
+### Step 6 — build column-specific preprocessing
+
+**Numerical branch**
+
+- Decide how to impute `age` and `satisfaction_score` using training data only.
+- Decide whether scaling is needed for the selected candidate models.
+- Consider outlier sensitivity and skew when choosing an imputation/scaling approach.
+
+**Categorical branch**
+
+- Decide how to impute missing `contract_type`, `education_level` and `performance_rating`.
+- Encode categories in a way that can handle unseen test categories.
+- Avoid imposing an arbitrary numeric order unless a variable is genuinely ordinal and the ordering is justified.
+
+**Combined preprocessor**
+
+- [ ] Use a `ColumnTransformer` or equivalent scikit-learn structure.
+- [ ] Ensure learned preprocessing is fitted separately inside each CV training fold.
+- [ ] Check that transformed train data has the expected number of rows and no unintended missing values.
+- [ ] Keep the preprocessing reusable by both baseline classifiers.
+
+### Step 7 — write the 200–250-word reflection
+
+The student-written reflection should explain:
+
+1. the prediction moment and leakage boundary;
+2. duplicate handling and excluded/retained questionable features;
+3. numerical and categorical missing-value treatment;
+4. category cleaning and encoding;
+5. whether scaling is required and why;
+6. how the pipeline prevents leakage;
+7. one reasonable alternative and its trade-off.
+
+Do not merely list transformer names. Connect every decision to an observed feature of this dataset.
+
+## 9. Section 2.2 — Baseline Model Training (4 marks)
+
+Train two meaningfully different classifiers as complete pipelines.
+
+### Student model-selection gate
+
+- Choose two algorithms taught or otherwise permitted by the module.
+- The pair should provide an informative contrast, such as a linear/parametric approach versus a nonlinear tree-based approach.
+- Consider interpretability, scaling requirements, nonlinear relationships, overfitting risk and the small dataset size.
+- Do not choose two near-identical algorithms merely to satisfy the number requirement.
+
+### Implementation checklist
+
+- [ ] Clone/reuse the same logical preprocessor for both models.
+- [ ] Each object passed to fitting/CV must be a complete `Pipeline` containing preprocessing and classifier.
+- [ ] Start with genuine baseline/default or clearly baseline settings; tuning belongs in Section 2.4.
+- [ ] Fit only on training data.
+- [ ] Use clear model names consistently in later tables.
+
+### 100–150-word rationale
+
+Explain:
+
+- why each classifier is plausible for mixed employee data;
+- how their assumptions and flexibility differ;
+- what comparison the two baselines provide;
+- model-specific preprocessing needs or risks.
+
+Do not claim one is better before seeing cross-validation results.
+
+## 10. Section 2.3 — Cross-Validation (6 marks)
+
+The purpose is to compare generalisation on training data without touching the final test set.
+
+### Evaluation design
+
+- [ ] Choose an appropriate stratified cross-validation strategy and justify the number of folds.
+- [ ] Use the same folds and scoring definitions for both pipelines.
+- [ ] Report accuracy plus at least one additional metric.
+- [ ] Select a primary metric based on the consequence of missing a true churner versus incorrectly flagging a stayer.
+- [ ] Keep `Churned` as the positive class consistently.
+- [ ] Report mean and standard deviation across folds for every comparison metric.
+- [ ] Present both models in one compact comparison table.
+
+Possible metrics to evaluate include precision, recall, F1 and ROC AUC. The student must choose which metric drives selection and justify it from the churn context rather than choosing the highest-looking score.
+
+### Interpretation questions
+
+- Which model has the stronger mean on the primary metric?
+- Is the difference large relative to fold-to-fold standard deviation?
+- Does one model trade recall for precision?
+- Is accuracy consistent with class-specific metrics?
+- Which model appears more stable?
+- Is the evidence strong enough to select a model, or are the results practically tied?
+
+### 200–250-word reflection
+
+Compare performance and stability, quote exact mean and standard deviation values, state which model proceeds to tuning, and link that choice to the task's error costs.
+
+## 11. Section 2.4 — Hyperparameter Tuning (6 marks)
+
+Tune only the model selected from Section 2.3.
+
+### Search design
+
+- [ ] Apply the search to the full pipeline, not to preprocessed arrays or the classifier alone.
+- [ ] Use training data only.
+- [ ] Use the same primary scoring metric chosen in Section 2.3 unless a change is explicitly justified.
+- [ ] Choose a compact search space linked to the selected algorithm's behaviour.
+- [ ] Use a reproducible search strategy.
+- [ ] Avoid a large search grid that is not justified by dataset size or computation time.
+- [ ] Report the best pipeline parameters and best mean CV score.
+- [ ] Retain enough information to compare the tuned model with its own baseline CV result.
+
+### Interpretation questions
+
+- How large is the improvement in the primary metric?
+- Is that improvement larger than baseline fold variability?
+- Did another important metric worsen?
+- Does the best configuration imply simpler or more complex behaviour?
+- Could a small gain reflect tuning to the CV folds rather than a meaningful improvement?
+
+### 200–250-word reflection
+
+Justify the tuned parameters and scoring choice, compare the best CV result directly with the matching baseline, and judge practical meaning rather than merely reporting a higher number.
+
+## 12. Section 2.5 — Final Model Evaluation and Justification (6 marks)
+
+This is the first and only stage where the held-out test set should influence reported final performance.
+
+### Final evaluation tasks
+
+- [ ] Lock preprocessing, feature set, primary metric and hyperparameters before test evaluation.
+- [ ] Use the selected tuned full pipeline as the final model.
+- [ ] Generate test predictions once after development decisions are complete.
+- [ ] Report accuracy, precision, recall and F1 with the positive class stated.
+- [ ] Include class-level results where useful.
+- [ ] Display a confusion matrix with clearly labelled actual and predicted axes.
+- [ ] Identify TN, FP, FN and TP correctly.
+- [ ] Compare the test metric with baseline CV and tuned CV mean/standard deviation.
+- [ ] Discuss the size and direction of the CV-to-test difference.
+- [ ] Interpret false negatives and false positives in the employee-retention context.
 - [ ] Give a proportionate fit-for-purpose recommendation.
-- [ ] Identify specific next steps linked to observed errors or data limitations.
+- [ ] Identify specific next steps tied to observed errors or data limitations.
 
----
+### Fit-for-purpose decision
 
-## 7. Process Log plan (12 marks)
+Do not reduce the recommendation to “the score is high.” Address:
 
-**Hard limit:** no more than 400 words.  
-**Template expectation:** approximately 350-400 words.  
-**Planning target:** 360-390 words.
+- whether recall/precision are adequate for the intended use;
+- whether the model would support human review rather than automatic employment decisions;
+- the risk of post-outcome leakage or spurious variables;
+- the small, synthetic or non-representative nature of the dataset if applicable;
+- whether additional data, threshold selection, probability calibration or fairness checks would be needed before deployment.
 
-Maintain a private process diary during development. For every attempt, record:
+### 250–300-word justification
 
-| Date | Part/section | What was tried | Evidence/output | Why it failed or surprised | What changed next |
+Use exact test and CV values, interpret the confusion-matrix errors, assess generalisation, and make a balanced recommendation with limitations and next steps.
+
+## 13. Process Log (12 marks)
+
+Start a private diary during Part 2 rather than reconstructing it at the end.
+
+For each attempt, record:
+
+| Date | Section | What was tried | Output/evidence | Why it failed or surprised | What changed next |
 |---|---|---|---|---|---|
-| | | | | | |
 
-The final Process Log must include:
+The final log must be no more than 400 words and include:
 
-- [ ] At least two genuine dead ends: one from Part 1 and one from Part 2.
-- [ ] For each dead end, what was attempted, what output showed the problem, what was learned and what changed.
-- [ ] One surprising finding with a specific number or output.
-- [ ] Why the finding was surprising and how it was checked.
-- [ ] One focused, feasible change that would be made with more time.
-- [ ] A direct link between that future change and the submitted results.
+- at least two genuine dead ends across Parts 1 and 2;
+- what the output showed and what was learned from each;
+- one surprising finding with a specific value;
+- one improvement that would be made with more time, grounded in the submitted results.
 
-Do not invent dead ends retrospectively. Capture screenshots, output values or brief notes while working so the log is specific and credible.
+Possible events may be logged only if they genuinely occurred, such as a feature that produced suspiciously high CV performance, a preprocessing approach that failed, a model that was unstable, or tuning that produced negligible improvement. Do not invent failures retrospectively.
 
----
+## 14. Recommended execution order
 
-## 8. Word and code budget
+### Phase A — Part 2 audit and decisions
 
-| Section | Required/maximum | Working target |
-|---|---:|---:|
-| 1.1 Aim and dataset | 400-500 words | 430-470 |
-| 1.2 EDA commentary | Maximum 600 words | 350-500 |
-| 1.3 Objective 1 | 250-325 words | 270-300 |
-| 1.3 Objective 2 | 250-325 words | 270-300 |
-| 1.4 Insights/reflection | 200-250 words | 215-235 |
-| 2.1 Preprocessing reflection | 200-250 words | 215-235 |
-| 2.2 Baseline rationale | 100-150 words | 115-135 |
-| 2.3 CV reflection | 200-250 words | 215-235 |
-| 2.4 Tuning reflection | 200-250 words | 215-235 |
-| 2.5 Final evaluation | 250-300 words | 265-285 |
-| Process Log | Maximum 400 words | 360-390 |
+- [ ] Expand dataset loading and exploration.
+- [ ] Define prediction time and positive class.
+- [ ] Resolve duplicates and feature eligibility.
+- [ ] Record the first Process Log entries.
 
-The midpoint of these targets is about 3,100-3,200 words, leaving margin for headings, labels, captions and the AI acknowledgement under the 3,800-word total.
+### Phase B — Section 2.1
 
-Code budget:
+- [ ] Split the data leakage-safely.
+- [ ] Build and validate the reusable preprocessor.
+- [ ] Write the 200–250-word reflection from actual decisions.
 
-- Part 1 Sections 1.2 and 1.3: target 130-170 non-empty lines; hard maximum 250.
-- Part 2: target 250-320 lines.
-- Total target: 450-520 lines; hard maximum 600.
-- Run the supplied word/code counter during development, but also manually review Part 1's 250-line sub-limit.
-- Remove dead code and duplicated calculations rather than compressing readable code into dense one-line statements.
+### Phase C — Sections 2.2 and 2.3
 
----
+- [ ] Build two complete baseline pipelines.
+- [ ] Cross-validate both with identical folds and metrics.
+- [ ] Select one model using evidence and task priorities.
+- [ ] Write both reflections.
 
-## 9. Recommended work schedule
+### Phase D — Sections 2.4 and 2.5
 
-### 2-4 October: recover the evidence base and complete Part 1 audit
-
-- [x] Download and preserve the Part 1 working CSV.
-- [ ] Record provenance, version, update/download dates and licence with evidence.
-- [x] Replace the current raw-data display with a compact, reproducible Part 1 audit.
-- [x] Confirm the 2023-2025 US sample and objective feasibility from fresh outputs.
-- [ ] Reproduce the Part 2 structural checks and record the results.
-- [ ] Start the process diary immediately, including any failed or revised approaches.
-
-### 5-9 October: Part 1 EDA and objective analysis
-
-- [x] Complete data-quality checks and define the analytical sample.
-- [x] Resolve employment-type, geography and outlier decision gates.
-- [ ] Build summary tables and candidate figures. (Objective 1 summary table is ready; figures and Objective 2 summaries remain.)
-- [ ] Select only the figures that answer the two objectives.
-- [ ] Verify all quoted values against output.
-
-### 10-12 October: Part 1 writing and refinement
-
-- [x] Draft Section 1.1 independently from recorded evidence. (Final provenance/licence details remain.)
-- [x] Add concise Section 1.2 interpretations after each output block.
-- [ ] Draft both Section 1.3 analyses independently.
-- [ ] Draft Section 1.4 synthesis.
-- [x] Check the current Part 1 code and word limits. Recheck after Section 1.3 is complete.
-
-### 13-18 October: Part 2 preprocessing and baselines
-
-- [ ] Define prediction timing and review questionable features.
-- [ ] Split data without leakage.
-- [ ] Build and validate preprocessing pipeline.
-- [ ] Train two complete baseline pipelines.
-- [ ] Keep a record of failed approaches for the Process Log.
-
-### 19-22 October: validation, tuning and final evaluation
-
-- [ ] Complete cross-validation comparison.
-- [ ] Select and justify one model for tuning.
-- [ ] Complete the hyperparameter search on training data.
+- [ ] Tune the selected full pipeline using training data only.
 - [ ] Lock development decisions.
 - [ ] Evaluate once on the held-out test set.
-- [ ] Complete the labelled confusion matrix and metrics summary.
+- [ ] Write the tuning and final-evaluation reflections.
 
-### 23-24 October: reflections and process log
+### Phase E — submission QA
 
-- [ ] Draft all Part 2 reflections from actual results.
-- [ ] Complete the Process Log using the diary.
-- [ ] Add the AI acknowledgement.
-- [ ] Check consistency among code, numbers, charts and prose.
+- [ ] Complete the Process Log and AI acknowledgement.
+- [ ] Remove every placeholder and instructional paragraph.
+- [ ] Preserve all blue headings.
+- [ ] Recheck every word and code limit.
+- [ ] Restart the kernel and run all cells from top to bottom.
+- [ ] Confirm every table and figure is visible and every quoted value matches output.
+- [ ] Confirm Student ID and exact filename.
+- [ ] Save a backup and upload before the deadline.
 
-### 25 October: final quality assurance and upload buffer
+## 15. Part 2 completion gate
 
-- [ ] Delete every placeholder and instructional paragraph.
-- [ ] Preserve all blue headings exactly.
-- [ ] Confirm Student ID and exact notebook filename.
-- [ ] Restart the kernel and run all cells.
-- [ ] Inspect every output and figure after the clean run.
-- [ ] Run the notebook word/code counter.
-- [ ] Spell-check and proofread the complete notebook.
-- [ ] Save a backup and upload before the final day if possible.
+Part 2 is complete only when:
 
-### 26 October: deadline contingency only
-
-- [ ] Verify the uploaded file is the final executed notebook.
-- [ ] Submit before 14:00 UTC / 22:00 China Standard Time.
-
----
-
-## 10. Final quality-control checklist
-
-### Analytical consistency
-
-- [ ] Every objective stated in Section 1.1 is answered in Section 1.3.
-- [ ] Every major conclusion is supported by visible code output or a figure.
-- [ ] Every quoted value exactly matches the final clean notebook run.
-- [ ] Sample definitions and denominators are stated clearly.
-- [ ] Figures use readable labels, units, legends and meaningful ordering.
-- [ ] No causal claim is made from descriptive observational data.
-- [ ] Limitations are specific to the observed data and workflow.
-- [ ] Part 2 preprocessing, CV and tuning occur inside leakage-safe pipelines.
-- [ ] The held-out test set is used only for final evaluation.
-
-### Rubric alignment
-
-- [ ] Section 1.1 critically evaluates source quality and fitness for purpose.
-- [ ] Section 1.2 is selective, reproducible and easy to follow.
-- [ ] Section 1.3 contains effective visuals, precise numbers, domain interpretation and uncertainty.
-- [ ] Section 1.4 synthesises rather than repeats.
-- [ ] Section 2.1 explains alternatives and trade-offs as well as the selected preprocessing.
-- [ ] Section 2.2 compares meaningfully different classifiers.
-- [ ] Section 2.3 reports mean and standard deviation for multiple metrics.
-- [ ] Section 2.4 evaluates whether tuning improvement is meaningful.
-- [ ] Section 2.5 connects CV, test metrics, class errors and fitness for purpose.
-- [ ] The Process Log analyses failures and learning rather than merely listing events.
-
-### Presentation and submission
-
-- [ ] All template placeholders and instructional text are removed.
-- [ ] All blue assessment headings are unchanged.
-- [ ] All cells run from top to bottom without errors.
-- [ ] All required outputs are visible.
-- [ ] Markdown word count <=3,800.
-- [ ] Total code lines <=600.
-- [ ] Part 1 Sections 1.2-1.3 code <=250 non-empty lines.
-- [ ] Process Log <=400 words.
-- [ ] AI use is acknowledged accurately.
-- [ ] Final filename is exactly `P4DS_A2_Data_Analysis_Project.ipynb`.
-- [ ] Only the `.ipynb` file is submitted.
-
----
-
-## 11. Definition of done
-
-The project is complete only when:
-
-1. Both Part 1 objectives are feasible, answered and supported by visual and numerical evidence.
-2. Part 1 conclusions are limited to the 2023-2025 US-company sample and do not claim causal AI impact.
-3. The Part 2 workflow is leakage-safe from split through final evaluation.
-4. Every reflection is grounded in the student's own observed distributions, missingness, class balance and performance results.
-5. The Process Log contains genuine evidence from the development process.
-6. The final notebook passes a fresh Restart & Run All, the word/code limits, the rubric checklist and the exact submission rules.
+- [ ] The test set was separated before learned preprocessing and remained untouched until Section 2.5.
+- [ ] Every imputer, encoder, scaler and model is fitted through a complete pipeline.
+- [ ] Feature inclusion/exclusion is justified by prediction timing and relevance.
+- [ ] Two meaningfully different baseline pipelines are evaluated with the same CV design.
+- [ ] CV results include accuracy, an additional metric, and mean plus standard deviation.
+- [ ] One model is selected from CV evidence and only that model is tuned.
+- [ ] Tuning searches the full pipeline using training data only.
+- [ ] Final test evaluation includes precision, recall, F1 and a labelled confusion matrix.
+- [ ] Test performance is compared with CV performance.
+- [ ] Every reflection quotes actual results and remains within its word range.
+- [ ] No placeholder text remains.
+- [ ] The complete notebook stays below 600 code lines and 3,800 markdown words.
